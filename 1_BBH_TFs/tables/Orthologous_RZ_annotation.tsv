@@ -1,0 +1,1269 @@
+RPHASCH2410_RS30325	amidohydrolase	WP_016736951.1
+RPHASCH2410_RS30390	taurine ABC transporter permease	WP_016736937.1
+RPHASCH2410_RS30395	ABC transporter ATP-binding protein	WP_016736936.1
+RPHASCH2410_RS30400	taurine ABC transporter substrate-binding	WP_016736935.1
+RPHASCH2410_RS30465	NAD-dependent succinate-semialdehyde	WP_016736922.1
+RPHASCH2410_RS30490	histidinol phosphate phosphatase	WP_016736917.1
+RPHASCH2410_RS30515	SIS domain-containing protein	WP_016736911.1
+RPHASCH2410_RS30560	FMN reductase	WP_016736902.1
+RPHASCH2410_RS30670	DNA-binding response regulator	WP_016736883.1
+RPHASCH2410_RS30675	HAMP domain-containing protein	WP_029532064.1
+RPHASCH2410_RS30740	2-oxo acid dehydrogenase subunit E2	WP_016736869.1
+RPHASCH2410_RS30905	sn-glycerol-3-phosphate ABC transporter	WP_016736839.1
+RPHASCH2410_RS30910	sn-glycerol-3-phosphate ABC transporter permease	WP_016736838.1
+RPHASCH2410_RS30915	sn-glycerol-3-phosphate ABC transporter permease	WP_016736837.1
+RPHASCH2410_RS30920	sn-glycerol-3-phosphate import ATP-binding	WP_016736836.1
+RPHASCH2410_RS30925	glycerophosphoryl diester phosphodiesterase	WP_016736835.1
+RPHASCH2410_RS31040	FAD-dependent oxidoreductase	WP_016736815.1
+RPHASCH2410_RS31155	cytochrome c maturation protein CcmE	WP_046977251.1
+RPHASCH2410_RS31215	nitrogen fixation transcriptional regulator	WP_016737109.1
+RPHASCH2410_RS31280	oxygen-independent coproporphyrinogen III	WP_046977253.1
+RPHASCH2410_RS31335	DNA-binding response regulator	WP_010014366.1
+RPHASCH2410_RS31340	ribokinase	WP_016737084.1
+RPHASCH2410_RS31350	LacI family transcriptional regulator	WP_029532139.1
+RPHASCH2410_RS31380	alcohol dehydrogenase AdhP	WP_016737077.1
+RPHASCH2410_RS31450	amino acid ABC transporter	WP_029532129.1
+RPHASCH2410_RS31490	acyl-CoA dehydrogenase	WP_016737061.1
+RPHASCH2410_RS31500	crotonobetainyl-CoA hydratase	WP_029532123.1
+RPHASCH2410_RS31550	DUF3520 domain-containing protein	WP_029532121.1
+RPHASCH2410_RS31565	L-idonate 5-dehydrogenase	WP_016737046.1
+RPHASCH2410_RS31575	KR domain-containing protein	WP_016737044.1
+RPHASCH2410_RS31630	DNA-binding response regulator	WP_016737036.1
+RPHASCH2410_RS31650	amino acid ABC transporter	WP_016737032.1
+RPHASCH2410_RS31690	ABC transporter permease	WP_016737024.1
+RPHASCH2410_RS31820	SDR family NAD(P)-dependent oxidoreductase	WP_016736999.1
+RPHASCH2410_RS31825	LysR family transcriptional regulator	WP_016736998.1
+RPHASCH2410_RS31840	hypothetical protein	WP_016736995.1
+RPHASCH2410_RS31845	allophanate hydrolase	WP_016736994.1
+RPHASCH2410_RS31910	oxidoreductase	WP_016736981.1
+RPHASCH2410_RS31955	DNA-binding response regulator	WP_016736973.1
+RPHASCH2410_RS31970	TRAP transporter small permease	WP_016736970.1
+RPHASCH2410_RS31975	dehydroascorbate transporter	WP_016736969.1
+RPHASCH2410_RS31980	TRAP transporter substrate-binding protein	WP_016736968.1
+RPHASCH2410_RS32035	trehalose-phosphatase	WP_016736960.1
+RPHASCH2410_RS21205	potassium-transporting ATPase subunit KdpC	WP_016736657.1
+RPHASCH2410_RS21210	K(+)-transporting ATPase subunit B	WP_016736658.1
+RPHASCH2410_RS21215	potassium-transporting ATPase subunit KdpA	WP_016736659.1
+RPHASCH2410_RS21230	NAD(P)-dependent alcohol dehydrogenase	WP_016736661.1
+RPHASCH2410_RS21235	DedA family protein	WP_016736662.1
+RPHASCH2410_RS21240	mercuric reductase	WP_016736663.1
+RPHASCH2410_RS21305	iron-hydroxamate transporter ATP-binding	WP_012490604.1
+RPHASCH2410_RS21320	L-rhamnose mutarotase	WP_012490607.1
+RPHASCH2410_RS21330	ABC transporter permease	WP_016736678.1
+RPHASCH2410_RS21340	rhamnose ABC transporter substrate-binding	WP_011428143.1
+RPHASCH2410_RS21345	DeoR/GlpR transcriptional regulator	WP_004678031.1
+RPHASCH2410_RS21380	SDR family NAD(P)-dependent oxidoreductase	WP_004675831.1
+RPHASCH2410_RS21440	hydroxyacid aldolase	WP_012490628.1
+RPHASCH2410_RS21485	bifunctional hydroxymethylpyrimidine	WP_016736701.1
+RPHASCH2410_RS21495	hydroxyethylthiazole kinase	WP_016736703.1
+RPHASCH2410_RS21530	ABC transporter ATP-binding protein	WP_016736708.1
+RPHASCH2410_RS21550	amino acid permease	WP_016736711.1
+RPHASCH2410_RS21560	aspartate ammonia-lyase	WP_016736713.1
+RPHASCH2410_RS21565	TauD/TfdA family dioxygenase	WP_016736714.1
+RPHASCH2410_RS21615	dienelactone hydrolase family protein	WP_012490663.1
+RPHASCH2410_RS21690	RidA family protein	WP_016736729.1
+RPHASCH2410_RS21695	MurR/RpiR family transcriptional regulator	WP_016736730.1
+RPHASCH2410_RS21750	2-deoxy-D-gluconate 3-dehydrogenase	WP_039752254.1
+RPHASCH2410_RS21755	5-dehydro-4-deoxy-D-glucuronate isomerase	WP_016736741.1
+RPHASCH2410_RS21780	septum site-determining protein MinD	WP_016736745.1
+RPHASCH2410_RS21785	septum formation inhibitor MinC	WP_029531995.1
+RPHASCH2410_RS21880	Fis family transcriptional regulator	WP_016736761.1
+RPHASCH2410_RS21965	nicotinate-nucleotide diphosphorylase	WP_012490730.1
+RPHASCH2410_RS21970	L-aspartate oxidase	WP_016736774.1
+RPHASCH2410_RS21975	quinolinate synthase NadA	WP_016736775.1
+RPHASCH2410_RS21995	Rieske family ferredoxin	WP_016736778.1
+RPHASCH2410_RS22095	Cu(I)-responsive transcriptional regulator	WP_004678499.1
+RPHASCH2410_RS22100	copper-translocating P-type ATPase	WP_016736797.1
+RPHASCH2410_RS22150	penicillin-binding protein 1C	WP_016736497.1
+RPHASCH2410_RS22180	Bcr/CflA family drug resistance efflux	WP_012490410.1
+RPHASCH2410_RS22240	cytochrome o ubiquinol oxidase subunit IV	WP_004679731.1
+RPHASCH2410_RS22245	cytochrome o ubiquinol oxidase subunit III	WP_004679733.1
+RPHASCH2410_RS22250	cytochrome o ubiquinol oxidase subunit I	WP_016736508.1
+RPHASCH2410_RS22255	ubiquinol oxidase subunit II	WP_029531919.1
+RPHASCH2410_RS22260	MFS transporter	WP_016736510.1
+RPHASCH2410_RS22335	nucleotide sugar dehydrogenase	WP_029531923.1
+RPHASCH2410_RS22340	type II toxin-antitoxin system	WP_010025738.1
+RPHASCH2410_RS22345	Txe/YoeB family addiction module toxin	WP_016736523.1
+RPHASCH2410_RS22430	pca operon transcription factor PcaQ	WP_029531931.1
+RPHASCH2410_RS22460	dioxygenase	WP_016736544.1
+RPHASCH2410_RS22480	methylated-DNA--[protein]-cysteine	WP_016736548.1
+RPHASCH2410_RS22505	HutD-family protein	WP_016736552.1
+RPHASCH2410_RS22550	ABC transporter permease	WP_016736558.1
+RPHASCH2410_RS22555	ABC transporter permease	WP_004674851.1
+RPHASCH2410_RS22630	alpha-glucosidase/alpha-galactosidase	WP_016736571.1
+RPHASCH2410_RS22650	carbohydrate ABC transporter permease	WP_029531942.1
+RPHASCH2410_RS22705	tail-specific protease	WP_016736584.1
+RPHASCH2410_RS22810	alkanesulfonate monooxygenase,	WP_039752217.1
+RPHASCH2410_RS22870	3-oxoadipate CoA-transferase subunit A	WP_016736614.1
+RPHASCH2410_RS22875	CoA transferase subunit B	WP_016736615.1
+RPHASCH2410_RS22880	3-oxoadipyl-CoA thiolase	WP_016736616.1
+RPHASCH2410_RS22905	glycogen debranching enzyme GlgX	WP_016736621.1
+RPHASCH2410_RS23080	peptidase T	WP_016736650.1
+RPHASCH2410_RS23090	sulfate ABC transporter ATP-binding protein	WP_012490580.1
+RPHASCH2410_RS23095	sulfate ABC transporter permease subunit CysW	WP_016736653.1
+RPHASCH2410_RS23100	sulfate ABC transporter permease subunit CysT	WP_016736654.1
+RPHASCH2410_RS23105	sulfate ABC transporter substrate-binding	WP_012490583.1
+RPHASCH2410_RS23120	DNA-binding response regulator	WP_016736656.1
+RPHASCH2410_RS23125	sensor histidine kinase KdpD	WP_046977163.1
+RPHASCH2410_RS23135	IS30 family transposase	WP_016737537.1
+RPHASCH2410_RS23235	RNA polymerase sigma-54 factor	WP_011053429.1
+RPHASCH2410_RS23245	cysteine desulfurase NifS	WP_012489549.1
+RPHASCH2410_RS23260	electron transfer flavoprotein subunit	WP_008536549.1
+RPHASCH2410_RS23265	FAD-dependent oxidoreductase	WP_008536548.1
+RPHASCH2410_RS23270	ferredoxin-like protein	WP_004678523.1
+RPHASCH2410_RS23275	nif-specific transcriptional activator NifA	WP_011053431.1
+RPHASCH2410_RS23285	4Fe-4S dicluster domain-containing protein	WP_012489551.1
+RPHASCH2410_RS23810	aquaporin	WP_004677031.1
+RPHASCH2410_RS23885	recombinase family protein	WP_029532324.1
+RPHASCH2410_RS23925	dCTP deaminase	WP_016737368.1
+RPHASCH2410_RS24055	PDZ domain-containing protein	WP_016737390.1
+RPHASCH2410_RS24310	FliI/YscN family ATPase	WP_046977180.1
+RPHASCH2410_RS24440	NAD(P)-dependent oxidoreductase	WP_011053340.1
+RPHASCH2410_RS33135	AraC family transcriptional regulator	WP_016737424.1
+RPHASCH2410_RS24540	GGDEF domain-containing protein	WP_016737428.1
+RPHASCH2410_RS24575	SDR family NAD(P)-dependent oxidoreductase	WP_004671535.1
+RPHASCH2410_RS24590	LLM class flavin-dependent oxidoreductase	WP_016737431.1
+RPHASCH2410_RS24600	pyridoxal phosphate-dependent aminotransferase	WP_026188837.1
+RPHASCH2410_RS24610	bifunctional	WP_016737433.1
+RPHASCH2410_RS24870	ABC transporter permease	WP_016737468.1
+RPHASCH2410_RS25115	methionine gamma-lyase	WP_016735374.1
+RPHASCH2410_RS25240	ferritin-like domain-containing protein	WP_016735396.1
+RPHASCH2410_RS25305	FadR family transcriptional regulator	WP_029531726.1
+RPHASCH2410_RS25605	AraC family transcriptional regulator	WP_016735466.1
+RPHASCH2410_RS25610	LacI family DNA-binding transcriptional	WP_004680351.1
+RPHASCH2410_RS25690	sugar ABC transporter permease	WP_016735480.1
+RPHASCH2410_RS25700	sugar kinase	WP_016735481.1
+RPHASCH2410_RS25825	MFS transporter	WP_016735505.1
+RPHASCH2410_RS25830	MetQ/NlpA family lipoprotein	WP_016735506.1
+RPHASCH2410_RS25835	methionine ABC transporter ATP-binding protein	WP_016735507.1
+RPHASCH2410_RS25840	ABC transporter permease	WP_016735508.1
+RPHASCH2410_RS25850	methylmalonyl-CoA mutase	WP_016735510.1
+RPHASCH2410_RS25915	cytochrome d ubiquinol oxidase subunit II	WP_016735522.1
+RPHASCH2410_RS25920	cytochrome bd oxidase subunit I	WP_016735523.1
+RPHASCH2410_RS25930	thiol reductant ABC exporter subunit CydD	WP_016735525.1
+RPHASCH2410_RS26070	peptide-methionine (S)-S-oxide reductase	WP_012489766.1
+RPHASCH2410_RS26085	cytosine deaminase	WP_016735549.1
+RPHASCH2410_RS26130	phosphatidate cytidylyltransferase	WP_016735555.1
+RPHASCH2410_RS26140	J domain-containing protein	WP_012489779.1
+RPHASCH2410_RS26155	glutathione-dependent disulfide-bond	WP_016735557.1
+RPHASCH2410_RS26235	phosphomethylpyrimidine synthase ThiC	WP_016735570.1
+RPHASCH2410_RS26250	thiazole synthase	WP_016735572.1
+RPHASCH2410_RS26255	thiamine phosphate synthase	WP_016735573.1
+RPHASCH2410_RS26275	PhzF family phenazine biosynthesis protein	WP_016735577.1
+RPHASCH2410_RS26575	DegT/DnrJ/EryC1/StrS family aminotransferase	WP_012489815.1
+RPHASCH2410_RS26615	glycosyltransferase	WP_029531759.1
+RPHASCH2410_RS26775	glutathione-dependent formaldehyde	WP_016735667.1
+RPHASCH2410_RS26800	protein-L-isoaspartate(D-aspartate)	WP_016735671.1
+RPHASCH2410_RS26815	thiamine pyrophosphate-requiring protein	WP_016735674.1
+RPHASCH2410_RS26875	glycerol kinase	WP_016735686.1
+RPHASCH2410_RS26910	glycerol-3-phosphate dehydrogenase	WP_016735691.1
+RPHASCH2410_RS26915	DeoR/GlpR transcriptional regulator	WP_016735692.1
+RPHASCH2410_RS26975	mannonate dehydratase	WP_016735702.1
+RPHASCH2410_RS27010	glutathionylspermidine synthase family protein	WP_016735710.1
+RPHASCH2410_RS27015	DUF1190 domain-containing protein	WP_016735711.1
+RPHASCH2410_RS27020	DUF350 domain-containing protein	WP_004673652.1
+RPHASCH2410_RS27035	DUF2170 domain-containing protein	WP_016735714.1
+RPHASCH2410_RS27040	transcriptional regulator	WP_016735715.1
+RPHASCH2410_RS27535	4-alpha-glucanotransferase	WP_016735805.1
+RPHASCH2410_RS27575	iron ABC transporter permease	WP_016735812.1
+RPHASCH2410_RS27590	aspartate/tyrosine/aromatic aminotransferase	WP_016735815.1
+RPHASCH2410_RS27600	1,4-alpha-glucan branching protein GlgB	WP_016735817.1
+RPHASCH2410_RS27645	methyl-accepting chemotaxis protein	WP_016735826.1
+RPHASCH2410_RS27675	TetR/AcrR family transcriptional regulator	WP_029531790.1
+RPHASCH2410_RS27805	DNA-binding response regulator	WP_016735855.1
+RPHASCH2410_RS27900	FAD-binding oxidoreductase	WP_016735871.1
+RPHASCH2410_RS27910	LysR family transcriptional regulator	WP_016735873.1
+RPHASCH2410_RS27935	acetylornithine deacetylase	WP_016735878.1
+RPHASCH2410_RS27940	glyoxylate/hydroxypyruvate reductase A	WP_016735879.1
+RPHASCH2410_RS27955	tartrate dehydrogenase	WP_016735883.1
+RPHASCH2410_RS27975	aldolase	WP_016735887.1
+RPHASCH2410_RS27985	MFS transporter	WP_016735889.1
+RPHASCH2410_RS27990	NAD(P)-dependent oxidoreductase	WP_016735890.1
+RPHASCH2410_RS27995	hydroxypyruvate isomerase	WP_016735891.1
+RPHASCH2410_RS28000	four-carbon acid sugar kinase family protein	WP_016735892.1
+RPHASCH2410_RS28055	trifunctional transcriptional regulator/proline	WP_016735901.1
+RPHASCH2410_RS28065	ArsR family transcriptional regulator	WP_016735903.1
+RPHASCH2410_RS28085	hybrid-cluster NAD(P)-dependent oxidoreductase	WP_016735907.1
+RPHASCH2410_RS28105	aldehyde dehydrogenase	WP_016735912.1
+RPHASCH2410_RS28125	S-formylglutathione hydrolase	WP_012490071.1
+RPHASCH2410_RS28175	ABC transporter permease	WP_012490081.1
+RPHASCH2410_RS28180	glycine betaine/L-proline ABC transporter	WP_016735922.1
+RPHASCH2410_RS28205	oxidoreductase	WP_016735926.1
+RPHASCH2410_RS28210	GGDEF domain-containing protein	WP_016735927.1
+RPHASCH2410_RS28230	molecular chaperone HtpG	WP_016735930.1
+RPHASCH2410_RS28265	DUF488 domain-containing protein	WP_016735936.1
+RPHASCH2410_RS28340	cupin domain-containing protein	WP_029531806.1
+RPHASCH2410_RS28355	D-amino acid dehydrogenase small subunit	WP_016735955.1
+RPHASCH2410_RS28360	alanine racemase	WP_016735956.1
+RPHASCH2410_RS28440	Fe(3+)-hydroxamate ABC transporter permease	WP_016735972.1
+RPHASCH2410_RS28460	TonB-dependent siderophore receptor	WP_016735977.1
+RPHASCH2410_RS28490	beta-glucosidase	WP_016735983.1
+RPHASCH2410_RS28700	biotin transporter BioY	WP_016736018.1
+RPHASCH2410_RS28850	mannose-1-phosphate	WP_016736046.1
+RPHASCH2410_RS29035	DNA polymerase IV	WP_016736079.1
+RPHASCH2410_RS29420	ABC transporter	WP_016736150.1
+RPHASCH2410_RS29630	LysR family transcriptional regulator	WP_016735246.1
+RPHASCH2410_RS30095	transcriptional regulator NanR	WP_016735333.1
+RPHASCH2410_RS30115	ribose 5-phosphate isomerase B	WP_004678734.1
+RPHASCH2410_RS30155	dihydroxyacetone kinase subunit DhaK	WP_029531711.1
+RPHASCH2410_RS30160	dihydroxyacetone kinase subunit L	WP_029531712.1
+RPHASCH2410_RS30235	cytochrome-c peroxidase	WP_016735355.1
+RPHASCH2410_RS30245	pantoate--beta-alanine ligase	WP_016735358.1
+RPHASCH2410_RS30250	3-methyl-2-oxobutanoate	WP_016735359.1
+RPHASCH2410_RS30255	hydrogen peroxide-inducible genes activator	WP_016735360.1
+RPHASCH2410_RS30260	catalase/peroxidase HPI	WP_029531715.1
+RPHASCH2410_RS00005	cellulose synthase catalytic subunit	WP_039750947.1
+RPHASCH2410_RS00015	endoglucanase	WP_016734162.1
+RPHASCH2410_RS00025	glycerol-3-phosphatase	WP_016734160.1
+RPHASCH2410_RS00165	DUF1376 domain-containing protein	WP_016734127.1
+RPHASCH2410_RS00460	undecaprenyl-phosphate glucose	WP_016734072.1
+RPHASCH2410_RS00500	N-acetyl-gamma-glutamyl-phosphate reductase	WP_010024870.1
+RPHASCH2410_RS00505	agmatinase	WP_029531517.1
+RPHASCH2410_RS00510	30S ribosomal protein S9	WP_009998001.1
+RPHASCH2410_RS00515	50S ribosomal protein L13	WP_008521951.1
+RPHASCH2410_RS00545	CoA-binding protein	WP_016734063.1
+RPHASCH2410_RS00610	ATP-dependent Clp protease proteolytic subunit	WP_003573944.1
+RPHASCH2410_RS00615	ATP-dependent Clp protease ATP-binding subunit	WP_004680013.1
+RPHASCH2410_RS00620	endopeptidase La	WP_012483419.1
+RPHASCH2410_RS00625	DNA-binding protein HRL53	WP_003547346.1
+RPHASCH2410_RS00660	glutathione peroxidase	WP_029531513.1
+RPHASCH2410_RS00680	NADH-quinone oxidoreductase subunit A	WP_008521906.1
+RPHASCH2410_RS00745	NADH-quinone oxidoreductase subunit L	WP_016734042.1
+RPHASCH2410_RS00750	NADH-quinone oxidoreductase subunit M	WP_016734041.1
+RPHASCH2410_RS00760	biotin--[acetyl-CoA-carboxylase] ligase	WP_016734039.1
+RPHASCH2410_RS00780	proline--tRNA ligase	WP_016734036.1
+RPHASCH2410_RS00785	lipoprotein-releasing system transmembrane	WP_029531511.1
+RPHASCH2410_RS00790	lipoprotein-releasing ABC transporter	WP_004668408.1
+RPHASCH2410_RS00800	DNA polymerase III subunit alpha	WP_016734034.1
+RPHASCH2410_RS00835	PleD family two-component system response	WP_004668451.1
+RPHASCH2410_RS00840	50S ribosomal protein L33	WP_003587245.1
+RPHASCH2410_RS00855	ribonuclease R	WP_016734025.1
+RPHASCH2410_RS00860	type I DNA topoisomerase	WP_016734024.1
+RPHASCH2410_RS00865	DNA-protecting protein DprA	WP_016734023.1
+RPHASCH2410_RS00870	glycerol-3-phosphate 1-O-acyltransferase PlsY	WP_016734022.1
+RPHASCH2410_RS00880	aspartate carbamoyltransferase	WP_016734020.1
+RPHASCH2410_RS00885	acyl-CoA dehydrogenase	WP_016734019.1
+RPHASCH2410_RS00890	ribonuclease E/G	WP_016734018.1
+RPHASCH2410_RS00895	N-acetylmuramoyl-L-alanine amidase	WP_029531506.1
+RPHASCH2410_RS00900	penicillin-binding protein 1A	WP_016734016.1
+RPHASCH2410_RS00905	peptide chain release factor 2	WP_012483469.1
+RPHASCH2410_RS00920	NAD kinase	WP_004674871.1
+RPHASCH2410_RS00945	23S rRNA	WP_016734011.1
+RPHASCH2410_RS00960	elongation factor Tu	WP_004669088.1
+RPHASCH2410_RS00980	transcription termination/antitermination	WP_004669067.1
+RPHASCH2410_RS00985	50S ribosomal protein L11	WP_004669070.1
+RPHASCH2410_RS00990	50S ribosomal protein L1	WP_004669072.1
+RPHASCH2410_RS00995	50S ribosomal protein L10	WP_037113092.1
+RPHASCH2410_RS01000	50S ribosomal protein L7/L12	WP_004669074.1
+RPHASCH2410_RS01005	DNA-directed RNA polymerase subunit beta	WP_004669077.1
+RPHASCH2410_RS01010	DNA-directed RNA polymerase subunit beta	WP_046977045.1
+RPHASCH2410_RS01020	30S ribosomal protein S12	WP_003547537.1
+RPHASCH2410_RS01025	30S ribosomal protein S7	WP_004669085.1
+RPHASCH2410_RS01030	elongation factor G	WP_038688280.1
+RPHASCH2410_RS01035	elongation factor Tu	WP_004669088.1
+RPHASCH2410_RS01040	30S ribosomal protein S10	WP_003547547.1
+RPHASCH2410_RS01045	50S ribosomal protein L3	WP_016734008.1
+RPHASCH2410_RS01050	50S ribosomal protein L4	WP_004674918.1
+RPHASCH2410_RS01055	50S ribosomal protein L23	WP_003547550.1
+RPHASCH2410_RS01060	50S ribosomal protein L2	WP_009986456.1
+RPHASCH2410_RS01065	30S ribosomal protein S19	WP_003573797.1
+RPHASCH2410_RS01070	50S ribosomal protein L22	WP_004674922.1
+RPHASCH2410_RS01075	30S ribosomal protein S3	WP_003573793.1
+RPHASCH2410_RS01080	50S ribosomal protein L16	WP_003573792.1
+RPHASCH2410_RS01090	30S ribosomal protein S17	WP_004674926.1
+RPHASCH2410_RS01095	50S ribosomal protein L14	WP_003573790.1
+RPHASCH2410_RS01100	50S ribosomal protein L24	WP_004674929.1
+RPHASCH2410_RS01105	50S ribosomal protein L5	WP_016734007.1
+RPHASCH2410_RS01110	30S ribosomal protein S14	WP_003573787.1
+RPHASCH2410_RS01115	30S ribosomal protein S8	WP_003547562.1
+RPHASCH2410_RS01120	50S ribosomal protein L6	WP_003578670.1
+RPHASCH2410_RS01125	50S ribosomal protein L18	WP_003573785.1
+RPHASCH2410_RS01130	30S ribosomal protein S5	WP_003573784.1
+RPHASCH2410_RS01145	preprotein translocase subunit SecY	WP_016734005.1
+RPHASCH2410_RS01150	adenylate kinase	WP_016734004.1
+RPHASCH2410_RS01155	30S ribosomal protein S13	WP_003573772.1
+RPHASCH2410_RS01160	30S ribosomal protein S11	WP_003547577.1
+RPHASCH2410_RS01165	DNA-directed RNA polymerase subunit alpha	WP_003547579.1
+RPHASCH2410_RS01170	50S ribosomal protein L17	WP_009995243.1
+RPHASCH2410_RS01185	protein-methionine-sulfoxide reductase	WP_016734001.1
+RPHASCH2410_RS01190	protein-methionine-sulfoxide reductase catalytic	WP_029531504.1
+RPHASCH2410_RS01195	dihydroxy-acid dehydratase	WP_016733999.1
+RPHASCH2410_RS01215	replication-associated recombination protein A	WP_016733995.1
+RPHASCH2410_RS01270	acyl CoA:acetate/3-ketoacid CoA transferase	WP_016733983.1
+RPHASCH2410_RS01355	DNA-binding response regulator	WP_012483518.1
+RPHASCH2410_RS01460	3-oxoacyl-ACP reductase FabG	WP_016732823.1
+RPHASCH2410_RS01470	hydrolase	WP_016732825.1
+RPHASCH2410_RS01495	xanthine phosphoribosyltransferase	WP_010025058.1
+RPHASCH2410_RS01505	competence/damage-inducible protein A	WP_016732831.1
+RPHASCH2410_RS01520	threonine ammonia-lyase	WP_029531119.1
+RPHASCH2410_RS01550	FMN-dependent NADH-azoreductase	WP_012483553.1
+RPHASCH2410_RS01555	LysR family transcriptional regulator	WP_012483554.1
+RPHASCH2410_RS01560	bifunctional 2,3-cyclic-nucleotide	WP_012483555.1
+RPHASCH2410_RS01595	3-mercaptopyruvate sulfurtransferase	WP_016732841.1
+RPHASCH2410_RS01620	class I SAM-dependent methyltransferase	WP_016732845.1
+RPHASCH2410_RS01635	deoxyribodipyrimidine photo-lyase	WP_016732846.1
+RPHASCH2410_RS01660	nitrite reductase large subunit	WP_012483572.1
+RPHASCH2410_RS01680	peroxiredoxin	WP_012483577.1
+RPHASCH2410_RS01735	CsbD family protein	WP_012483584.1
+RPHASCH2410_RS01835	valine--tRNA ligase	WP_016732883.1
+RPHASCH2410_RS01855	exodeoxyribonuclease III	WP_012483593.1
+RPHASCH2410_RS01860	iron-sulfur cluster assembly accessory protein	WP_004674150.1
+RPHASCH2410_RS01880	beta-N-acetylhexosaminidase	WP_029531140.1
+RPHASCH2410_RS01905	twin-arginine translocase subunit TatC	WP_016732894.1
+RPHASCH2410_RS01910	serine--tRNA ligase	WP_016732895.1
+RPHASCH2410_RS01915	5-nucleotidase SurE	WP_016732896.1
+RPHASCH2410_RS01925	LysM peptidoglycan-binding domain-containing	WP_016732897.1
+RPHASCH2410_RS01980	trigger factor	WP_004678834.1
+RPHASCH2410_RS01985	IS3 family transposase	WP_010009678.1
+RPHASCH2410_RS02010	Si-specific NAD(P)(+) transhydrogenase	WP_012483618.1
+RPHASCH2410_RS02020	JAB domain-containing protein	WP_016732906.1
+RPHASCH2410_RS02025	type I methionyl aminopeptidase	WP_004673840.1
+RPHASCH2410_RS02045	Holliday junction resolvase RuvX	WP_012483623.1
+RPHASCH2410_RS02070	hypothetical protein	WP_004671262.1
+RPHASCH2410_RS02095	GNAT family N-acetyltransferase	WP_016732912.1
+RPHASCH2410_RS02115	leucyl/phenylalanyl-tRNA--protein transferase	WP_012483634.1
+RPHASCH2410_RS02120	acetyl-CoA carboxylase biotin carboxylase	WP_004671248.1
+RPHASCH2410_RS02125	acetyl-CoA carboxylase biotin carboxyl carrier	WP_016732916.1
+RPHASCH2410_RS02175	single-stranded-DNA-specific exonuclease RecJ	WP_016732925.1
+RPHASCH2410_RS02200	lactoylglutathione lyase	WP_004675947.1
+RPHASCH2410_RS02280	amino acid ABC transporter ATP-binding protein	WP_016732937.1
+RPHASCH2410_RS02285	amino acid ABC transporter permease	WP_012483655.1
+RPHASCH2410_RS02290	amino acid ABC transporter permease	WP_029531157.1
+RPHASCH2410_RS02300	cystathionine beta-lyase	WP_016732938.1
+RPHASCH2410_RS02320	serine O-acetyltransferase	WP_004675925.1
+RPHASCH2410_RS02335	ATP-dependent Clp protease adapter ClpS	WP_012483661.1
+RPHASCH2410_RS02340	ATP-dependent Clp protease ATP-binding subunit	WP_016732941.1
+RPHASCH2410_RS02345	HIT family protein	WP_016732942.1
+RPHASCH2410_RS02390	30S ribosomal protein S2	WP_008526906.1
+RPHASCH2410_RS02395	elongation factor Ts	WP_009994369.1
+RPHASCH2410_RS02400	UMP kinase	WP_004678616.1
+RPHASCH2410_RS02405	ribosome-recycling factor	WP_004678618.1
+RPHASCH2410_RS02410	isoprenyl transferase	WP_016732948.1
+RPHASCH2410_RS02415	CDP-archaeol synthase	WP_016732949.1
+RPHASCH2410_RS02420	RIP metalloprotease RseP	WP_016732950.1
+RPHASCH2410_RS02430	UDP-3-O-(3-hydroxymyristoyl)glucosamine	WP_016732952.1
+RPHASCH2410_RS02435	beta-hydroxyacyl-ACP dehydratase	WP_004678630.1
+RPHASCH2410_RS02440	acyl-ACP--UDP-N-acetylglucosamine	WP_016732953.1
+RPHASCH2410_RS02450	lipid-A-disaccharide synthase	WP_016732955.1
+RPHASCH2410_RS02455	citrate (Si)-synthase	WP_004678636.1
+RPHASCH2410_RS02475	3-deoxy-8-phosphooctulonate synthase	WP_016732959.1
+RPHASCH2410_RS02480	enolase	WP_004678645.1
+RPHASCH2410_RS02535	lipoyl synthase	WP_016732965.1
+RPHASCH2410_RS02545	ubiquinone-binding protein	WP_016732967.1
+RPHASCH2410_RS02550	CinA family protein	WP_012483692.1
+RPHASCH2410_RS02555	bifunctional 2-C-methyl-D-erythritol 4-phosphate	WP_016732968.1
+RPHASCH2410_RS02560	tRNA dihydrouridine synthase DusB	WP_012483694.1
+RPHASCH2410_RS02565	two-component sensor histidine kinase	WP_016732969.1
+RPHASCH2410_RS02570	nitrogen regulation protein NR(I)	WP_012483696.1
+RPHASCH2410_RS02610	D-serine ammonia-lyase	WP_046977057.1
+RPHASCH2410_RS02645	bifunctional methylenetetrahydrofolate	WP_046977059.1
+RPHASCH2410_RS02670	RNA-binding protein Hfq	WP_003539403.1
+RPHASCH2410_RS02675	GTPase HflX	WP_012483715.1
+RPHASCH2410_RS02680	nucleoside triphosphate pyrophosphohydrolase	WP_046977061.1
+RPHASCH2410_RS02690	uroporphyrinogen-III C-methyltransferase	WP_029531170.1
+RPHASCH2410_RS02880	NAD(P)H-dependent oxidoreductase	WP_016733010.1
+RPHASCH2410_RS02935	efflux RND transporter periplasmic adaptor	WP_016733019.1
+RPHASCH2410_RS02955	ferredoxin--NADP reductase	WP_004673785.1
+RPHASCH2410_RS02965	quinone oxidoreductase	WP_016733023.1
+RPHASCH2410_RS02990	sugar ABC transporter substrate-binding protein	WP_004673778.1
+RPHASCH2410_RS02995	sugar ABC transporter ATP-binding protein	WP_020465354.1
+RPHASCH2410_RS03000	ABC transporter permease	WP_016733027.1
+RPHASCH2410_RS03005	sugar ABC transporter permease YjfF	WP_004680234.1
+RPHASCH2410_RS03010	FadR family transcriptional regulator	WP_029531186.1
+RPHASCH2410_RS03015	bifunctional UDP-N-acetylglucosamine	WP_016733029.1
+RPHASCH2410_RS03020	glutamine--fructose-6-phosphate transaminase	WP_016733030.1
+RPHASCH2410_RS03030	DNA helicase RecG	WP_016733032.1
+RPHASCH2410_RS03040	transcription-repair coupling factor	WP_016733034.1
+RPHASCH2410_RS03080	type I glutamate--ammonia ligase	WP_004671872.1
+RPHASCH2410_RS03085	DUF3240 domain-containing protein	WP_003539626.1
+RPHASCH2410_RS03090	bifunctional ADP-dependent NAD(P)H-hydrate	WP_046977072.1
+RPHASCH2410_RS03105	excinuclease ABC subunit UvrA	WP_016733040.1
+RPHASCH2410_RS03110	single-stranded DNA-binding protein	WP_016733041.1
+RPHASCH2410_RS03115	MarC family protein	WP_004671901.1
+RPHASCH2410_RS03120	DNA gyrase subunit A	WP_029531195.1
+RPHASCH2410_RS03130	pantetheine-phosphate adenylyltransferase	WP_004671912.1
+RPHASCH2410_RS03140	peptidylprolyl isomerase	WP_004671916.1
+RPHASCH2410_RS03145	tRNA preQ1(34) S-adenosylmethionine	WP_016733044.1
+RPHASCH2410_RS03150	tRNA guanosine(34) transglycosylase Tgt	WP_016733045.1
+RPHASCH2410_RS03185	ABC transporter ATP-binding protein	WP_016733051.1
+RPHASCH2410_RS03270	adenylate cyclase	WP_016733068.1
+RPHASCH2410_RS03350	mechanosensitive ion channel protein	WP_016733083.1
+RPHASCH2410_RS03360	diaminopropionate ammonia-lyase	WP_029531210.1
+RPHASCH2410_RS03365	Zn-dependent hydrolase	WP_016733085.1
+RPHASCH2410_RS03395	TatD family deoxyribonuclease	WP_016733089.1
+RPHASCH2410_RS03415	dTMP kinase	WP_029531211.1
+RPHASCH2410_RS03420	D-alanyl-D-alanine carboxypeptidase	WP_080956136.1
+RPHASCH2410_RS03425	septal ring lytic transglycosylase RlpA family	WP_016733095.1
+RPHASCH2410_RS03460	alkylphosphonate uptake protein	WP_010025202.1
+RPHASCH2410_RS03495	anthranilate phosphoribosyltransferase	WP_004672493.1
+RPHASCH2410_RS03500	indole-3-glycerol phosphate synthase TrpC	WP_016733105.1
+RPHASCH2410_RS03505	cyclic pyranopterin monophosphate synthase MoaC	WP_010005650.1
+RPHASCH2410_RS03510	molybdopterin molybdenumtransferase MoeA	WP_016733106.1
+RPHASCH2410_RS03545	CTP synthase	WP_016733113.1
+RPHASCH2410_RS03555	triose-phosphate isomerase	WP_016733115.1
+RPHASCH2410_RS11995	carbonic anhydrase	WP_010058543.1
+RPHASCH2410_RS12135	lysozyme	WP_016734479.1
+RPHASCH2410_RS12230	sulfate adenylyltransferase subunit CysN	WP_004669530.1
+RPHASCH2410_RS12235	sulfate adenylyltransferase subunit CysD	WP_016734464.1
+RPHASCH2410_RS12240	phosphoadenylyl-sulfate reductase	WP_004669533.1
+RPHASCH2410_RS12245	Rrf2 family transcriptional regulator	WP_016734463.1
+RPHASCH2410_RS12270	choline dehydrogenase	WP_016734462.1
+RPHASCH2410_RS12275	betaine-aldehyde dehydrogenase	WP_046977107.1
+RPHASCH2410_RS12280	transcriptional regulator BetI	WP_012483077.1
+RPHASCH2410_RS12520	DUF853 domain-containing protein	WP_016734419.1
+RPHASCH2410_RS12545	trans-aconitate 2-methyltransferase	WP_012483117.1
+RPHASCH2410_RS12575	branched-chain amino acid aminotransferase	WP_016734414.1
+RPHASCH2410_RS12580	LysR family transcriptional regulator	WP_016734413.1
+RPHASCH2410_RS12600	ammonia-dependent NAD(+) synthetase	WP_016734409.1
+RPHASCH2410_RS12605	glutathione S-transferase	WP_029531567.1
+RPHASCH2410_RS12610	TetR/AcrR family transcriptional regulator	WP_010025457.1
+RPHASCH2410_RS12615	MFS transporter	WP_016734407.1
+RPHASCH2410_RS12640	superoxide dismutase	WP_016734404.1
+RPHASCH2410_RS12685	metal/formaldehyde-sensitive transcriptional	WP_010021162.1
+RPHASCH2410_RS12690	cation transporter	WP_016734398.1
+RPHASCH2410_RS12700	glucose/quinate/shikimate family membrane-bound	WP_016734396.1
+RPHASCH2410_RS12705	YdiU family protein	WP_029531566.1
+RPHASCH2410_RS12720	S9 family peptidase	WP_016734391.1
+RPHASCH2410_RS12755	universal stress protein	WP_012483158.1
+RPHASCH2410_RS12760	DNA-binding protein	WP_004674979.1
+RPHASCH2410_RS12765	N-acetyltransferase	WP_016734385.1
+RPHASCH2410_RS12780	co-chaperone GroES	WP_004674972.1
+RPHASCH2410_RS12825	peptide-methionine (R)-S-oxide reductase	WP_016734376.1
+RPHASCH2410_RS12875	cysteine desulfuration protein SufE	WP_029531563.1
+RPHASCH2410_RS12925	YcgN family cysteine cluster protein	WP_016734361.1
+RPHASCH2410_RS13020	DNA-binding response regulator	WP_012483203.1
+RPHASCH2410_RS13045	heme lyase CcmF/NrfE family subunit	WP_046977113.1
+RPHASCH2410_RS13050	cytochrome c-type biogenesis protein CcmH	WP_016734342.1
+RPHASCH2410_RS13060	DNA-binding response regulator	WP_037113567.1
+RPHASCH2410_RS13070	bifunctional [glutamate--ammonia	WP_016734340.1
+RPHASCH2410_RS13080	aminopeptidase N	WP_016734338.1
+RPHASCH2410_RS13110	AcrB/AcrD/AcrF family protein	WP_016734334.1
+RPHASCH2410_RS13135	L,D-transpeptidase	WP_004672572.1
+RPHASCH2410_RS13155	MFS transporter	WP_012483227.1
+RPHASCH2410_RS13165	glutamine synthetase	WP_016734327.1
+RPHASCH2410_RS13230	AMP nucleosidase	WP_012483239.1
+RPHASCH2410_RS13330	pyridine nucleotide-disulfide oxidoreductase	WP_016734300.1
+RPHASCH2410_RS13350	lytic transglycosylase	WP_016734298.1
+RPHASCH2410_RS13355	4-hydroxy-tetrahydrodipicolinate synthase	WP_016734297.1
+RPHASCH2410_RS13360	SsrA-binding protein	WP_004675044.1
+RPHASCH2410_RS13370	DNA-directed RNA polymerase subunit omega	WP_003574261.1
+RPHASCH2410_RS13375	bifunctional (p)ppGpp	WP_012483259.1
+RPHASCH2410_RS13385	holo-ACP synthase	WP_004675052.1
+RPHASCH2410_RS13390	signal peptidase I	WP_012483261.1
+RPHASCH2410_RS13395	ribonuclease 3	WP_004675053.1
+RPHASCH2410_RS13400	GTPase Era	WP_016734296.1
+RPHASCH2410_RS13425	MOSC domain-containing protein	WP_016734293.1
+RPHASCH2410_RS13430	HD domain-containing protein	WP_029531551.1
+RPHASCH2410_RS13445	superoxide dismutase family protein	WP_016734288.1
+RPHASCH2410_RS13450	mechanosensitive ion channel protein	WP_012483271.1
+RPHASCH2410_RS13490	YnfA family protein	WP_029531549.1
+RPHASCH2410_RS13495	SOS response-associated peptidase	WP_016734279.1
+RPHASCH2410_RS13545	EamA family transporter RarD	WP_016734271.1
+RPHASCH2410_RS13575	cysteine--tRNA ligase	WP_016734264.1
+RPHASCH2410_RS13585	KR domain-containing protein	WP_016734262.1
+RPHASCH2410_RS13590	amidophosphoribosyltransferase	WP_016734261.1
+RPHASCH2410_RS13600	DNA repair protein RadA	WP_012483297.1
+RPHASCH2410_RS13615	replicative DNA helicase	WP_012483300.1
+RPHASCH2410_RS13620	50S ribosomal protein L9	WP_016734256.1
+RPHASCH2410_RS13630	30S ribosomal protein S18	WP_004680498.1
+RPHASCH2410_RS13635	30S ribosomal protein S6	WP_004680499.1
+RPHASCH2410_RS13640	NADP-dependent oxidoreductase	WP_016734254.1
+RPHASCH2410_RS13645	[acyl-carrier-protein] S-malonyltransferase	WP_016734253.1
+RPHASCH2410_RS13650	3-oxoacyl-[acyl-carrier-protein] reductase	WP_010061153.1
+RPHASCH2410_RS13655	acyl carrier protein	WP_003547058.1
+RPHASCH2410_RS13660	beta-ketoacyl-[acyl-carrier-protein] synthase	WP_004680503.1
+RPHASCH2410_RS13665	endolytic transglycosylase MltG	WP_029531547.1
+RPHASCH2410_RS13670	YicC family protein	WP_016734251.1
+RPHASCH2410_RS13675	guanylate kinase	WP_004680508.1
+RPHASCH2410_RS13680	16S rRNA	WP_016734250.1
+RPHASCH2410_RS13685	4-hydroxythreonine-4-phosphate dehydrogenase	WP_012483306.1
+RPHASCH2410_RS13715	cytosol aminopeptidase	WP_016734246.1
+RPHASCH2410_RS13775	ABC transporter ATP-binding protein	WP_029531544.1
+RPHASCH2410_RS13795	nucleoside-diphosphate kinase	WP_004680549.1
+RPHASCH2410_RS13815	molybdenum cofactor biosynthesis protein MoaE	WP_029531542.1
+RPHASCH2410_RS13830	CDP-diacylglycerol--glycerol-3-phosphate	WP_004671846.1
+RPHASCH2410_RS13835	excinuclease ABC subunit UvrC	WP_016734223.1
+RPHASCH2410_RS13855	23S rRNA (adenine(2030)-N(6))-methyltransferase	WP_016734220.1
+RPHASCH2410_RS13865	NUDIX domain-containing protein	WP_012483336.1
+RPHASCH2410_RS13875	phosphoribosylglycinamide formyltransferase	WP_016734217.1
+RPHASCH2410_RS13880	phosphoribosylformylglycinamidine cyclo-ligase	WP_016734216.1
+RPHASCH2410_RS13895	RNA degradosome polyphosphate kinase	WP_004673738.1
+RPHASCH2410_RS13930	aspartate--tRNA ligase	WP_029531536.1
+RPHASCH2410_RS13935	IS3 family transposase	WP_010009678.1
+RPHASCH2410_RS13950	DNA topoisomerase IV subunit A	WP_012483348.1
+RPHASCH2410_RS13985	porphobilinogen synthase	WP_016734201.1
+RPHASCH2410_RS14055	amidase	WP_004673821.1
+RPHASCH2410_RS14060	serine hydroxymethyltransferase	WP_012483354.1
+RPHASCH2410_RS14065	transcriptional regulator NrdR	WP_003547190.1
+RPHASCH2410_RS14070	bifunctional	WP_016734185.1
+RPHASCH2410_RS14075	riboflavin synthase	WP_012483356.1
+RPHASCH2410_RS14080	glucose-1-phosphate thymidylyltransferase	WP_016734184.1
+RPHASCH2410_RS14085	dTDP-4-dehydrorhamnose reductase	WP_016734183.1
+RPHASCH2410_RS14090	dTDP-glucose 4,6-dehydratase	WP_016734182.1
+RPHASCH2410_RS14095	dTDP-4-dehydrorhamnose 3,5-epimerase	WP_012483360.1
+RPHASCH2410_RS14145	6,7-dimethyl-8-ribityllumazine synthase	WP_004674116.1
+RPHASCH2410_RS14150	N utilization substance protein B	WP_010018343.1
+RPHASCH2410_RS14175	phosphate acyltransferase PlsX	WP_029531529.1
+RPHASCH2410_RS14180	ketoacyl-ACP synthase III	WP_029531528.1
+RPHASCH2410_RS14185	integration host factor subunit alpha	WP_016734167.1
+RPHASCH2410_RS14235	glutathione S-transferase family protein	WP_029531436.1
+RPHASCH2410_RS14270	benzoate transporter	WP_016733732.1
+RPHASCH2410_RS14290	NADPH-dependent 7-cyano-7-deazaguanine reductase	WP_029531438.1
+RPHASCH2410_RS14295	cation transporter	WP_004671573.1
+RPHASCH2410_RS14310	anthranilate synthase component I	WP_016733738.1
+RPHASCH2410_RS14330	membrane protein	WP_004671586.1
+RPHASCH2410_RS14355	thymidine kinase	WP_004678102.1
+RPHASCH2410_RS14380	transcriptional regulator	WP_004678111.1
+RPHASCH2410_RS14395	branched-chain amino acid ABC transporter	WP_016733745.1
+RPHASCH2410_RS14400	adenine deaminase	WP_016733746.1
+RPHASCH2410_RS14415	alpha-glucosidase	WP_016733749.1
+RPHASCH2410_RS14420	peptide ABC transporter substrate-binding	WP_004678124.1
+RPHASCH2410_RS14425	ABC transporter	WP_004678125.1
+RPHASCH2410_RS14430	peptide ABC transporter permease	WP_004678127.1
+RPHASCH2410_RS14435	ABC transporter ATP-binding protein	WP_004678129.1
+RPHASCH2410_RS14440	ABC transporter ATP-binding protein	WP_016733750.1
+RPHASCH2410_RS14450	sugar kinase	WP_080515661.1
+RPHASCH2410_RS14485	ribosome biogenesis GTPase Der	WP_012484719.1
+RPHASCH2410_RS14505	peptide transporter	WP_012484721.1
+RPHASCH2410_RS14510	MFS transporter	WP_012484722.1
+RPHASCH2410_RS14515	PadR family transcriptional regulator	WP_012484723.1
+RPHASCH2410_RS14565	xanthine dehydrogenase small subunit	WP_016733765.1
+RPHASCH2410_RS14605	guanine deaminase	WP_016733775.1
+RPHASCH2410_RS14610	alpha-hydroxy-acid oxidizing protein	WP_016733776.1
+RPHASCH2410_RS14620	phosphatase	WP_016733778.1
+RPHASCH2410_RS14625	hypothetical protein	WP_016733779.1
+RPHASCH2410_RS14630	CDP-alcohol phosphatidyltransferase family	WP_016733780.1
+RPHASCH2410_RS14645	membrane protein	WP_016733783.1
+RPHASCH2410_RS14655	hydroxyisourate hydrolase	WP_012484804.1
+RPHASCH2410_RS14660	ureidoglycolate lyase	WP_012484805.1
+RPHASCH2410_RS14690	5-methylaminomethyl-2-thiouridine	WP_016733789.1
+RPHASCH2410_RS14695	hybrid sensor histidine kinase/response	WP_029531449.1
+RPHASCH2410_RS14725	RNA helicase	WP_029531450.1
+RPHASCH2410_RS14775	sugar ABC transporter permease	WP_012484828.1
+RPHASCH2410_RS14780	xylose ABC transporter ATP-binding protein	WP_004668891.1
+RPHASCH2410_RS14815	D-xylose ABC transporter substrate-binding	WP_016733806.1
+RPHASCH2410_RS14950	LysR family transcriptional regulator	WP_016733827.1
+RPHASCH2410_RS14955	class C beta-lactamase	WP_029531463.1
+RPHASCH2410_RS15065	colanic acid biosynthesis glycosyltransferase	WP_080956162.1
+RPHASCH2410_RS15190	uracil-DNA glycosylase	WP_016733866.1
+RPHASCH2410_RS15230	DUF1956 domain-containing protein	WP_016733870.1
+RPHASCH2410_RS15235	secretion protein HlyD	WP_016733871.1
+RPHASCH2410_RS15240	ABC transporter ATP-binding protein	WP_016733872.1
+RPHASCH2410_RS15245	ABC transporter permease	WP_016733873.1
+RPHASCH2410_RS15250	ABC transporter permease	WP_016733874.1
+RPHASCH2410_RS15275	multidrug transporter	WP_016733877.1
+RPHASCH2410_RS15375	FAD-binding protein	WP_016733890.1
+RPHASCH2410_RS15380	NAD-dependent dihydropyrimidine dehydrogenase	WP_016733891.1
+RPHASCH2410_RS15505	TetR family transcriptional regulator	WP_029531483.1
+RPHASCH2410_RS15515	DUF559 domain-containing protein	WP_016733917.1
+RPHASCH2410_RS15520	dihydropyrimidinase	WP_016733918.1
+RPHASCH2410_RS15675	ABC transporter ATP-binding protein	WP_037116131.1
+RPHASCH2410_RS15680	ABC transporter ATP-binding protein	WP_004675679.1
+RPHASCH2410_RS15685	high-affinity branched-chain amino acid ABC	WP_004675681.1
+RPHASCH2410_RS15690	branched-chain amino acid ABC transporter	WP_012484986.1
+RPHASCH2410_RS15695	3(2),5-bisphosphate nucleotidase	WP_016733934.1
+RPHASCH2410_RS15720	N-acetyltransferase	WP_029531489.1
+RPHASCH2410_RS15765	RluA family pseudouridine synthase	WP_029531492.1
+RPHASCH2410_RS15770	RNA polymerase sigma factor RpoH	WP_012484996.1
+RPHASCH2410_RS15780	adenylosuccinate synthetase	WP_012484998.1
+RPHASCH2410_RS15810	MexE family multidrug efflux RND transporter	WP_004675748.1
+RPHASCH2410_RS15820	LysR family transcriptional regulator	WP_004675751.1
+RPHASCH2410_RS15845	EmrB/QacA family drug resistance transporter	WP_016733951.1
+RPHASCH2410_RS15855	MarR family transcriptional regulator	WP_016733953.1
+RPHASCH2410_RS15995	NADH-quinone oxidoreductase subunit N	WP_012485037.1
+RPHASCH2410_RS16005	NADH-quinone oxidoreductase subunit B 2	WP_012485038.1
+RPHASCH2410_RS16015	NADH-quinone oxidoreductase subunit D 2	WP_012485040.1
+RPHASCH2410_RS16020	NADH-quinone oxidoreductase subunit NuoE	WP_029531497.1
+RPHASCH2410_RS16025	NADH-quinone oxidoreductase subunit F	WP_016733976.1
+RPHASCH2410_RS16030	NADH dehydrogenase (quinone) subunit G	WP_046977126.1
+RPHASCH2410_RS16040	4Fe-4S dicluster domain-containing protein	WP_016733978.1
+RPHASCH2410_RS16045	NADH-quinone oxidoreductase subunit NuoH	WP_016733979.1
+RPHASCH2410_RS16135	efflux RND transporter periplasmic adaptor	WP_012485052.1
+RPHASCH2410_RS16140	multidrug efflux RND transporter permease	WP_016737126.1
+RPHASCH2410_RS16245	acetate kinase	WP_016737143.1
+RPHASCH2410_RS16305	tRNA 2-thiouridine(34) synthase MnmA	WP_029532158.1
+RPHASCH2410_RS16315	phosphoglycerate dehydrogenase	WP_016737156.1
+RPHASCH2410_RS16330	phosphoglucosamine mutase	WP_012485090.1
+RPHASCH2410_RS16335	ATP-dependent metallopeptidase FtsH/Yme1/Tma	WP_012485091.1
+RPHASCH2410_RS16345	tol-pal system protein YbgF	WP_016737160.1
+RPHASCH2410_RS16350	peptidoglycan-associated lipoprotein Pal	WP_012485094.1
+RPHASCH2410_RS16370	protein TolR	WP_016737164.1
+RPHASCH2410_RS16375	protein TolQ	WP_004671617.1
+RPHASCH2410_RS16380	tol-pal system-associated acyl-CoA thioesterase	WP_004671619.1
+RPHASCH2410_RS16425	YebC/PmpR family DNA-binding transcriptional	WP_012485106.1
+RPHASCH2410_RS16430	LLM class flavin-dependent oxidoreductase	WP_012485107.1
+RPHASCH2410_RS16440	crossover junction endodeoxyribonuclease RuvC	WP_004669780.1
+RPHASCH2410_RS16455	Holliday junction branch migration protein RuvA	WP_012485110.1
+RPHASCH2410_RS16460	Holliday junction branch migration DNA helicase	WP_016737173.1
+RPHASCH2410_RS16545	transketolase	WP_016737185.1
+RPHASCH2410_RS16550	type I glyceraldehyde-3-phosphate dehydrogenase	WP_037118110.1
+RPHASCH2410_RS16565	potassium/proton antiporter	WP_012485127.1
+RPHASCH2410_RS16570	phosphoglycerate kinase	WP_016737188.1
+RPHASCH2410_RS16600	50S ribosomal protein L31	WP_003566413.1
+RPHASCH2410_RS16640	inositol monophosphatase	WP_012485142.1
+RPHASCH2410_RS16650	LamB/YcsF family protein	WP_016737194.1
+RPHASCH2410_RS16665	chemotaxis response regulator protein-glutamate	WP_012485148.1
+RPHASCH2410_RS16750	5-(carboxyamino)imidazole ribonucleotide mutase	WP_004679370.1
+RPHASCH2410_RS16755	5-(carboxyamino)imidazole ribonucleotide	WP_016737206.1
+RPHASCH2410_RS16760	50S ribosomal protein L36	WP_003582204.1
+RPHASCH2410_RS16775	gamma-glutamyltransferase	WP_016737209.1
+RPHASCH2410_RS16780	threonine/serine dehydratase	WP_010022050.1
+RPHASCH2410_RS16810	pyruvate kinase	WP_012485171.1
+RPHASCH2410_RS16840	DUF882 domain-containing protein	WP_016737217.1
+RPHASCH2410_RS16845	sigma-54-dependent Fis family transcriptional	WP_016737218.1
+RPHASCH2410_RS16855	aminodeoxychorismate synthase, component I	WP_016737220.1
+RPHASCH2410_RS16915	RNA polymerase sigma factor RpoD	WP_004677699.1
+RPHASCH2410_RS16925	L-threonine 3-dehydrogenase	WP_016733664.1
+RPHASCH2410_RS16930	glycine C-acetyltransferase	WP_016733665.1
+RPHASCH2410_RS16935	DNA helicase RecQ	WP_016733666.1
+RPHASCH2410_RS16940	DNA primase	WP_016733667.1
+RPHASCH2410_RS16955	carbamoyl-phosphate synthase small subunit	WP_012484607.1
+RPHASCH2410_RS16985	tetracycline resistance MFS efflux pump	WP_012484611.1
+RPHASCH2410_RS16995	flagellar biosynthesis protein FlgM	WP_012484613.1
+RPHASCH2410_RS17010	carbamoyl-phosphate synthase large subunit	WP_016733674.1
+RPHASCH2410_RS17025	transcription elongation factor GreA	WP_004672775.1
+RPHASCH2410_RS17035	C4-dicarboxylate transporter	WP_012484619.1
+RPHASCH2410_RS17055	thioredoxin-disulfide reductase	WP_016733683.1
+RPHASCH2410_RS17070	alkene reductase	WP_029531421.1
+RPHASCH2410_RS17135	PQQ-dependent sugar dehydrogenase	WP_016733693.1
+RPHASCH2410_RS17170	HAMP domain-containing protein	WP_004680168.1
+RPHASCH2410_RS17195	MBL fold metallo-hydrolase	WP_012484643.1
+RPHASCH2410_RS17205	pyrroline-5-carboxylate reductase	WP_016733701.1
+RPHASCH2410_RS17220	prolipoprotein diacylglyceryl transferase	WP_016733702.1
+RPHASCH2410_RS17230	peptidoglycan editing factor PgeF	WP_016733704.1
+RPHASCH2410_RS17245	ribose-phosphate pyrophosphokinase	WP_004680140.1
+RPHASCH2410_RS17255	50S ribosomal protein L25	WP_012484653.1
+RPHASCH2410_RS17270	aminoacyl-tRNA hydrolase	WP_016733709.1
+RPHASCH2410_RS17285	redox-regulated ATPase YchF	WP_010031314.1
+RPHASCH2410_RS17305	adenine phosphoribosyltransferase	WP_004680123.1
+RPHASCH2410_RS17345	tRNA (cytidine(34)-2-O)-methyltransferase	WP_012484670.1
+RPHASCH2410_RS17350	Na/Pi cotransporter family protein	WP_016733718.1
+RPHASCH2410_RS17360	oxygen-dependent coproporphyrinogen oxidase	WP_016733719.1
+RPHASCH2410_RS17380	CoA pyrophosphatase	WP_016733721.1
+RPHASCH2410_RS17405	ATP-dependent DNA helicase	WP_046977133.1
+RPHASCH2410_RS17415	bifunctional pyrazinamidase/nicotinamidase	WP_039750705.1
+RPHASCH2410_RS17435	branched-chain amino acid ABC transporter	WP_016733589.1
+RPHASCH2410_RS17445	aminopeptidase P family protein	WP_029531394.1
+RPHASCH2410_RS17450	50S ribosomal protein L11 methyltransferase	WP_016733591.1
+RPHASCH2410_RS17470	hypothetical protein	WP_004668787.1
+RPHASCH2410_RS17480	GNAT family N-acetyltransferase	WP_016733594.1
+RPHASCH2410_RS17485	NAD-dependent DNA ligase LigA	WP_016733595.1
+RPHASCH2410_RS17495	DNA repair protein RecN	WP_004668797.1
+RPHASCH2410_RS17505	UDP-3-O-acyl-N-acetylglucosamine deacetylase	WP_004668803.1
+RPHASCH2410_RS17525	D-alanine--D-alanine ligase	WP_016733599.1
+RPHASCH2410_RS17540	UDP-N-acetylmuramate--L-alanine ligase	WP_012484498.1
+RPHASCH2410_RS17545	undecaprenyldiphospho-muramoylpentapeptide	WP_012484499.1
+RPHASCH2410_RS17555	UDP-N-acetylmuramoyl-L-alanine--D-glutamate	WP_012484500.1
+RPHASCH2410_RS17560	phospho-N-acetylmuramoyl-pentapeptide-	WP_004668823.1
+RPHASCH2410_RS17565	UDP-N-acetylmuramoylalanyl-D-glutamyl-2,	WP_016733600.1
+RPHASCH2410_RS17570	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,	WP_039750722.1
+RPHASCH2410_RS17585	ribosomal RNA small subunit methyltransferase H	WP_012484505.1
+RPHASCH2410_RS17610	N-acetylmuramoyl-L-alanine amidase	WP_029531397.1
+RPHASCH2410_RS17625	LysE family translocator	WP_012484514.1
+RPHASCH2410_RS17665	methylenetetrahydrofolate reductase [NAD(P)H]	WP_016733612.1
+RPHASCH2410_RS17675	energy-dependent translational throttle protein	WP_004668527.1
+RPHASCH2410_RS17680	ribonuclease	WP_016733613.1
+RPHASCH2410_RS17695	CoA transferase	WP_016733616.1
+RPHASCH2410_RS17705	RidA family protein	WP_004668514.1
+RPHASCH2410_RS17815	GntR family transcriptional regulator	WP_016733629.1
+RPHASCH2410_RS17830	methionine synthase	WP_029531404.1
+RPHASCH2410_RS17835	AGE family epimerase/isomerase	WP_016733632.1
+RPHASCH2410_RS17975	SIMPL domain-containing protein	WP_016733653.1
+RPHASCH2410_RS17990	YjbQ family protein	WP_029531410.1
+RPHASCH2410_RS18180	ketol-acid reductoisomerase	WP_004668557.1
+RPHASCH2410_RS18200	hydrolase	WP_012484416.1
+RPHASCH2410_RS18240	glycosyltransferase	WP_016733537.1
+RPHASCH2410_RS18245	AraC family transcriptional regulator	WP_016733538.1
+RPHASCH2410_RS18250	NAD(P)-dependent alcohol dehydrogenase	WP_004674733.1
+RPHASCH2410_RS18280	aspartate/glutamate racemase family protein	WP_016733543.1
+RPHASCH2410_RS18310	SDR family NAD(P)-dependent oxidoreductase	WP_016733549.1
+RPHASCH2410_RS18315	pyridoxine 5-phosphate synthase	WP_016733550.1
+RPHASCH2410_RS18395	LysE family translocator	WP_016733559.1
+RPHASCH2410_RS18400	aldo/keto reductase	WP_012484449.1
+RPHASCH2410_RS18405	acetolactate synthase small subunit	WP_004677216.1
+RPHASCH2410_RS18410	acetolactate synthase 3 large subunit	WP_016733560.1
+RPHASCH2410_RS18435	tRNA (adenosine(37)-N6)-dimethylallyltransferase	WP_029531389.1
+RPHASCH2410_RS18440	phosphoserine phosphatase SerB	WP_016733565.1
+RPHASCH2410_RS18450	protease modulator HflC	WP_004677232.1
+RPHASCH2410_RS18455	FtsH protease activity modulator HflK	WP_004677233.1
+RPHASCH2410_RS32640	hypothetical protein	WP_080574763.1
+RPHASCH2410_RS18465	thymidylate synthase	WP_016733582.1
+RPHASCH2410_RS18500	LysR family transcriptional regulator	WP_016733572.1
+RPHASCH2410_RS18535	cell envelope biogenesis protein OmpA	WP_004673336.1
+RPHASCH2410_RS18570	SpoVR family protein	WP_016733577.1
+RPHASCH2410_RS18575	hypothetical protein	WP_016733578.1
+RPHASCH2410_RS18580	PrkA family serine protein kinase	WP_004673346.1
+RPHASCH2410_RS18635	DUF805 domain-containing protein	WP_012484216.1
+RPHASCH2410_RS18655	excinuclease ABC subunit UvrB	WP_029531319.1
+RPHASCH2410_RS18680	cold-shock protein	WP_003540801.1
+RPHASCH2410_RS18690	tRNA dihydrouridine(20/20a) synthase DusA	WP_029531326.1
+RPHASCH2410_RS18785	DUF808 domain-containing protein	WP_020465358.1
+RPHASCH2410_RS18790	transcriptional regulator	WP_012484248.1
+RPHASCH2410_RS18815	hypothetical protein	WP_016733397.1
+RPHASCH2410_RS18895	Na+/H+ antiporter	WP_016733409.1
+RPHASCH2410_RS19025	cell division protein FtsZ	WP_012484292.1
+RPHASCH2410_RS19195	MFS transporter	WP_046977138.1
+RPHASCH2410_RS19270	PLP-dependent aminotransferase family protein	WP_029531360.1
+RPHASCH2410_RS19415	FAA hydrolase family protein	WP_010023807.1
+RPHASCH2410_RS19420	gamma carbonic anhydrase family protein	WP_016733493.1
+RPHASCH2410_RS19450	transcriptional repressor	WP_004679676.1
+RPHASCH2410_RS19455	zinc ABC transporter permease	WP_012484378.1
+RPHASCH2410_RS19460	metal ABC transporter ATP-binding protein	WP_016733499.1
+RPHASCH2410_RS19465	zinc ABC transporter substrate-binding protein	WP_016733500.1
+RPHASCH2410_RS19490	bifunctional adenosylcobinamide	WP_016733330.1
+RPHASCH2410_RS19535	amino acid transporter	WP_010020265.1
+RPHASCH2410_RS19540	transcriptional regulator ArgP	WP_016733336.1
+RPHASCH2410_RS19550	MgtC/SapB family protein	WP_010024507.1
+RPHASCH2410_RS19585	GlxA family transcriptional regulator	WP_003579912.1
+RPHASCH2410_RS19615	arsenate reductase (glutaredoxin)	WP_016733346.1
+RPHASCH2410_RS19625	mechanosensitive ion channel family protein	WP_016733347.1
+RPHASCH2410_RS19675	siderophore-interacting protein	WP_016733357.1
+RPHASCH2410_RS19720	acyl-CoA thioesterase	WP_004672829.1
+RPHASCH2410_RS03570	ferrochelatase	WP_016737226.1
+RPHASCH2410_RS03575	SPFH/Band 7/PHB domain protein	WP_016737227.1
+RPHASCH2410_RS03580	NfeD family protein	WP_010018737.1
+RPHASCH2410_RS03585	KpsF/GutQ family sugar-phosphate isomerase	WP_016737228.1
+RPHASCH2410_RS03595	UTP--glucose-1-phosphate uridylyltransferase	WP_029532203.1
+RPHASCH2410_RS03615	glutamate synthase subunit beta	WP_004677801.1
+RPHASCH2410_RS03620	glutamate synthase large subunit	WP_016737236.1
+RPHASCH2410_RS03635	bile acid:sodium symporter	WP_016737238.1
+RPHASCH2410_RS03640	heat-shock protein IbpA	WP_016737239.1
+RPHASCH2410_RS03645	alpha/beta hydrolase	WP_012485198.1
+RPHASCH2410_RS03770	glycogen/starch/alpha-glucan phosphorylase	WP_016737257.1
+RPHASCH2410_RS03780	glucose-1-phosphate adenylyltransferase	WP_004668370.1
+RPHASCH2410_RS03785	glycogen synthase GlgA	WP_016737260.1
+RPHASCH2410_RS03865	NAD synthetase	WP_016737270.1
+RPHASCH2410_RS03875	NAD(P)(+) transhydrogenase (Re/Si-specific)	WP_029532226.1
+RPHASCH2410_RS03910	gamma-glutamyl-gamma-aminobutyrate hydrolase	WP_004668318.1
+RPHASCH2410_RS03935	GTP-binding protein	WP_016737281.1
+RPHASCH2410_RS03960	N-acetyltransferase	WP_016737286.1
+RPHASCH2410_RS03995	DUF533 domain-containing protein	WP_016737293.1
+RPHASCH2410_RS04000	ketohydroxyglutarate aldolase	WP_016737294.1
+RPHASCH2410_RS04015	rhodanese domain-containing protein	WP_029532244.1
+RPHASCH2410_RS04025	beta-glucosidase	WP_016737298.1
+RPHASCH2410_RS04060	LacI family transcriptional regulator	WP_016737301.1
+RPHASCH2410_RS04065	xylose isomerase	WP_016737302.1
+RPHASCH2410_RS04070	xylulokinase	WP_016737303.1
+RPHASCH2410_RS04085	HlyD family secretion protein	WP_012485276.1
+RPHASCH2410_RS04095	AraC family transcriptional regulator	WP_016737306.1
+RPHASCH2410_RS04100	TerC family protein	WP_029532253.1
+RPHASCH2410_RS04105	glutamate--tRNA ligase	WP_016737308.1
+RPHASCH2410_RS04110	lysine--tRNA ligase	WP_012485281.1
+RPHASCH2410_RS04125	spermidine/putrescine ABC transporter	WP_012485283.1
+RPHASCH2410_RS04130	ABC transporter ATP-binding protein	WP_012485284.1
+RPHASCH2410_RS04135	ABC transporter permease	WP_012485285.1
+RPHASCH2410_RS04140	ABC transporter permease	WP_004678022.1
+RPHASCH2410_RS04145	gamma-aminobutyraldehyde dehydrogenase	WP_016737310.1
+RPHASCH2410_RS04165	transaldolase	WP_004668751.1
+RPHASCH2410_RS04190	endonuclease III	WP_004668744.1
+RPHASCH2410_RS04195	TetR/AcrR family transcriptional regulator	WP_016737317.1
+RPHASCH2410_RS04260	N-acetylglucosamine kinase	WP_029532259.1
+RPHASCH2410_RS04285	OsmC family peroxiredoxin	WP_004668726.1
+RPHASCH2410_RS04290	short-chain dehydrogenase	WP_016737329.1
+RPHASCH2410_RS04295	aldose 1-epimerase	WP_016737330.1
+RPHASCH2410_RS04300	L-arabinose ABC transporter permease AraH	WP_016737331.1
+RPHASCH2410_RS04305	L-arabinose ABC transporter ATP-binding protein	WP_016737332.1
+RPHASCH2410_RS04310	arabinose ABC transporter substrate-binding	WP_016737333.1
+RPHASCH2410_RS04320	galactonate dehydratase	WP_016737335.1
+RPHASCH2410_RS04385	7-cyano-7-deazaguanine synthase QueC	WP_016737530.1
+RPHASCH2410_RS04390	6-carboxytetrahydropterin synthase QueD	WP_016737529.1
+RPHASCH2410_RS04405	class 1b ribonucleoside-diphosphate reductase	WP_016737526.1
+RPHASCH2410_RS04410	class 1b ribonucleoside-diphosphate reductase	WP_029532487.1
+RPHASCH2410_RS04415	class Ib ribonucleoside-diphosphate reductase	WP_016737524.1
+RPHASCH2410_RS04420	glutaredoxin-like protein NrdH	WP_004677360.1
+RPHASCH2410_RS04425	heavy metal translocating P-type ATPase	WP_016737523.1
+RPHASCH2410_RS04430	MerR family DNA-binding transcriptional	WP_016737522.1
+RPHASCH2410_RS04450	aldehyde dehydrogenase family protein	WP_012485341.1
+RPHASCH2410_RS04460	protease	WP_012485342.1
+RPHASCH2410_RS04475	calcium:proton antiporter	WP_016737517.1
+RPHASCH2410_RS04515	sugar ABC transporter ATP-binding protein	WP_016737510.1
+RPHASCH2410_RS04560	M23 family peptidase	WP_029531907.1
+RPHASCH2410_RS04565	ATP-dependent chaperone ClpB	WP_016736491.1
+RPHASCH2410_RS04575	peptide chain release factor N(5)-glutamine	WP_016736490.1
+RPHASCH2410_RS04580	peptide chain release factor 1	WP_016736489.1
+RPHASCH2410_RS04585	phosphoenolpyruvate--protein phosphotransferase	WP_004671809.1
+RPHASCH2410_RS04595	bifunctional 3-demethylubiquinone	WP_012485360.1
+RPHASCH2410_RS04610	glutaredoxin 3	WP_010002303.1
+RPHASCH2410_RS04635	8-oxo-dGTP diphosphatase MutT	WP_012485366.1
+RPHASCH2410_RS04650	peptidylprolyl isomerase	WP_004671783.1
+RPHASCH2410_RS04655	preprotein translocase subunit SecA	WP_016736484.1
+RPHASCH2410_RS04675	aldo/keto reductase	WP_016736480.1
+RPHASCH2410_RS04750	short-chain dehydrogenase	WP_016736472.1
+RPHASCH2410_RS04780	3-hydroxybutyryl-CoA dehydrogenase	WP_012485391.1
+RPHASCH2410_RS04790	argininosuccinate lyase	WP_012485393.1
+RPHASCH2410_RS04800	diaminopimelate decarboxylase	WP_016736469.1
+RPHASCH2410_RS04815	hypoxanthine phosphoribosyltransferase	WP_004671390.1
+RPHASCH2410_RS04825	cell division ATP-binding protein FtsE	WP_004671394.1
+RPHASCH2410_RS04845	gamma-glutamylcyclotransferase	WP_029531901.1
+RPHASCH2410_RS04875	hydroxyacylglutathione hydrolase	WP_016736458.1
+RPHASCH2410_RS04900	50S ribosomal protein L28	WP_004679586.1
+RPHASCH2410_RS04905	membrane protein	WP_016736456.1
+RPHASCH2410_RS04935	BolA family transcriptional regulator	WP_039752199.1
+RPHASCH2410_RS04940	HlyC/CorC family transporter	WP_016736450.1
+RPHASCH2410_RS04945	3-dehydroquinate synthase	WP_016736449.1
+RPHASCH2410_RS04950	shikimate kinase	WP_016736448.1
+RPHASCH2410_RS04955	site-specific tyrosine recombinase XerD	WP_029531897.1
+RPHASCH2410_RS04960	acetyl-CoA carboxylase carboxyl transferase	WP_016736446.1
+RPHASCH2410_RS04965	transpeptidase	WP_046977078.1
+RPHASCH2410_RS04970	sulfurtransferase TusA family protein	WP_029531896.1
+RPHASCH2410_RS05020	hypothetical protein	WP_016736433.1
+RPHASCH2410_RS05120	1-deoxy-D-xylulose-5-phosphate reductoisomerase	WP_016736414.1
+RPHASCH2410_RS05210	formate dehydrogenase accessory	WP_012485450.1
+RPHASCH2410_RS05215	formate dehydrogenase subunit alpha	WP_016736401.1
+RPHASCH2410_RS05245	redox-sensitive transcriptional activator SoxR	WP_012485457.1
+RPHASCH2410_RS05290	ATP synthase subunit beta	WP_012485464.1
+RPHASCH2410_RS05295	ATP synthase subunit gamma	WP_016736393.1
+RPHASCH2410_RS05300	ATP synthase subunit alpha	WP_016736392.1
+RPHASCH2410_RS05315	primosomal protein N	WP_012485469.1
+RPHASCH2410_RS05340	tyrosine recombinase XerC	WP_016736385.1
+RPHASCH2410_RS05355	dihydrolipoyl dehydrogenase	WP_016736384.1
+RPHASCH2410_RS05360	KR domain-containing protein	WP_016736383.1
+RPHASCH2410_RS05375	dihydrolipoyllysine-residue succinyltransferase	WP_016736380.1
+RPHASCH2410_RS05385	2-oxoglutarate dehydrogenase E1 component	WP_012485483.1
+RPHASCH2410_RS05390	succinate--CoA ligase subunit alpha	WP_016736377.1
+RPHASCH2410_RS05400	ADP-forming succinate--CoA ligase subunit beta	WP_016736375.1
+RPHASCH2410_RS05410	cell division protein ZapE	WP_016736373.1
+RPHASCH2410_RS05425	succinate dehydrogenase iron-sulfur subunit	WP_004679254.1
+RPHASCH2410_RS05435	succinate dehydrogenase flavoprotein subunit	WP_016736368.1
+RPHASCH2410_RS05445	succinate dehydrogenase, cytochrome b556	WP_016736366.1
+RPHASCH2410_RS05470	NAD(P)-dependent glycerol-3-phosphate	WP_016736361.1
+RPHASCH2410_RS05475	tRNA	WP_016736360.1
+RPHASCH2410_RS05480	hydroxymethylbilane synthase	WP_012485497.1
+RPHASCH2410_RS05525	inorganic diphosphatase	WP_012485505.1
+RPHASCH2410_RS05535	translational GTPase TypA	WP_012485506.1
+RPHASCH2410_RS05540	peptidase M3	WP_016736353.1
+RPHASCH2410_RS05605	23S rRNA (adenine(2503)-C(2))-methyltransferase	WP_012485518.1
+RPHASCH2410_RS32370	low molecular weight phosphotyrosine protein	WP_080956140.1
+RPHASCH2410_RS05640	arylesterase	WP_016736341.1
+RPHASCH2410_RS05645	ABC transporter ATP-binding protein	WP_012485524.1
+RPHASCH2410_RS05655	BAX inhibitor (BI)-1/YccA family protein	WP_004676875.1
+RPHASCH2410_RS05675	aconitate hydratase AcnA	WP_016736338.1
+RPHASCH2410_RS05680	heme ABC exporter ATP-binding protein CcmA	WP_016736337.1
+RPHASCH2410_RS05685	heme exporter protein CcmB	WP_012485530.1
+RPHASCH2410_RS05690	heme transporter HemC	WP_029531880.1
+RPHASCH2410_RS05700	DsbE family thiol:disulfide interchange protein	WP_016736334.1
+RPHASCH2410_RS05715	signal recognition particle-docking protein	WP_046977081.1
+RPHASCH2410_RS05725	diaminopimelate epimerase	WP_029531879.1
+RPHASCH2410_RS05735	signal recognition particle protein	WP_016736329.1
+RPHASCH2410_RS05745	30S ribosomal protein S16	WP_012485541.1
+RPHASCH2410_RS05755	tRNA (guanosine(37)-N1)-methyltransferase TrmD	WP_016736328.1
+RPHASCH2410_RS05760	50S ribosomal protein L19	WP_012485544.1
+RPHASCH2410_RS05775	3-isopropylmalate dehydratase large subunit	WP_016736326.1
+RPHASCH2410_RS05785	oxidoreductase	WP_029531875.1
+RPHASCH2410_RS05820	DNA translocase FtsK	WP_016736319.1
+RPHASCH2410_RS05825	ammonium transporter	WP_012485555.1
+RPHASCH2410_RS05830	nitrogen regulatory protein P-II 1	WP_003543684.1
+RPHASCH2410_RS05835	acyl-CoA thioesterase II	WP_010018231.1
+RPHASCH2410_RS05840	2-octaprenyl-6-methoxyphenyl hydroxylase	WP_016736318.1
+RPHASCH2410_RS05845	hypothetical protein	WP_010034724.1
+RPHASCH2410_RS05910	rhizopine-binding protein	WP_012485567.1
+RPHASCH2410_RS05915	sugar ABC transporter ATP-binding protein	WP_016736309.1
+RPHASCH2410_RS05940	ABC transporter permease	WP_016736307.1
+RPHASCH2410_RS05975	IS3 family transposase	WP_010009678.1
+RPHASCH2410_RS06010	amino acid ABC transporter permease	WP_029531872.1
+RPHASCH2410_RS06015	amino acid ABC transporter substrate-binding	WP_016736297.1
+RPHASCH2410_RS06035	flavodoxin-dependent	WP_016736293.1
+RPHASCH2410_RS06045	polyprenyl synthetase family protein	WP_029531871.1
+RPHASCH2410_RS06050	monofunctional biosynthetic peptidoglycan	WP_016736291.1
+RPHASCH2410_RS06065	50S ribosomal protein L32	WP_003543812.1
+RPHASCH2410_RS06080	acetyl-CoA C-acetyltransferase	WP_012485594.1
+RPHASCH2410_RS06100	RNA-binding S4 domain-containing protein	WP_016736286.1
+RPHASCH2410_RS06140	ABC transporter ATP-binding protein	WP_016736284.1
+RPHASCH2410_RS06150	homoserine O-succinyltransferase	WP_004674197.1
+RPHASCH2410_RS06155	galactose mutarotase	WP_016736282.1
+RPHASCH2410_RS06170	N-acetylglucosamine-6-phosphate deacetylase	WP_016736280.1
+RPHASCH2410_RS06205	elongation factor P	WP_008528334.1
+RPHASCH2410_RS06210	EF-P lysine aminoacylase GenX	WP_016736273.1
+RPHASCH2410_RS06215	lysine-2,3-aminomutase-like protein	WP_016736272.1
+RPHASCH2410_RS06270	DUF1338 domain-containing protein	WP_016736263.1
+RPHASCH2410_RS06325	50S ribosomal protein L21	WP_016736254.1
+RPHASCH2410_RS06330	50S ribosomal protein L27	WP_004676172.1
+RPHASCH2410_RS06350	GTPase ObgE	WP_016736251.1
+RPHASCH2410_RS06355	glutamate 5-kinase	WP_029531866.1
+RPHASCH2410_RS06360	glutamate-5-semialdehyde dehydrogenase	WP_016736249.1
+RPHASCH2410_RS06370	molybdate ABC transporter substrate-binding	WP_010022642.1
+RPHASCH2410_RS06375	molybdate ABC transporter permease subunit	WP_012485640.1
+RPHASCH2410_RS06380	molybdenum ABC transporter ATP-binding protein	WP_046977083.1
+RPHASCH2410_RS06390	ribosome silencing factor	WP_010005695.1
+RPHASCH2410_RS06395	23S rRNA	WP_010005696.1
+RPHASCH2410_RS06415	RNA pyrophosphohydrolase	WP_016736242.1
+RPHASCH2410_RS06420	bacterioferritin	WP_020922610.1
+RPHASCH2410_RS06455	CoA ester lyase	WP_016736237.1
+RPHASCH2410_RS06470	3-isopropylmalate dehydratase small subunit	WP_029531862.1
+RPHASCH2410_RS06480	3-isopropylmalate dehydrogenase	WP_010024973.1
+RPHASCH2410_RS06490	MFS transporter	WP_016736232.1
+RPHASCH2410_RS06510	alkaline phosphatase	WP_029531859.1
+RPHASCH2410_RS06520	aspartate-semialdehyde dehydrogenase	WP_016736226.1
+RPHASCH2410_RS06540	pyridoxal kinase PdxY	WP_004675229.1
+RPHASCH2410_RS06560	bifunctional	WP_016736221.1
+RPHASCH2410_RS06570	MFS transporter	WP_016736219.1
+RPHASCH2410_RS06575	protease HtpX	WP_016736218.1
+RPHASCH2410_RS06585	acetyl-coenzyme A synthetase	WP_016736216.1
+RPHASCH2410_RS06600	propionyl-CoA synthetase	WP_016736215.1
+RPHASCH2410_RS06605	YggS family pyridoxal phosphate-dependent	WP_016736214.1
+RPHASCH2410_RS06610	leucine--tRNA ligase	WP_016736213.1
+RPHASCH2410_RS06640	tRNA uridine-5-carboxymethylaminomethyl(34)	WP_016736207.1
+RPHASCH2410_RS06645	tRNA uridine-5-carboxymethylaminomethyl(34)	WP_016736206.1
+RPHASCH2410_RS06650	transcription termination factor Rho	WP_008528706.1
+RPHASCH2410_RS06660	uroporphyrinogen decarboxylase	WP_016736205.1
+RPHASCH2410_RS06675	shikimate dehydrogenase	WP_016736204.1
+RPHASCH2410_RS06680	dephospho-CoA kinase	WP_012482085.1
+RPHASCH2410_RS06685	DNA polymerase III subunit epsilon	WP_012482086.1
+RPHASCH2410_RS06690	protein-export protein SecB	WP_012482087.1
+RPHASCH2410_RS06705	transglycosylase	WP_016736202.1
+RPHASCH2410_RS06720	DNA topoisomerase (ATP-hydrolyzing) subunit B	WP_029531854.1
+RPHASCH2410_RS06765	tryptophan synthase subunit beta	WP_016736192.1
+RPHASCH2410_RS06770	tryptophan synthase subunit alpha	WP_016736191.1
+RPHASCH2410_RS06775	acetyl-CoA carboxylase carboxyl transferase	WP_012482102.1
+RPHASCH2410_RS06780	bifunctional folylpolyglutamate	WP_039752023.1
+RPHASCH2410_RS06785	thioredoxin	WP_004672616.1
+RPHASCH2410_RS06805	bifunctional tRNA	WP_016736185.1
+RPHASCH2410_RS06825	PTS fructose transporter subunit IIA	WP_004672623.1
+RPHASCH2410_RS06845	phosphoenolpyruvate carboxykinase	WP_016736179.1
+RPHASCH2410_RS06850	aminoacyl-tRNA hydrolase	WP_012482113.1
+RPHASCH2410_RS06855	alpha-ketoglutarate-dependent dioxygenase AlkB	WP_010021076.1
+RPHASCH2410_RS06860	type I pantothenate kinase	WP_012482115.1
+RPHASCH2410_RS06870	imidazole glycerol phosphate synthase subunit	WP_012482116.1
+RPHASCH2410_RS06875	1-(5-phosphoribosyl)-5-((5-	WP_012482117.1
+RPHASCH2410_RS06890	imidazole glycerol phosphate synthase subunit	WP_012482120.1
+RPHASCH2410_RS06900	imidazoleglycerol-phosphate dehydratase	WP_012482121.1
+RPHASCH2410_RS06905	HslU--HslV peptidase proteolytic subunit	WP_012482122.1
+RPHASCH2410_RS06910	HslU--HslV peptidase ATPase subunit	WP_012482123.1
+RPHASCH2410_RS06925	malate synthase G	WP_016736175.1
+RPHASCH2410_RS06950	ATP-dependent helicase HrpB	WP_012482129.1
+RPHASCH2410_RS07095	ABC transporter ATP-binding protein	WP_012482152.1
+RPHASCH2410_RS07110	mannitol dehydrogenase family protein	WP_016735206.1
+RPHASCH2410_RS07135	4-aminobutyrate--2-oxoglutarate transaminase	WP_016735201.1
+RPHASCH2410_RS07155	30S ribosomal protein S1	WP_012482163.1
+RPHASCH2410_RS07160	(d)CMP kinase	WP_016735197.1
+RPHASCH2410_RS07200	DUF3300 domain-containing protein	WP_016735193.1
+RPHASCH2410_RS07210	DUF3302 domain-containing protein	WP_016735191.1
+RPHASCH2410_RS07215	HlyD family secretion protein	WP_016735190.1
+RPHASCH2410_RS07255	putrescine-ornithine antiporter	WP_016735183.1
+RPHASCH2410_RS07260	amino acid decarboxylase	WP_016735182.1
+RPHASCH2410_RS07265	lysine decarboxylase	WP_016735181.1
+RPHASCH2410_RS07285	carbamate kinase	WP_016735177.1
+RPHASCH2410_RS07290	ornithine carbamoyltransferase	WP_016735176.1
+RPHASCH2410_RS07365	trimeric intracellular cation channel family	WP_016735162.1
+RPHASCH2410_RS07375	3-hydroxyacyl-[acyl-carrier-protein] dehydratase	WP_016735160.1
+RPHASCH2410_RS07380	beta-ketoacyl-[acyl-carrier-protein] synthase I	WP_012482204.1
+RPHASCH2410_RS07395	polyribonucleotide nucleotidyltransferase	WP_016735157.1
+RPHASCH2410_RS07400	30S ribosomal protein S15	WP_029531690.1
+RPHASCH2410_RS07410	tRNA pseudouridine(55) synthase TruB	WP_016735154.1
+RPHASCH2410_RS07420	translation initiation factor IF-2	WP_016735153.1
+RPHASCH2410_RS19765	sugar-binding transcriptional regulator	WP_016733256.1
+RPHASCH2410_RS19820	molybdenum cofactor guanylyltransferase MobA	WP_029531281.1
+RPHASCH2410_RS19825	molybdopterin-guanine dinucleotide biosynthesis	WP_016733267.1
+RPHASCH2410_RS19840	LysR family transcriptional regulator	WP_012484080.1
+RPHASCH2410_RS19900	ABC transporter permease	WP_004678349.1
+RPHASCH2410_RS19955	ArsR family transcriptional regulator	WP_004678370.1
+RPHASCH2410_RS19965	NAD(P)-dependent oxidoreductase	WP_016733289.1
+RPHASCH2410_RS19995	Lrp/AsnC family transcriptional regulator	WP_004678404.1
+RPHASCH2410_RS20015	diacylglycerol kinase	WP_016733297.1
+RPHASCH2410_RS20060	ABC transporter permease	WP_004678436.1
+RPHASCH2410_RS20065	ABC transporter ATP-binding protein	WP_016733306.1
+RPHASCH2410_RS20075	glycoside hydrolase family 43 protein	WP_046977145.1
+RPHASCH2410_RS20080	glyceraldehyde 3-phosphate reductase	WP_016733311.1
+RPHASCH2410_RS20140	phosphogluconate dehydrogenase	WP_029531287.1
+RPHASCH2410_RS20230	nucleoside hydrolase	WP_016733323.1
+RPHASCH2410_RS20240	membrane protein	WP_016733325.1
+RPHASCH2410_RS20245	cob(I)yrinic acid a,c-diamide	WP_016733326.1
+RPHASCH2410_RS20265	RNA polymerase-binding protein DksA	WP_008525884.1
+RPHASCH2410_RS20275	amino acid regulated cytosolic protein	WP_029531255.1
+RPHASCH2410_RS20290	2-amino-4-hydroxy-6-	WP_012484014.1
+RPHASCH2410_RS20300	dihydropteroate synthase	WP_029531256.1
+RPHASCH2410_RS20340	sensor domain-containing diguanylate cyclase	WP_012484022.1
+RPHASCH2410_RS20355	ABC transporter ATP-binding protein	WP_012484025.1
+RPHASCH2410_RS20365	dipeptide epimerase	WP_012484027.1
+RPHASCH2410_RS20390	NADP-dependent malic enzyme	WP_016733222.1
+RPHASCH2410_RS20410	3-deoxy-7-phosphoheptulonate synthase	WP_029531262.1
+RPHASCH2410_RS20460	glutathione-disulfide reductase	WP_016733235.1
+RPHASCH2410_RS20470	acylphosphatase	WP_016733237.1
+RPHASCH2410_RS20480	ribose-5-phosphate isomerase	WP_016733238.1
+RPHASCH2410_RS20495	class II fumarate hydratase	WP_016733242.1
+RPHASCH2410_RS20510	fumarate hydratase	WP_016733244.1
+RPHASCH2410_RS20550	GTP 3,8-cyclase MoaA	WP_016733252.1
+RPHASCH2410_RS20570	N-acetyltransferase	WP_016733120.1
+RPHASCH2410_RS20590	nitroreductase	WP_016733124.1
+RPHASCH2410_RS20600	threonine--tRNA ligase	WP_016733126.1
+RPHASCH2410_RS20610	membrane protein insertion efficiency factor	WP_016733127.1
+RPHASCH2410_RS20620	GTP cyclohydrolase I FolE	WP_004680211.1
+RPHASCH2410_RS20625	phosphoribosyl-AMP cyclohydrolase	WP_004680212.1
+RPHASCH2410_RS20630	phosphoesterase	WP_004680213.1
+RPHASCH2410_RS20685	L-serine ammonia-lyase	WP_016733137.1
+RPHASCH2410_RS20735	lipoate--protein ligase B	WP_016733144.1
+RPHASCH2410_RS20755	S-(hydroxymethyl)glutathione dehydrogenase/class	WP_046977150.1
+RPHASCH2410_RS20760	GNAT family N-acetyltransferase	WP_016733148.1
+RPHASCH2410_RS20765	YaiI/YqxD family protein	WP_029531233.1
+RPHASCH2410_RS20770	QacE family quaternary ammonium compound efflux	WP_004675552.1
+RPHASCH2410_RS20800	RluA family pseudouridine synthase	WP_012483948.1
+RPHASCH2410_RS20825	glycine cleavage system protein T	WP_016733155.1
+RPHASCH2410_RS20830	glycine cleavage system protein H	WP_010017992.1
+RPHASCH2410_RS20835	glycine dehydrogenase	WP_016733156.1
+RPHASCH2410_RS20840	cell-wall lytic enzyme	WP_016733157.1
+RPHASCH2410_RS20850	Fe-S cluster assembly scaffold SufA	WP_012483959.1
+RPHASCH2410_RS20860	cysteine desulfurase	WP_016733160.1
+RPHASCH2410_RS20870	Fe-S cluster assembly ATPase SufC	WP_016733162.1
+RPHASCH2410_RS20880	Fe-S cluster assembly protein SufB	WP_004675596.1
+RPHASCH2410_RS20905	anhydro-N-acetylmuramic acid kinase	WP_016733167.1
+RPHASCH2410_RS20910	tyrosine--tRNA ligase	WP_004675609.1
+RPHASCH2410_RS20930	peroxiredoxin	WP_029531236.1
+RPHASCH2410_RS20960	4-hydroxyphenylacetate 3-monooxygenase	WP_029531238.1
+RPHASCH2410_RS20970	ribulose-phosphate 3-epimerase	WP_016733175.1
+RPHASCH2410_RS21015	phosphoribosylaminoimidazolesuccinocarboxamide	WP_004676256.1
+RPHASCH2410_RS21025	RNA 2-phosphotransferase	WP_016733183.1
+RPHASCH2410_RS21075	monothiol glutaredoxin, Grx4 family	WP_012483990.1
+RPHASCH2410_RS21090	GNAT family N-acetyltransferase	WP_012483993.1
+RPHASCH2410_RS21105	tRNA 2-thiocytidine(32) synthetase TtcA	WP_012483995.1
+RPHASCH2410_RS21110	glutaminase	WP_010024905.1
+RPHASCH2410_RS21115	30S ribosomal protein S4	WP_004676212.1
+RPHASCH2410_RS21125	glutamate racemase	WP_046977152.1
+RPHASCH2410_RS21130	RNA methyltransferase	WP_016733193.1
+RPHASCH2410_RS21170	alanine--tRNA ligase	WP_016733199.1
+RPHASCH2410_RS21175	DNA recombination/repair protein RecA	WP_004676193.1
+RPHASCH2410_RS21185	pseudouridine-5-phosphate glycosidase	WP_016733203.1
+RPHASCH2410_RS07435	transcription termination/antitermination	WP_004673395.1
+RPHASCH2410_RS07440	ribosome maturation factor RimP	WP_004673394.1
+RPHASCH2410_RS07455	lytic murein transglycosylase	WP_016735150.1
+RPHASCH2410_RS07460	recombination protein RecR	WP_004676724.1
+RPHASCH2410_RS07470	YbaB/EbfC family nucleoid-associated protein	WP_004676719.1
+RPHASCH2410_RS07475	DNA polymerase III subunit gamma/tau	WP_016735148.1
+RPHASCH2410_RS07485	NAD(+) diphosphatase	WP_016735146.1
+RPHASCH2410_RS07505	prephenate dehydratase	WP_004672645.1
+RPHASCH2410_RS07510	3-deoxy-manno-octulosonate cytidylyltransferase	WP_016735143.1
+RPHASCH2410_RS07535	D-glycerate dehydrogenase	WP_004672637.1
+RPHASCH2410_RS07545	molybdopterin-synthase adenylyltransferase MoeB	WP_010021212.1
+RPHASCH2410_RS07565	molecular chaperone DnaJ	WP_004672627.1
+RPHASCH2410_RS07570	molecular chaperone DnaK	WP_004672626.1
+RPHASCH2410_RS07605	DNA polymerase I	WP_016735133.1
+RPHASCH2410_RS07645	ribose 1,5-bisphosphate phosphokinase PhnN	WP_004677184.1
+RPHASCH2410_RS07650	alpha-D-ribose 1-methylphosphonate	WP_012482242.1
+RPHASCH2410_RS07675	phosphonate ABC transporter ATP-binding protein	WP_029531681.1
+RPHASCH2410_RS07685	phosphonate C-P lyase system protein PhnL	WP_016735121.1
+RPHASCH2410_RS07690	phosphonate C-P lyase system protein PhnK	WP_010010774.1
+RPHASCH2410_RS07695	carbon-phosphorus lyase complex subunit PhnJ	WP_004673514.1
+RPHASCH2410_RS07700	carbon-phosphorus lyase complex subunit PhnI	WP_016735120.1
+RPHASCH2410_RS07705	phosphonate C-P lyase system protein PhnH	WP_016735119.1
+RPHASCH2410_RS07710	phosphonate C-P lyase system protein PhnG	WP_016735118.1
+RPHASCH2410_RS07720	2,3-bisphosphoglycerate-dependent	WP_016735116.1
+RPHASCH2410_RS07725	4-hydroxy-tetrahydrodipicolinate reductase	WP_016735115.1
+RPHASCH2410_RS07730	ABC transporter ATP-binding protein	WP_004673526.1
+RPHASCH2410_RS07735	glucokinase	WP_016735114.1
+RPHASCH2410_RS07740	methylglyoxal synthase	WP_004673532.1
+RPHASCH2410_RS07745	penicillin-insensitive murein endopeptidase	WP_016735113.1
+RPHASCH2410_RS07750	ABC transporter substrate-binding protein	WP_016735112.1
+RPHASCH2410_RS07755	microcin C ABC transporter permease YejB	WP_004673538.1
+RPHASCH2410_RS07760	ABC transporter permease	WP_016735111.1
+RPHASCH2410_RS07765	ABC transporter ATP-binding protein	WP_016735110.1
+RPHASCH2410_RS07780	nicotinate phosphoribosyltransferase	WP_004673542.1
+RPHASCH2410_RS07840	purine-nucleoside phosphorylase	WP_016735102.1
+RPHASCH2410_RS07845	deoxyribose-phosphate aldolase	WP_004673564.1
+RPHASCH2410_RS07850	thymidine phosphorylase	WP_016735101.1
+RPHASCH2410_RS07860	uracil phosphoribosyltransferase	WP_004674949.1
+RPHASCH2410_RS07865	adenosine deaminase	WP_016735099.1
+RPHASCH2410_RS07870	phosphopentomutase	WP_029531678.1
+RPHASCH2410_RS07955	peptidoglycan endopeptidase	WP_016735092.1
+RPHASCH2410_RS07975	ABC transporter substrate-binding protein	WP_016735088.1
+RPHASCH2410_RS07995	formyltetrahydrofolate deformylase	WP_012482289.1
+RPHASCH2410_RS08050	sugar O-acetyltransferase	WP_016735076.1
+RPHASCH2410_RS08070	elongation factor 4	WP_016735074.1
+RPHASCH2410_RS08105	EamA family transporter	WP_016735068.1
+RPHASCH2410_RS08130	translation initiation factor IF-3	WP_077991295.1
+RPHASCH2410_RS08140	50S ribosomal protein L20	WP_004673860.1
+RPHASCH2410_RS08145	phenylalanine--tRNA ligase subunit alpha	WP_016735064.1
+RPHASCH2410_RS08150	phenylalanine--tRNA ligase subunit beta	WP_016735063.1
+RPHASCH2410_RS08170	ferritin-like domain-containing protein	WP_004673867.1
+RPHASCH2410_RS08190	gfo/Idh/MocA family oxidoreductase	WP_016735057.1
+RPHASCH2410_RS08215	exodeoxyribonuclease VII large subunit	WP_016735052.1
+RPHASCH2410_RS08220	flavodoxin family protein	WP_016735051.1
+RPHASCH2410_RS08225	MarR family transcriptional regulator	WP_016735050.1
+RPHASCH2410_RS08250	Cys-tRNA(Pro) deacylase	WP_016735045.1
+RPHASCH2410_RS08255	ArsC family reductase	WP_016735044.1
+RPHASCH2410_RS08290	YbhB/YbcL family Raf kinase inhibitor-like	WP_016735038.1
+RPHASCH2410_RS08315	GMP synthase (glutamine-hydrolyzing)	WP_016735033.1
+RPHASCH2410_RS08370	tRNA epoxyqueuosine(34) reductase QueG	WP_016735023.1
+RPHASCH2410_RS08380	undecaprenyl-diphosphatase	WP_010014908.1
+RPHASCH2410_RS08395	orotidine-5-phosphate decarboxylase	WP_016735019.1
+RPHASCH2410_RS08410	DUF72 domain-containing protein	WP_016735016.1
+RPHASCH2410_RS08415	DNA polymerase III subunit beta	WP_012482366.1
+RPHASCH2410_RS08420	16S rRNA	WP_012482367.1
+RPHASCH2410_RS08435	glutathione synthase	WP_016735014.1
+RPHASCH2410_RS08440	ATP-binding protein	WP_016735013.1
+RPHASCH2410_RS08450	cysteine synthase A	WP_016735011.1
+RPHASCH2410_RS08470	dUTP diphosphatase	WP_016735007.1
+RPHASCH2410_RS08475	peptide chain release factor 3	WP_016735006.1
+RPHASCH2410_RS08505	MFS transporter	WP_016735000.1
+RPHASCH2410_RS08520	bifunctional phosphopantothenoylcysteine	WP_016734998.1
+RPHASCH2410_RS08535	MFS transporter	WP_029531660.1
+RPHASCH2410_RS08575	2-polyprenylphenol 6-hydroxylase	WP_016734989.1
+RPHASCH2410_RS08580	bifunctional demethylmenaquinone	WP_016734988.1
+RPHASCH2410_RS08585	formamidopyrimidine-DNA glycosylase	WP_012482401.1
+RPHASCH2410_RS08590	enoyl-CoA hydratase	WP_016734987.1
+RPHASCH2410_RS08600	chromosomal replication initiator protein DnaA	WP_012482404.1
+RPHASCH2410_RS08610	radical SAM protein	WP_016734985.1
+RPHASCH2410_RS08615	non-canonical purine NTP pyrophosphatase,	WP_016734984.1
+RPHASCH2410_RS08625	ribonuclease PH	WP_010024267.1
+RPHASCH2410_RS08635	nucleotide exchange factor GrpE	WP_010025709.1
+RPHASCH2410_RS08640	nucleoside hydrolase	WP_016734981.1
+RPHASCH2410_RS08655	tRNA (guanosine(46)-N7)-methyltransferase TrmB	WP_016734980.1
+RPHASCH2410_RS08660	methionine adenosyltransferase	WP_012482410.1
+RPHASCH2410_RS08680	endoribonuclease YbeY	WP_016734976.1
+RPHASCH2410_RS08685	phosphate starvation-inducible protein PhoH	WP_004679840.1
+RPHASCH2410_RS08690	tRNA (N6-isopentenyl	WP_016734974.1
+RPHASCH2410_RS08700	transcriptional repressor	WP_010004259.1
+RPHASCH2410_RS08710	tRNA	WP_012482416.1
+RPHASCH2410_RS08725	tryptophan--tRNA ligase	WP_004679829.1
+RPHASCH2410_RS08740	murein biosynthesis integral membrane protein	WP_016734971.1
+RPHASCH2410_RS08745	[protein-PII] uridylyltransferase	WP_016734970.1
+RPHASCH2410_RS08755	DNA mismatch repair protein MutS	WP_016734968.1
+RPHASCH2410_RS08780	signal peptidase II	WP_016734964.1
+RPHASCH2410_RS08785	RNA methyltransferase	WP_016734963.1
+RPHASCH2410_RS08810	integration host factor subunit beta	WP_003544934.1
+RPHASCH2410_RS08815	signal peptide peptidase SppA	WP_016734957.1
+RPHASCH2410_RS08830	LPS export ABC transporter ATP-binding protein	WP_003570776.1
+RPHASCH2410_RS08850	PTS IIA-like nitrogen-regulatory protein PtsN	WP_003570770.1
+RPHASCH2410_RS08855	methyl-accepting chemotaxis protein	WP_012482436.1
+RPHASCH2410_RS08875	peptide deformylase	WP_029531659.1
+RPHASCH2410_RS08890	methionyl-tRNA formyltransferase	WP_016734947.1
+RPHASCH2410_RS08895	tRNA pseudouridine(38-40) synthase TruA	WP_016734946.1
+RPHASCH2410_RS08905	succinyl-diaminopimelate desuccinylase	WP_029531658.1
+RPHASCH2410_RS08910	2,3,4,5-tetrahydropyridine-2,6-dicarboxylate	WP_016734945.1
+RPHASCH2410_RS08935	6-O-methylguanine DNA methyltransferase	WP_016734937.1
+RPHASCH2410_RS08990	YihA family ribosome biogenesis GTP-binding	WP_016734930.1
+RPHASCH2410_RS08995	membrane protein insertase YidC	WP_029531655.1
+RPHASCH2410_RS09170	nucleoside triphosphate hydrolase	WP_016734904.1
+RPHASCH2410_RS09175	dihydroorotase	WP_016734903.1
+RPHASCH2410_RS09200	orotate phosphoribosyltransferase	WP_016734900.1
+RPHASCH2410_RS09210	alpha,alpha-trehalose-phosphate synthase	WP_016734898.1
+RPHASCH2410_RS09215	glucose-6-phosphate isomerase	WP_016734897.1
+RPHASCH2410_RS09220	long-chain-fatty-acid--CoA ligase	WP_016734896.1
+RPHASCH2410_RS09240	ABC transporter permease	WP_012482530.1
+RPHASCH2410_RS09245	ABC transporter ATP-binding protein	WP_012482531.1
+RPHASCH2410_RS09250	ABC transporter permease	WP_012482532.1
+RPHASCH2410_RS09255	ABC transporter substrate-binding protein	WP_016734892.1
+RPHASCH2410_RS09265	copper homeostasis protein CutC	WP_016734890.1
+RPHASCH2410_RS09270	dehydrogenase	WP_016734889.1
+RPHASCH2410_RS09290	fucose-binding protein	WP_016734886.1
+RPHASCH2410_RS09300	altronate dehydratase	WP_016734884.1
+RPHASCH2410_RS09305	FCD domain-containing protein	WP_016734883.1
+RPHASCH2410_RS09355	phosphate regulon sensor histidine kinase PhoR	WP_016734874.1
+RPHASCH2410_RS09375	phosphate ABC transporter ATP-binding protein	WP_004672770.1
+RPHASCH2410_RS09380	phosphate transport system regulatory protein	WP_004672769.1
+RPHASCH2410_RS09385	phosphate regulon transcriptional regulatory	WP_004672768.1
+RPHASCH2410_RS09395	acetylornithine transaminase	WP_012482560.1
+RPHASCH2410_RS09405	Hsp33 family molecular chaperone	WP_012482562.1
+RPHASCH2410_RS09415	Co2+/Mg2+ efflux protein ApaG	WP_004677057.1
+RPHASCH2410_RS09485	dihydroorotate dehydrogenase (quinone)	WP_016734864.1
+RPHASCH2410_RS09490	MATE family efflux transporter	WP_016734863.1
+RPHASCH2410_RS09560	hemagglutinin	WP_016734852.1
+RPHASCH2410_RS09585	3-hydroxyacyl-CoA dehydrogenase	WP_016734848.1
+RPHASCH2410_RS09625	large conductance mechanosensitive channel	WP_016734843.1
+RPHASCH2410_RS09635	UDP-glucose 4-epimerase GalE	WP_010007992.1
+RPHASCH2410_RS09695	UDP-N-acetylglucosamine	WP_016734835.1
+RPHASCH2410_RS09705	histidinol dehydrogenase	WP_016734833.1
+RPHASCH2410_RS09720	translation initiation factor IF-1	WP_003545338.1
+RPHASCH2410_RS09725	Maf-like protein	WP_012482617.1
+RPHASCH2410_RS09790	LysR family transcriptional regulator	WP_016734824.1
+RPHASCH2410_RS09815	RidA family protein	WP_012482632.1
+RPHASCH2410_RS09860	LacI family transcriptional regulator	WP_004674538.1
+RPHASCH2410_RS09870	sugar ABC transporter substrate-binding protein	WP_012482641.1
+RPHASCH2410_RS09975	protein translocase subunit SecDF	WP_016734797.1
+RPHASCH2410_RS09985	Kef family K(+) transporter	WP_016734795.1
+RPHASCH2410_RS10015	chemotaxis protein CheA	WP_016734791.1
+RPHASCH2410_RS10020	chemotaxis protein CheW	WP_010021829.1
+RPHASCH2410_RS10025	chemotaxis protein	WP_012482666.1
+RPHASCH2410_RS10070	flagellar biosynthesis protein FlhB	WP_029531633.1
+RPHASCH2410_RS10080	flagellar motor switch protein FliN	WP_012482673.1
+RPHASCH2410_RS10090	flagellar motor stator protein MotA	WP_012482675.1
+RPHASCH2410_RS10115	flagellar basal body rod protein FlgC	WP_012482680.1
+RPHASCH2410_RS10125	flagellar basal-body rod protein FlgG	WP_010023131.1
+RPHASCH2410_RS10135	flagellar P-ring protein	WP_012482683.1
+RPHASCH2410_RS10155	flagellar biosynthetic protein FliP	WP_004672297.1
+RPHASCH2410_RS10190	flagellar motor protein MotB	WP_046977094.1
+RPHASCH2410_RS10215	flagellar hook protein FlgE	WP_016734770.1
+RPHASCH2410_RS10250	flagellar biosynthesis protein FlhA	WP_004672323.1
+RPHASCH2410_RS10330	phosphogluconate dehydratase	WP_016734759.1
+RPHASCH2410_RS10340	glucose-6-phosphate dehydrogenase	WP_004673775.1
+RPHASCH2410_RS10355	NAD(P)/FAD-dependent oxidoreductase	WP_016734755.1
+RPHASCH2410_RS10390	isocitrate lyase	WP_046977095.1
+RPHASCH2410_RS10400	polyamine ABC transporter substrate-binding	WP_012482723.1
+RPHASCH2410_RS10405	ABC transporter ATP-binding protein	WP_016734746.1
+RPHASCH2410_RS10410	putrescine/spermidine ABC transporter permease	WP_012482725.1
+RPHASCH2410_RS10415	putrescine ABC transporter permease PotI	WP_016734745.1
+RPHASCH2410_RS10475	transcriptional regulator	WP_011424096.1
+RPHASCH2410_RS10480	ABC transporter substrate-binding protein	WP_016734734.1
+RPHASCH2410_RS10485	peptide ABC transporter permease	WP_004676182.1
+RPHASCH2410_RS10490	dipeptide ABC transporter permease DppC	WP_012482735.1
+RPHASCH2410_RS10495	ABC transporter ATP-binding protein	WP_016734733.1
+RPHASCH2410_RS10500	ABC transporter ATP-binding protein	WP_004676185.1
+RPHASCH2410_RS10505	gluconokinase	WP_016734732.1
+RPHASCH2410_RS10540	glycosyltransferase	WP_016734725.1
+RPHASCH2410_RS10555	hypothetical protein	WP_016734722.1
+RPHASCH2410_RS10620	DegT/DnrJ/EryC1/StrS family aminotransferase	WP_016734709.1
+RPHASCH2410_RS10640	GDP-mannose 4,6-dehydratase	WP_016734705.1
+RPHASCH2410_RS10645	GDP-L-fucose synthase	WP_016734704.1
+RPHASCH2410_RS10660	ribosomal RNA large subunit methyltransferase E	WP_012482788.1
+RPHASCH2410_RS10670	MFS transporter	WP_012482790.1
+RPHASCH2410_RS10680	IMP dehydrogenase	WP_012482792.1
+RPHASCH2410_RS10710	LysR family transcriptional regulator	WP_012482798.1
+RPHASCH2410_RS10745	LysR family transcriptional regulator	WP_016734691.1
+RPHASCH2410_RS10750	FAD-binding oxidoreductase	WP_016734690.1
+RPHASCH2410_RS10755	glycolate oxidase subunit GlcE	WP_016734689.1
+RPHASCH2410_RS10760	glycolate oxidase iron-sulfur subunit	WP_029531626.1
+RPHASCH2410_RS10780	L,D-transpeptidase	WP_016734686.1
+RPHASCH2410_RS10785	DNA-3-methyladenine glycosylase I	WP_012482812.1
+RPHASCH2410_RS10840	glutathione S-transferase	WP_016734678.1
+RPHASCH2410_RS10850	molecular chaperone GroEL	WP_016734675.1
+RPHASCH2410_RS10865	bifunctional riboflavin kinase/FAD synthetase	WP_029531622.1
+RPHASCH2410_RS10880	isoleucine--tRNA ligase	WP_029531621.1
+RPHASCH2410_RS10890	nucleoside deaminase	WP_016734672.1
+RPHASCH2410_RS10895	pseudouridylate synthase	WP_016734671.1
+RPHASCH2410_RS10900	16S rRNA (guanine(966)-N(2))-methyltransferase	WP_016734670.1
+RPHASCH2410_RS10920	potassium transporter TrkA	WP_016734667.1
+RPHASCH2410_RS10925	TldD/PmbA family protein	WP_012482838.1
+RPHASCH2410_RS10940	3-deoxy-D-manno-octulosonic acid transferase	WP_012482840.1
+RPHASCH2410_RS10950	tetraacyldisaccharide 4-kinase	WP_046977097.1
+RPHASCH2410_RS10965	DNA mismatch repair endonuclease MutL	WP_016734663.1
+RPHASCH2410_RS10990	2-dehydro-3-deoxy-6-phosphogalactonate aldolase	WP_016734659.1
+RPHASCH2410_RS10995	2-dehydro-3-deoxygalactonokinase	WP_016734658.1
+RPHASCH2410_RS11005	IclR family transcriptional regulator	WP_016734656.1
+RPHASCH2410_RS11020	Fe-S-binding ATPase	WP_004680421.1
+RPHASCH2410_RS11025	magnesium transporter	WP_012482854.1
+RPHASCH2410_RS11030	potassium transporter Kup	WP_004680422.1
+RPHASCH2410_RS11065	ribonuclease HII	WP_016734650.1
+RPHASCH2410_RS11085	molybdenum cofactor biosynthesis protein B	WP_016734646.1
+RPHASCH2410_RS11090	4-(cytidine	WP_016734645.1
+RPHASCH2410_RS11100	polyprenyl synthetase family protein	WP_029531617.1
+RPHASCH2410_RS11115	divalent metal cation transporter	WP_016734641.1
+RPHASCH2410_RS11120	S49 family peptidase	WP_004672606.1
+RPHASCH2410_RS11130	glycine--tRNA ligase subunit alpha	WP_016734639.1
+RPHASCH2410_RS11155	3-phosphoshikimate 1-carboxyvinyltransferase	WP_016734636.1
+RPHASCH2410_RS11160	DUF2207 domain-containing protein	WP_016734635.1
+RPHASCH2410_RS11165	phosphoribosylamine--glycine ligase	WP_016734634.1
+RPHASCH2410_RS11180	glycine--tRNA ligase subunit beta	WP_016734631.1
+RPHASCH2410_RS11185	RNA-binding transcriptional accessory protein	WP_016734630.1
+RPHASCH2410_RS11195	histidine phosphatase family protein	WP_012482876.1
+RPHASCH2410_RS11205	4-hydroxybenzoate octaprenyltransferase	WP_029531616.1
+RPHASCH2410_RS11225	threonylcarbamoyl-AMP synthase	WP_029531614.1
+RPHASCH2410_RS11235	aromatic ring-hydroxylating dioxygenase subunit	WP_029531613.1
+RPHASCH2410_RS11295	1-deoxy-D-xylulose-5-phosphate synthase	WP_016734613.1
+RPHASCH2410_RS11315	exodeoxyribonuclease 7 small subunit	WP_003545921.1
+RPHASCH2410_RS11340	malonyl-CoA synthase	WP_016734605.1
+RPHASCH2410_RS11405	winged helix-turn-helix domain-containing	WP_016734593.1
+RPHASCH2410_RS11410	3,4-dihydroxy-2-butanone-4-phosphate synthase	WP_004674139.1
+RPHASCH2410_RS11415	chorismate synthase	WP_029531608.1
+RPHASCH2410_RS11435	enoyl-[acyl-carrier-protein] reductase FabI	WP_016734590.1
+RPHASCH2410_RS11450	pyridoxine/pyridoxamine 5-phosphate oxidase	WP_012482924.1
+RPHASCH2410_RS11470	inorganic phosphate transporter	WP_016734587.1
+RPHASCH2410_RS11485	metalloprotease TldD	WP_016734584.1
+RPHASCH2410_RS11545	4-hydroxy-3-methylbut-2-enyl diphosphate	WP_016734576.1
+RPHASCH2410_RS11555	ribonuclease H	WP_010032196.1
+RPHASCH2410_RS11575	DUF179 domain-containing protein	WP_004673076.1
+RPHASCH2410_RS11620	N-acetyltransferase	WP_004673096.1
+RPHASCH2410_RS11630	threonine synthase	WP_016734566.1
+RPHASCH2410_RS11650	MFS transporter	WP_046977101.1
+RPHASCH2410_RS11700	site-specific DNA-methyltransferase	WP_012482959.1
+RPHASCH2410_RS11715	A/G-specific adenine glycosylase	WP_016734552.1
+RPHASCH2410_RS11730	LacI family transcriptional regulator	WP_016734548.1
+RPHASCH2410_RS11740	ABC transporter permease	WP_016734546.1
+RPHASCH2410_RS11870	acyl-[ACP]--phospholipid O-acyltransferase	WP_029531592.1

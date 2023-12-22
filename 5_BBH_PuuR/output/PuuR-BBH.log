@@ -1,0 +1,328 @@
+
+P A U P *
+Version 4.0a (build 168) for Unix/Linux (built on Aug  2 2020 at 07:10:27)
+Tue Nov  7 23:21:54 2023
+
+
+paup> exe PuuR-BBH-sequences_cluAln.nex;
+
+Processing of file "~/5_BBH_PuuR/output/PuuR-BBH-sequences_cluAln.nex" begins...
+
+Data read in 'protein' format
+
+Data matrix has 9 taxa, 186 characters
+Valid character-state symbols: ARNDCQEGHILKMFPSTWYV
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   B,b ==> {DN}
+   Z,z ==> {EQ}
+   X,x ==> {ARNDCQEGHILKMFPSTWYV}
+
+Processing of input file "PuuR-BBH-sequences_cluAln.nex" completed.
+
+paup> set criterion=parsimony; 
+
+paup> cstatus;
+
+Character-status summary:
+  Current optimality criterion = parsimony
+  No characters are excluded
+  Of 186 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+    60 characters are constant (proportion = 0.322581)
+    84 variable characters are parsimony-uninformative
+    Number of parsimony-informative characters = 42
+
+paup> hsearch nbest=5;
+
+Heuristic search settings:
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 186 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        60 characters are constant (proportion = 0.322581)
+        84 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 42
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: simple (reference taxon = Bradyrhizobium diazoefficiens WP 011085008.1)
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+    Saving 5 best trees found by branch-swapping (on best trees only)
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Heuristic search completed
+  Total number of rearrangements tried = 172
+  Score of best tree(s) found = 187
+  Number of trees retained = 5
+  Time used = 0.00 sec (CPU time = 0.00 sec)
+
+paup> outgroup Escherichia_coli_NP_415815.1;
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 8
+
+paup> Showtree all;
+
+Tree 1 (rooted using user-specified outgroup)
+
+                                                       /----------- Bradyrhizobium diazoefficiens WP
+                      /--------------------------------+
+                      |                                \----------- Bradyrhizobium japonicum WP 0144
+                      |
+           /----------+                                /----------- Sinorhizobium fredii WP 01433031
+           |          |          /---------------------+
+           |          |          |                     \----------- Sinorhizobium meliloti WP 010970
+           |          |          |
+           |          \----------+                     /----------- Rhizobium etli WP 020919480.1
+/----------+                     |          /----------+
+|          |                     |          |          \----------- Rhizobium phaseoli WP 029531806.
+|          |                     \----------+
+|          |                                \---------------------- Rhizobium leguminosarum WP 01824
+|          |
+|          \------------------------------------------------------- Bradyrhizobium australiense WP 0
+|
+\------------------------------------------------------------------ Escherichia coli NP 415815.1
+
+Tree 2 (rooted using user-specified outgroup)
+
+                                                       /----------- Bradyrhizobium diazoefficiens WP
+                                            /----------+
+                                            |          \----------- Bradyrhizobium japonicum WP 0144
+           /--------------------------------+
+           |                                \---------------------- Bradyrhizobium australiense WP 0
+           |
+           |                     /--------------------------------- Sinorhizobium fredii WP 01433031
+/----------+                     |
+|          |          /----------+                     /----------- Rhizobium etli WP 020919480.1
+|          |          |          |          /----------+
+|          |          |          |          |          \----------- Rhizobium phaseoli WP 029531806.
+|          \----------+          \----------+
+|                     |                     \---------------------- Rhizobium leguminosarum WP 01824
+|                     |
+|                     \-------------------------------------------- Sinorhizobium meliloti WP 010970
+|
+\------------------------------------------------------------------ Escherichia coli NP 415815.1
+
+Tree 3 (rooted using user-specified outgroup)
+
+                                                       /----------- Bradyrhizobium diazoefficiens WP
+           /-------------------------------------------+
+           |                                           \----------- Bradyrhizobium japonicum WP 0144
+           |
+/----------+          /-------------------------------------------- Bradyrhizobium australiense WP 0
+|          |          |
+|          |          |                                /----------- Sinorhizobium fredii WP 01433031
+|          \----------+          /---------------------+
+|                     |          |                     \----------- Sinorhizobium meliloti WP 010970
+|                     |          |
+|                     \----------+                     /----------- Rhizobium etli WP 020919480.1
+|                                |          /----------+
+|                                |          |          \----------- Rhizobium phaseoli WP 029531806.
+|                                \----------+
+|                                           \---------------------- Rhizobium leguminosarum WP 01824
+|
+\------------------------------------------------------------------ Escherichia coli NP 415815.1
+
+Tree 4 (rooted using user-specified outgroup)
+
+                                                     /------------- Bradyrhizobium diazoefficiens WP
+                                        /------------+
+                                        |            \------------- Bradyrhizobium japonicum WP 0144
+             /--------------------------+
+             |                          \-------------------------- Bradyrhizobium australiense WP 0
+             |
+/------------+                                       /------------- Sinorhizobium fredii WP 01433031
+|            |            /--------------------------+
+|            |            |                          \------------- Sinorhizobium meliloti WP 010970
+|            |            |
+|            \------------+                          /------------- Rhizobium etli WP 020919480.1
+|                         |             /------------+
+|                         |             |            \------------- Rhizobium phaseoli WP 029531806.
+|                         \-------------+
+|                                       \-------------------------- Rhizobium leguminosarum WP 01824
+|
+\------------------------------------------------------------------ Escherichia coli NP 415815.1
+
+Tree 5 (rooted using user-specified outgroup)
+
+                                                     /------------- Bradyrhizobium diazoefficiens WP
+                                        /------------+
+                                        |            \------------- Bradyrhizobium japonicum WP 0144
+                          /-------------+
+                          |             \-------------------------- Bradyrhizobium australiense WP 0
+                          |
+             /------------+                          /------------- Rhizobium etli WP 020919480.1
+             |            |             /------------+
+             |            |             |            \------------- Rhizobium phaseoli WP 029531806.
+/------------+            \-------------+
+|            |                          \-------------------------- Rhizobium leguminosarum WP 01824
+|            |
+|            |                                       /------------- Sinorhizobium fredii WP 01433031
+|            \---------------------------------------+
+|                                                    \------------- Sinorhizobium meliloti WP 010970
+|
+\------------------------------------------------------------------ Escherichia coli NP 415815.1
+
+paup> describetrees 4/ plot=phylogram brlens=yes rootmethod=outgroup;
+
+Tree description:
+
+  Unrooted tree(s) rooted using outgroup method
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 186 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        60 characters are constant (proportion = 0.322581)
+        84 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 42
+    Gaps are treated as "missing"
+    Character-state optimization: Accelerated transformation (ACCTRAN)
+
+Tree 4 (rooted using user-specified outgroup)
+
+Branch lengths and linkages for tree #4 (unrooted)
+
+                                     Assigned       Minimum       Maximum
+                    Connected          branch      possible      possible
+   Node              to node           length        length        length
+-------------------------------------------------------------------------
+Escherichia coli (9)*   14                120            99           120
+    15                  14                  9             1            20
+    16                  15                 10             8            14
+Bradyrhizobium d (1)    16                  1             1             1
+Bradyrhizobium j (2)    16                  2             2             2
+Bradyrhizobium a (3)    15                  8             4            10
+    13                  14                 11             1            21
+    10                  13                  3             1             5
+Sinorhizobium fr (4)    10                  2             2             4
+Sinorhizobium me (5)    10                  8             6             8
+    12                  13                  5             3             8
+    11                  12                  5             4             5
+Rhizobium etli W (6)    11                  1             1             1
+Rhizobium phaseo (7)    11                  3             3             3
+Rhizobium legumi (8)    12                  0             0             1
+-------------------------------------------------------------------------
+Sum                                       188
+
+Tree length = 188
+Consistency index (CI) = 0.9415
+Homoplasy index (HI) = 0.0585
+CI excluding uninformative characters = 0.8842
+HI excluding uninformative characters = 0.1158
+Retention index (RI) = 0.8493
+Rescaled consistency index (RC) = 0.7996
+
+                                                             /- Bradyrhizobium diazoefficiens WP
+                                                    /-------16
+                                                    |        \-- Bradyrhizobium japonicum WP 0144
+                                            /------15
+                                            |       \-------- Bradyrhizobium australiense WP 0
+                                            |
+/------------------------------------------14            /-- Sinorhizobium fredii WP 01433031
+|                                           |         /-10
+|                                           |         |  \------- Sinorhizobium meliloti WP 010970
+|                                           |         |
+|                                           \--------13        /- Rhizobium etli WP 020919480.1
+|                                                     |    /--11
+|                                                     |    |   \--- Rhizobium phaseoli WP 029531806.
+|                                                     \---12
+|                                                          \ Rhizobium leguminosarum WP 01824
+|
+\------------------------------------------------------------------ Escherichia coli NP 415815.1
+
+paup> SAVETREES file=PuuR-BBH.tree brlens=yes format = newick replace;
+
+5 trees saved to file "~/5_BBH_PuuR/output/PuuR-BBH.tree" in raw Newick format
+
+paup> bootstrap treeFile=MP_BootstrapTreeFilea.tre nreps=1000 conLevel=50 brLens=yes replace=yes format=Newick search=heuristic keepAll=yes/nbest=0;
+
+Bootstrap method with heuristic search:
+  Number of bootstrap replicates = 1000
+  Starting seed = generated automatically
+  Number of characters resampled in each replicate = 186
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 186 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        60 characters are constant (proportion = 0.322581)
+        84 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 42
+    Gaps are treated as "missing"
+  Starting tree(s) obtained via stepwise addition
+    Addition sequence: simple (reference taxon = Bradyrhizobium diazoefficiens WP 011085008.1)
+    Number of trees held at each step = 1
+  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+    Steepest descent option not in effect
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+  1000 bootstrap replicates completed
+  Time used = 0.87 sec (CPU time = 0.86 sec)
+
+Trees for each replicate written to treefile: ~/5_BBH_PuuR/output/MP_BootstrapTreeFilea.tre
+
+Bootstrap 50% majority-rule consensus tree
+   (plus other groups compatible with this tree)
+
+                                                  /------------- Bradyrhizobium diazoefficiens WP(1)
+                                      /----92-----+
+                                      |           \------------- Bradyrhizobium japonicum WP 0144(2)
+             /-----------51-----------+
+             |                        \------------------------- Bradyrhizobium australiense WP 0(3)
+             |
+/------------+                                    /------------- Sinorhizobium fredii WP 01433031(4)
+|            |           /-----------64-----------+
+|            |           |                        \------------- Sinorhizobium meliloti WP 010970(5)
+|            |           |
+|            \----57-----+                        /------------- Rhizobium etli WP 020919480.1(6)
+|                        |            /----69-----+
+|                        |            |           \------------- Rhizobium phaseoli WP 029531806.(7)
+|                        \-----68-----+
+|                                     \------------------------- Rhizobium leguminosarum WP 01824(8)
+|
+\--------------------------------------------------------------- Escherichia coli NP 415815.1(9)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+123456789          Freq        %
+--------------------------------
+..*******        924.23   92.42%
+.....**..        688.76   68.88%
+.....***.        682.32   68.23%
+...**....        640.94   64.09%
+...*****.        574.55   57.45%
+...******        507.18   50.72%
+..*.....*        343.91   34.39%
+.....**.*        303.91   30.39%
+.....****        301.16   30.12%
+...*.***.        210.18   21.02%
+.....*..*        156.45   15.65%
+..******.        148.91   14.89%
+......*.*        141.05   14.11%
+...**...*        110.85   11.09%
+...*.****        106.37   10.64%
+.*******.         74.47    7.45%
+
+15 groups at (relative) frequency less than 5% not shown
+
+paup> savetrees from=1 to=1 file=bootstrap_trees.tre format=newick savebootp=nodelabels;
+
+1 tree saved to file "~/5_BBH_PuuR/output/bootstrap_trees.tre" in raw Newick format
+
+paup> q

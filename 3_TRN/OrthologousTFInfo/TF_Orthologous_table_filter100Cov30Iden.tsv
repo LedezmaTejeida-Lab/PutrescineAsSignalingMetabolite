@@ -1,0 +1,42 @@
+EC_locusTag	NCBI_name	Regulondb_name	Abasy_name	Ecocyc_name	Synonyms
+b0313	betI	betI	betI	betI	
+b0447	decR	decR	NA	decR	ybaO // cyuR
+b0464	acrR	acrR	acrR	acrR	ybaH
+b0487	cueR	cueR	cueR	cueR	copR // ybbI
+b0889	lrp	lrp	lrp	lrp	rblA // oppI // mbf // lstR // alsB // ihb // livR // lrs // lss
+b1013	rutR	rutR	rutR	rutR	ycdC
+b1111	comR	comR	comR	comR	ycfQ
+b1299	puuR	puuR	puuR	puuR	ycjC
+b1328	pgrR	pgrR	pgrR	pgrR	ycjZ
+b1334	fnr	fnr	fnr	fnr	nirA // nirR // ossA // oxrA
+b1642	slyA	slyA	slyA	slyA	
+b1658	purR	purR	purR	purR	
+b1790	nimR	nimR	NA	nimR	yeaM
+b1853	yebK	yebK	NA	yebK	hexR(P.a.)
+b1914	uvrY	uvrY	uvrY	uvrY	yecB
+b1988	nac	nac	nac	nac	
+b2079	baeR	baeR	baeR	baeR	
+b2193	narP	narP	narP	narP	
+b2220	atoC	atoC	atoC	atoC	
+b2531	iscR	iscR	iscR	iscR	yfhP
+b2808	gcvA	gcvA	gcvA	gcvA	
+b2837	galR	galR	galR	galR	Rgal
+b2839	lysR	lysR	NA	lysR	
+b2916	argP	argP	argP	argP	iciA
+b3060	ttdR	ttdR	ttdR	ttdR	dan // ygiP
+b3094	exuR	exuR	exuR	exuR	
+b3226	nanR	nanR	nanR	nanR	yhcK
+b3264	envR	envR	envR	envR	acrS // yhdK
+b3292	zntR	zntR	zntR	zntR	yhdM
+b3422	rtcR	rtcR	NA	rtcR	yhgB
+b3501	arsR	arsR	arsR	arsR	arsE
+b3753	rbsR	rbsR	rbsR	rbsR	
+b3868	glnG	glnG	glnG	glnG	glnT // ntrC
+b3884	csqR	csqR	NA	csqR	yihW
+b3905	rhaS	rhaS	rhaS	rhaS	rhaC2
+b3934	cytR	cytR	cytR	cytR	
+b4063	soxR	soxR	soxR	soxR	marC
+b4178	nsrR	nsrR	nsrR	nsrR	yjeB
+b4191	ulaR	ulaR	ulaR	ulaR	yjfQ
+b4396	rob	rob	rob	rob	cbpB // robA
+b3438	gntR	gntR	gntR	gntR	
