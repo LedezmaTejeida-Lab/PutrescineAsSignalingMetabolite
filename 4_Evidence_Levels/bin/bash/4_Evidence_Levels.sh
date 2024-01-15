@@ -1,9 +1,43 @@
+# Name:
+#  4_Evidence_Levels.sh
+# Author:
+#  Hernandez-Benitez Ericka Montserrat
+# Version
+#  v1.5
+# 
+# Description
+#	The script performs the following analyses:
+#		1) Identify nod, fix and nif genes from the annotation file.  
+#		2) Plots: Venn Diagram (Main Fig 5), Heatmap (Supp Fig 4) and Supp Table 2
+# sh 4_Evidence_Levels.sh
+
+
+# Additional notes:
+# 	The script contemplates the following structure in directories and thus
+#	the script will NOT generate them.
+
+#.
+#├── annotation
+#│   └── AHJU02.1.gbff
+#├── bin
+#│   ├── bash
+#│   │   └── 4_Evidence_Levels.sh
+#│   ├── python
+#│   │   ├── symbiosisGenes-parser.py
+#│   │   └── VenDiagram_v2.py
+#│   └── R
+#│       └── NodulationHeatmap.R
+#└── input
+#   ├── GeneExpression.tsv
+#   └── oTF-TG-TRN-10-5-bgM1.tsv
+
+
 indir=/home/emhernan/4_Evidence_Levels/
-bin=/home/emhernan/4_Evidence_Levels/bin/
-annotation=/home/emhernan/4_Evidence_Levels/annotation/
+bin=/home/emhernan/4_Evidence_Levels/bin/ # Must be created with all the binary files
+annotation=/home/emhernan/4_Evidence_Levels/annotation/ # Must be created with all the annotation files
 tables=/home/emhernan/4_Evidence_Levels/tables/
 png=/home/emhernan/4_Evidence_Levels/png/
-input=/home/emhernan/4_Evidence_Levels/input/
+input=/home/emhernan/4_Evidence_Levels/input/ # Must be created
 
 cd $indir
 

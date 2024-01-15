@@ -1,3 +1,47 @@
+# Name:
+#  5_BBH_PuuR.sh
+# Author:
+#  Hernandez-Benitez Ericka Montserrat
+# Version
+#  v1.1
+# 
+# Description
+#   The script performs the following analyses:
+#       1) Perform BBH for Rhizobium phaseoli and other seven bacteria
+#       2) Identify the orthologus genes of PuuR
+#       3) Perform multiple aligment of PuuR genes and build a phylogenetic tree under MP criteria
+#       4) Plots: Dot plot identity vs. coverage of PuuR orthologs, e-value density plot. 
+# sh 5_BBH_PuuR.sh
+
+
+# Additional notes:
+#   The script contemplates the following structure in directories and thus
+#   the script will NOT generate them.
+
+#.
+#├── bin
+#│   ├── bash
+#│   │   └── 5_BBH_PuuR.sh
+#│   └── R
+#│       └── section5-MainFigure6SuppFig5.R
+#└── docs
+#    ├── multiple_aligment
+#    │   ├── PuuR-BBH-sequences.dnd
+#    │   └── PuuR-BBH-sequences.faa
+#    ├── Rhizobia
+#    │   ├── Bradyrhizobiumaustraliense-2721161-GCF_013114825.1-ASM1311482v1.zip
+#    │   ├── Bradyrhizobiumdiazoefficiens-1355477-GCF_004359355.1-ASM435935v1.zip
+#    │   ├── Bradyrhizobiumjaponicum-375-GCF_013752735.1-ASM1375273v1.zip
+#    │   ├── Rhizobiumetli-29449-GCF_002119845.1-ASM211984v1.zip
+#    │   ├── Rhizobiumleguminosarum-384-GCF_004306555.1-ASM430655v1.zip
+#    │   ├── SinorhizobiumfrediiCCBAU25509-1128330-GCF_003177055.1-ASM317705v1.zip
+#    │   └── Sinorhizobiummeliloti2011-1286640-GCF_000346065.1-ASM34606v1.zip
+#    └── RhizobiumPhaseoli
+#        └── RhizobiumphaseoliCh24-10-1128399-GCF_000268285.2-GCA_000268285.2.zip
+
+
+
+
 #########################################################################################################
 ######################################### Working directory #############################################
 #########################################################################################################
@@ -9,16 +53,17 @@ cd /home/emhernan/1_BBH_TFs/
 #########################################################################################################
 
 indir=/home/emhernan/5_BBH_PuuR/
-bin=/home/emhernan/5_BBH_PuuR/bin/
-docs=/home/emhernan/5_BBH_PuuR/docs/
-Rhizobia=/home/emhernan/5_BBH_PuuR/docs/Rhizobia/
-RhizobiumPhaseoli=/home/emhernan/5_BBH_PuuR/docs/RhizobiumPhaseoli/
+bin=/home/emhernan/5_BBH_PuuR/bin/ # Must be created
+docs=/home/emhernan/5_BBH_PuuR/docs/ # Must be created
+Rhizobia=/home/emhernan/5_BBH_PuuR/docs/Rhizobia/ # Must be created
+RhizobiumPhaseoli=/home/emhernan/5_BBH_PuuR/docs/RhizobiumPhaseoli/ # Must be created
 output=/home/emhernan/5_BBH_PuuR/output/
-multiple_aligment=/home/emhernan/5_BBH_PuuR/docs/multiple_aligment/
+multiple_aligment=/home/emhernan/5_BBH_PuuR/docs/multiple_aligment/ # Must be created
 png=/home/emhernan/5_BBH_PuuR/png/
 
 
 cd $indir
+
 
 #########################################################################################################
 ############################################### BLAST BBH ###############################################
@@ -26,9 +71,6 @@ cd $indir
 
 ## 0) Creating folders
 
-mkdir $docs
-mkdir $Rhizobia
-mkdir $RhizobiumPhaseoli
 mkdir $output
 mkdir $png
 

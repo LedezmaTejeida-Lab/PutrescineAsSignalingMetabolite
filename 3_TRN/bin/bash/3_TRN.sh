@@ -1,3 +1,55 @@
+# Name:
+#  3_TRN.sh
+# Author:
+#  Hernandez-Benitez Ericka Montserrat
+# Version
+#  v1.3
+# 
+# Description
+#	The script performs the following analyses:
+#		1) Formating PSSM matrixes according to RSAT input requirements. 
+#		2) Filtering the PSSM of TF with a DNA-binding region motif with identity >= 30 and coverage = 100 in both directions.
+#		3) Retrieve upstream sequences from all R. phaseoli genes and compute matrix scan with the filtered PSSMs. 
+#		4) Create the file oTF-TG-TRN-10-5-bgM1.tsv
+#		5) Plots: Bar plot TF vs. TG ortholous and non-orthologous (Main Fig 4) and Main Table 1.
+# sh 3_TRN.sh
+
+
+# Additional notes:
+# 	The script contemplates the following structure in directories and thus
+#	the script will NOT generate them.
+
+#.
+#├── annotation
+#│   ├── GCA_000268285.2_genomic.gbff
+#│   └── GCF_000268285.2_genomic.gbff
+#├── bin
+#│   ├── bash
+#│   │   └── 3_TRN.sh
+#│   ├── python
+#│   │   └── TG-LocusTag-parsey.py
+#│   └── R
+#│       ├── DNAbindingFilterTFs100Cov30Ident.R
+#│       ├── merge_MatrixScantmpFiles.R
+#│       ├── oTF-TG-NetworkGenerator.R
+#│       ├── section3-MainFigure4.R
+#│       └── section3-MainTable1.R
+#├── matrixes
+#│   ├── PSSM-Dataset-v4.0-ed.txt
+#│   ├── PSSM-Dataset-v4.0.txt
+#│   ├── RhizobiumphaseoliOrthologousCutOffIdent30Cov100Matrices.tab
+#│   └── RhizobiumphaseoliOrthologousMatrices.tab
+#├── networkInfo
+#│   └── network_tf_gene.txt
+#└── OrthologousTFInfo
+#   ├── ECaaq_oTFs_DNAbinding_motifs_info.tsv
+#   ├── ECaaq_oTFs_motifs_info.tsv
+#   ├── Orthologous_table.tsv
+#   ├── RZaaq_oTFs_DNAbinding_motifs_info.tsv
+#   ├── RZaaq_oTFs_motifs_info.tsv
+#   ├── TF_Orthologous_table_filter100Cov30Iden.tsv
+#   └── TF_Orthologous_table.tsv
+
 #########################################################################################################
 ########################################## Working directory ###########################################
 #########################################################################################################
@@ -9,16 +61,16 @@ cd /space24/PGC/emhernan/3_TRN/
 #########################################################################################################
 ########################################### Saving directories ##########################################
 #########################################################################################################
-bin=/space24/PGC/emhernan/3_TRN/bin/ # Must be created with all the binaries files
 indir=/space24/PGC/emhernan/3_TRN/
+bin=/space24/PGC/emhernan/3_TRN/bin/ # Must be created with all the binaries files
 matrixes=/space24/PGC/emhernan/3_TRN/matrixes/ # Must be created with Regulondb matrixes (PSSMs)
-OrthologousTFInfo=/space24/PGC/emhernan/3_TRN/OrthologousTFInfo/
+networkInfo=/space24/PGC/emhernan/3_TRN/networkInfo/ # Must be created with network information
+OrthologousTFInfo=/space24/PGC/emhernan/3_TRN/OrthologousTFInfo/ # Must be created with all orthologous information
+annotation=/space24/PGC/emhernan/3_TRN/annotation/ # Must be created with all annotation information
 sequences=/space24/PGC/emhernan/3_TRN/sequences/
 output=/space24/PGC/emhernan/3_TRN/output/
 png=/space24/PGC/emhernan/3_TRN/png/
-networkInfo=/space24/PGC/emhernan/3_TRN/networkInfo/ # Must be created with network information
 tables=/space24/PGC/emhernan/3_TRN/tables/
-annotation=/space24/PGC/emhernan/3_TRN/annotation/
 bgfilePath=/space23/rsat/rsat/public_html/data/genomes/Rhizobium_phaseoli_GCF_000268285.2_RPHCH2410v2/oligo-frequencies/2nt_upstream-noorf_Rhizobium_phaseoli_GCF_000268285.2_RPHCH2410v2-ovlp-1str.freq.gz
 
 
@@ -30,7 +82,7 @@ grep -v "#" $matrixes'PSSM-Dataset-v4.0.txt' | perl -nae 'if(/Transcription Fact
 # 2) Filtering TFs with identity >= 30 and coverage = 100 in their DNA-binding motif
 Rscript --vanilla $bin'R/DNAbindingFilterTFs100Cov30Ident.R' $OrthologousTFInfo 'TF_Orthologous_table_filter100Cov30Iden.tsv'
 
-# 3) FIltering matrixes to 25 TFs with PSSM and with identity >= 30 and coverage = 100 in their DNA-binding motif
+# 3) Filtering matrixes to 25 TFs with PSSM and with identity >= 30 and coverage = 100 in their DNA-binding motif
 grep -A 4 -iwf <(grep -iwf <(grep "Transcription Factor Name:" $matrixes'PSSM-Dataset-v4.0.txt'  | cut -f2 -d ":" | sed 's/ //g' | sort | uniq) <(cat $OrthologousTFInfo'TF_Orthologous_table_filter100Cov30Iden.tsv') | cut -f2 | sed 's/glnG/ntrC/' | sed 's/ttdR/dan/g') <(grep -v "#" $matrixes'PSSM-Dataset-v4.0.txt' | perl -nae 'if(/Transcription Factor Name: (\w+)/) {print "; $1\tTranscription Factor\n"} else {if(/([ACG])(\t[\d+\t+]*)/) {print "$1 |$2\n"} else {if(/(T)(\t[\d+\t+]*)/) {print "$1 |$2\n\/\/"}}}')  | grep -v "\-\-" |sed  's/\/\/;/\/\/\n;/g' > $matrixes'RhizobiumphaseoliOrthologousCutOffIdent30Cov100Matrices.tab'
 
 

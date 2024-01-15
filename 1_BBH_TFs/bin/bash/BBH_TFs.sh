@@ -7,7 +7,7 @@
 # 
 
 # Description
-#	The script performs all the following analysis:
+#	The script performs the following analyses:
 #		1) BBH between E. coli and R phaseoli genomes with blastall program
 #		2) Identification of orthologus genes basen on BBH with identity >= 30, bit score >= 50 and e-value <= 0.001
 #		3) Gene annotation of the orthologus genes (i.e. locus tag, common name, protein ID, among others)

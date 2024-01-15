@@ -1,3 +1,55 @@
+# Name:
+#  2_MotifConservation.sh
+# Author:
+#  Hernandez-Benitez Ericka Montserrat
+# Version
+#  v1.0
+# 
+
+# Description
+#	The script performs the following analyses:
+#		1) BBH between E. coli and R phaseoli genomes with blastall program and format -m 0 (to retrieve the aligned sequences)
+#		2) Extraction of aligned sequences
+#		3) Motif Conservation Analysis (A motif is conserved if identity >= 30 and coverage >= 90 in both directions)
+#		4) Plots: Pie plot for all motifs conserved (Supp Fig 3) and Identity vs. coverage of DNA-binding region motifs (Main Fig 2)
+# sh 2_MotifConservation.sh
+
+
+# Additional notes:
+# 	The script contemplates the following structure in directories and thus
+#	the script will NOT generate them.
+
+#.
+#├── bin
+#│   ├── bash
+#│   │   └── 2_MotifConservation.sh
+#│   ├── python
+#│   │   ├── ECaaq-BLASTseqParser.py
+#│   │   ├── ECaaq-BLASTseqParser-queID.py
+#│   │   ├── ECaaq-BLASTseqParser-subjID.py
+#│   │   ├── ECaaq-MiddleDash-parser.py
+#│   │   ├── RZaaq-BLASTseqParser.py
+#│   │   ├── RZaaq-BLASTseqParser-queID.py
+#│   │   └── RZaaq-MiddleDash-parser.py
+#│   └── R
+#│       ├── AllMotifs-processing.R
+#│       ├── motifConservationAnalysis.R
+#│       ├── results_section2.R
+#│       ├── section2-MainFigure2.R
+#│       └── section2-piechartFigure.R
+#└── genomesInfo
+#   ├── EC
+#   │   ├── GCF_000005845.2_ASM584v2_genomic.fna
+#   │   └── GCF_000005845.2_ASM584v2_protein.faa
+#   └── RZ
+#       ├── GCA_000268285.2_RPHCH2410v2_genomic.gtf
+#       ├── GCF_000268285.2_RPHCH2410v2_cds_from_genomic.fna
+#       ├── GCF_000268285.2_RPHCH2410v2_genomic.fna
+#       ├── GCF_000268285.2_RPHCH2410v2_genomic.fna.fai
+#       ├── GCF_000268285.2_RPHCH2410v2_genomic.gbff
+#       ├── GCF_000268285.2_RPHCH2410v2_genomic.gff
+#       └── GCF_000268285.2_RPHCH2410v2_protein.faa
+
 #########################################################################################################
 ######################################### Working directory #############################################
 #########################################################################################################
@@ -10,7 +62,7 @@ cd /home/emhernan/2_MotifConservation
 #########################################################################################################
 
 indir=/home/emhernan/2_MotifConservation
-bin=/home/emhernan/2_MotifConservation/bin/ # must be created with all files
+bin=/home/emhernan/2_MotifConservation/bin/ # must be created with all binary files
 genomesInfo=/home/emhernan/2_MotifConservation/genomesInfo/ #must be created with genome files
 BLASTresultsSeq=/home/emhernan/2_MotifConservation/BLASTresultsSeq/
 ECdb=/home/emhernan/2_MotifConservation/ECdb/
