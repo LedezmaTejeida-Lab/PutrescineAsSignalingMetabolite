@@ -31,7 +31,7 @@ dot_plot <- function(df, x_axe, y_axe, xilim, xslim, yilim, yslim, ylab, xlab, f
   
   ggobject <- df %>% 
     ggplot(aes(x = x_axe, y = y_axe, color = x_axe)) +
-    geom_point(position=position_jitter(h=0.7, w=0.7), size = 5) 
+    geom_point(position=position_jitter(h=0.7, w=0.7), size = 2) 
   ggobject <- plot_settings(ggobject, xilim, xslim, yilim, yslim, ylab, xlab, flagcolab, colab, titlelab, xsize, ysize, textsize, titlesize, legendsize, angleV)
   
   return(ggobject)
