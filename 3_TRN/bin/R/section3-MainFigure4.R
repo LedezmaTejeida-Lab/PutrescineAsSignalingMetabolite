@@ -81,26 +81,15 @@ ggobject <- ggplot(data=df1, aes(x=TF_name, y=n, fill= OrthologusTG)) +
   labs(y = "Target Genes", 
        x = "Transcription Factor", 
        fill = "") +
-  theme(axis.title.x = element_text(size = 10),
-        axis.title.y = element_text(size = 10),
+  theme(axis.title.x = element_text(size = 9.5),
+        axis.title.y = element_text(size = 9.5),
         axis.text.x = element_text(size = 8, angle = 90, vjust = 0.5, hjust=1),
         axis.text.y = element_text(size = 8),
-        panel.background = element_rect(fill='transparent'),
-        plot.background = element_rect(fill='transparent', color=NA),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        legend.text=element_text(size=10), 
-        legend.position="top",
-        legend.background = element_rect(fill='transparent', color=NA),
-        legend.box.background = element_rect(fill='transparent', color=NA))
+        legend.text=element_text(size=9.5), 
+        legend.position="top")
 print("........................Saving data ........................")
 
 pngpath <- paste(outpath, "MainF4.png",sep="")
-png(pngpath, width=300*6, height=300*4, res=300, units="px", bg = "transparent")
+png(pngpath, width=300*3.25, height=300*4, res=300)
 ggobject
 dev.off()
-
-
-pdfpath <- paste(outpath, "MainF4.pdf", sep="")
-ggsave(pdfpath, ggobject, width = 6, height = 4, units = "in", dpi = 300)
-
