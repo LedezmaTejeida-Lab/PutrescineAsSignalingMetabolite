@@ -21,20 +21,7 @@ rownames(m) <- col1
 outpath <- "/home/emhernan/4_Evidence_Levels/png"
 
 pngpath <- paste(outpath, "/", "SuppF4.png", sep = "")
-png(pngpath, width=300*5, height=300*4, res=300, units="px", bg = "transparent")
-
-pheatmap(m, cluster_rows = FALSE,
-	     fontsize_row = 8,
-         fontsize_col=8, 
-         color = c("#CD5C5C", "#00008B"), 
-         legend = FALSE)
-
-dev.off()
-
-
-
-pdfpath <- paste(outpath, "/", "SuppF4.pdf", sep = "")
-pdf(pdfpath, width=5, height=4, bg = "transparent")
+png(pngpath, width=300*5, height=300*4, res=300, units="px")
 
 pheatmap(m, cluster_rows = FALSE,
 	     fontsize_row = 8,

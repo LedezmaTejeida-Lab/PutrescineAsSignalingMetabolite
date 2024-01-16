@@ -141,14 +141,10 @@ p5 <- pie_plot(df_None0s, unit = 0.5, legend_text_size = 6.3, legend_title_size 
 
 Piechart <- ggpubr::ggarrange(p1,p2,p3,p4,p5,
                   labels = c("A", "B","C","D","E"),
-                  ncol = 2, nrow = 3)  +
-            theme_void()
+                  ncol = 2, nrow = 3)
 
 
 pngpath <- paste(outpath, "SuppF3.png",sep="")
-ggsave(pngpath, Piechart, width = 6.8, height = 4.5, dpi = 300, bg = "transparent")
-
-pdfpath <- paste(outpath, "SuppF3.pdf",sep="")
-pdf(pdfpath, width=6.8, height=4.5, pointsize=300, bg = "transparent")
+png(pngpath, width = 6.8*300, height = 4.5*300, res = 300)
 Piechart
 dev.off()

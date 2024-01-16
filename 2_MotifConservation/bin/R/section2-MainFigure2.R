@@ -43,13 +43,13 @@
 ############################ dot_plot #####################################
 ###########################################################################
 
-dot_plot <- function(df, x_axe, y_axe, xilim, xslim, yilim, yslim, ylab, xlab, flagcolab = TRUE, colab = "", titlelab, xsize, ysize, textsize, titlesize, scaleColor = "mako", intercept = FALSE){
+dot_plot <- function(df, x_axe, y_axe, xilim, xslim, yilim, yslim, ylab, xlab, flagcolab = TRUE, colab = "", titlelab, xsize, ysize, textsize, titlesize, scaleColor = "mako", intercept = FALSE, legendsize){
   
   ggobject <- df %>% 
     ggplot(aes(x = x_axe, y = y_axe, color = x_axe)) +
     geom_point() +
     geom_jitter(width = 0.4, height = 0.4) 
-    ggobject <- plot_settings(ggobject, xilim, xslim, yilim, yslim, ylab, xlab, flagcolab, colab, titlelab, xsize, ysize, textsize, titlesize, scaleColor)
+    ggobject <- plot_settings(ggobject, xilim, xslim, yilim, yslim, ylab, xlab, flagcolab, colab, titlelab, xsize, ysize, textsize, titlesize, scaleColor, legendsize)
   
   if(intercept){
   ggobject <- ggobject + 
@@ -63,7 +63,7 @@ dot_plot <- function(df, x_axe, y_axe, xilim, xslim, yilim, yslim, ylab, xlab, f
 ######################### plot_settings ###################################
 ###########################################################################
 
-plot_settings <- function(ggobj, xilim, xslim, yilim, yslim, ylab, xlab, flagcolab, colab, titlelab, xsize, ysize, textsize, titlesize, scaleColor){
+plot_settings <- function(ggobj, xilim, xslim, yilim, yslim, ylab, xlab, flagcolab, colab, titlelab, xsize, ysize, textsize, titlesize, scaleColor, legendsize){
   
   ggobj <- ggobj +
     coord_cartesian(ylim = c(yilim, yslim), xlim = c(xilim, xslim)) +
@@ -71,14 +71,13 @@ plot_settings <- function(ggobj, xilim, xslim, yilim, yslim, ylab, xlab, flagcol
     labs(y = ylab, 
          x = xlab,
          title = titlelab) +
-    theme(plot.title = element_text(hjust = 0.5, size = titlesize, face = "italic"), 
+    theme(
+          legend.title=element_text(size=legendsize),
+          legend.text = element_text(size = legendsize),
+          plot.title = element_text(hjust = 0.5, size = titlesize, face = "italic"), 
           axis.title.x = element_text(size = xsize, hjust = 0.5, vjust = 0.5),
           axis.title.y = element_text(size = ysize, angle = 90, hjust = 0.5, vjust = 0.5),
-          axis.text = element_text(size = textsize),
-          panel.background = element_rect(fill='transparent'),
-          plot.background = element_rect(fill='transparent', color=NA),
-          panel.grid.major = element_blank(),
-          panel.grid.minor = element_blank()) +
+          axis.text = element_text(size = textsize)) +
     scale_colour_viridis(option= scaleColor, direction = -1) 
   
   if(flagcolab){
@@ -143,32 +142,23 @@ rphaseoli <- rphaseoli %>% rename("NCBI_name" =  V1, "EC_locusTag" = V2, "motifC
 dotplotEcoli    <- dot_plot(df = ecoli, x_axe = ecoli$identPercent, y_axe = ecoli$motifCoverage, 
                          xilim = 0, xslim = 100, yilim = 0, yslim = 100, ylab = "Query coverage (%)", 
                          xlab = "Identity (%)", colab = 'Identity (%)', 
-                         titlelab = "Escherichia coli\n", xsize = 10, ysize = 10, textsize = 8, titlesize = 12, scaleColor = color, intercept = interceptT)
+                         titlelab = "Escherichia coli\n", xsize = 8.5, ysize = 8.5, textsize = 8.5, titlesize = 8, scaleColor = color, intercept = interceptT, legendsize = 8)
 
 dotplotRphaseoli <- dot_plot(df = rphaseoli, x_axe = rphaseoli$identPercent, y_axe = rphaseoli$motifCoverage, 
                          xilim = 0, xslim = 100, yilim = 0, yslim = 100, ylab = "Query coverage (%)", 
                          xlab = "Identity (%)", colab = 'Identity (%)', 
-                         titlelab = "Rhizobium phaseoli\n", xsize = 10, ysize = 10, textsize = 8, titlesize = 12, scaleColor = color, intercept = interceptT)
+                         titlelab = "Rhizobium phaseoli\n", xsize = 8.5, ysize = 8.5, textsize = 8.5, titlesize = 8, scaleColor = color, intercept = interceptT, legendsize = 8)
 
 
 MainF2 <- ggarrange(dotplotEcoli, dotplotRphaseoli, 
                     labels = c("A", "B"), 
                     ncol = 2, nrow = 1, 
-                    common.legend = TRUE, legend="bottom") +
-          theme(legend.background = element_rect(fill='transparent'),
-          legend.box.background = element_rect(fill='transparent'))
+                    common.legend = TRUE, legend="bottom")
 
 
 print("........................Saving data ........................")
 
 pngpath <- paste(outpath, outFile,sep="")
-png(pngpath, width=5.59, height=6.2, res=300, units="in", bg = "transparent")
-MainF2
-dev.off()
-
-
-
-pdfpath <- paste(outpath, "MainF2.pdf",sep="")
-pdf(pdfpath, width=5.59, height=6.2, pointsize=300, bg = "transparent")
+png(pngpath, width=3*300, height=4.25*300, res=300)
 MainF2
 dev.off()
