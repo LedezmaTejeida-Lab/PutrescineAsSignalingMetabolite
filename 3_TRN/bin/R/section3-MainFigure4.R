@@ -70,7 +70,7 @@ print("........................Processing data ........................")
 
 df1 <- network %>% 
   select(TF_name, TF_locusTag, TG_oldRZlocusTag) %>%
-  mutate(OrthologusTG = ifelse(TG_oldRZlocusTag %in% orthologous$RZ_locusTag_old,"Ortholog","non-Ortholog")) %>%
+  mutate(OrthologusTG = ifelse(TG_oldRZlocusTag %in% orthologous$RZ_locusTag_old,"ortholog","non-ortholog")) %>%
   count(TF_name, OrthologusTG)
 
 
