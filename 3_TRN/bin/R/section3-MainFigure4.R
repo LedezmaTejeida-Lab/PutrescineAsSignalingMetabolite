@@ -85,7 +85,7 @@ ggobject <- ggplot(data=df1, aes(x=TF_name, y=n, fill= OrthologusTG)) +
         axis.title.y = element_text(size = 9.5),
         axis.text.x = element_text(size = 8, angle = 90, vjust = 0.5, hjust=1),
         axis.text.y = element_text(size = 8),
-        legend.text=element_text(size=9.5), 
+        legend.text=element_text(size=8), 
         legend.position=c(0.25, 0.95),
         legend.key.size = unit(0.45, "cm"))
 print("........................Saving data ........................")
