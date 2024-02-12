@@ -70,7 +70,7 @@ print("........................Processing data ........................")
 
 df1 <- network %>% 
   select(TF_name, TF_locusTag, TG_oldRZlocusTag) %>%
-  mutate(OrthologusTG = ifelse(TG_oldRZlocusTag %in% orthologous$RZ_locusTag_old,"ortholog","non-ortholog")) %>%
+  mutate(OrthologusTG = ifelse(TG_oldRZlocusTag %in% orthologous$RZ_locusTag_old,"orthologue","non-orthologue")) %>%
   count(TF_name, OrthologusTG)
 
 
@@ -79,14 +79,15 @@ ggobject <- ggplot(data=df1, aes(x=TF_name, y=n, fill= OrthologusTG)) +
   scale_fill_manual(values=c("#E69F00", "#56B4E9")) +
   theme_classic() +
   labs(y = "Target Genes", 
-       x = "Transcription Factor", 
+       x = "", 
        fill = "") +
   theme(axis.title.x = element_text(size = 9.5),
         axis.title.y = element_text(size = 9.5),
         axis.text.x = element_text(size = 8, angle = 90, vjust = 0.5, hjust=1),
         axis.text.y = element_text(size = 8),
         legend.text=element_text(size=9.5), 
-        legend.position="top")
+        legend.position=c(0.25, 0.95),
+        legend.key.size = unit(0.45, "cm"))
 print("........................Saving data ........................")
 
 pngpath <- paste(outpath, "MainF4.png",sep="")
