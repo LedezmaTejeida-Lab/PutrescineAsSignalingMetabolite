@@ -14,11 +14,11 @@
 #
 # Rscript --vanilla DNAbindingFilterTFs100Cov30Ident.R
 # /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/
-# TF_Orthologous_table_filter100Cov30Iden.tsv
-# Rscript --vanilla DNAbindingFilterTFs100Cov30Ident.R /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/ TF_Orthologous_table_filter100Cov30Iden.tsv
+# TF_Orthologous_table_filter100Cov40Iden.tsv
+# Rscript --vanilla DNAbindingFilterTFs100Cov30Ident.R /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/ TF_Orthologous_table_filter100Cov40Iden.tsv
 
 # inpath <- "/space24/PGC/emhernan/3_TRN/OrthologousTFInfo/"
-# outfile <- "TF_Orthologous_table_filter100Cov30Iden.tsv"
+# outfile <- "TF_Orthologous_table_filter100Cov40Iden.tsv"
 
 # -*- encoding: utf-8 -*-
 
@@ -63,7 +63,7 @@ TFs_total <- bind_cols(ecoli, rphaseoli) %>%
 			length()
 
 df <- bind_cols(ecoli, rphaseoli) %>%
-	mutate(strict_cutOff = if_else(identityEcoli >= 30 & identityRphaseoli >= 30 & coverageEcoli == 100 & coverageRphaseoli == 100, 1 , 0))
+	mutate(strict_cutOff = if_else(identityEcoli >= 40 & identityRphaseoli >= 40 & coverageEcoli == 100 & coverageRphaseoli == 100, 1 , 0))
 
 
 TFs_1 <- df %>%
