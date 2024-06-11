@@ -129,31 +129,31 @@ rphaseoli <- read.table(file = paste(inpath, "TFs_RZaaq_ECaadb_blastP_b1_m8.tab"
 print("........................Processing data ........................")
 
 dotplotEcoli <- dot_plot(df = ecoli, x_axe = ecoli$peri, y_axe = ecoli$coveragePercent, 
-                      xilim = 0, xslim = 100, yilim = 0, yslim = 100, ylab = "Query Coverage (%)", 
+                      xilim = 30, xslim = 100, yilim = 80, yslim = 100, ylab = "Query Coverage (%)", 
                        xlab = "Identity (%)", colab = 'Identity (%)', 
-                       titlelab = "Escherichia coli\n", xsize = 8.5, ysize = 8.5, textsize = 8.5, titlesize = 8.5, legendsize = 8)
+                       titlelab = "Escherichia coli\n", xsize = 8, ysize = 8, textsize = 8, titlesize = 8, legendsize = 8, angleV = 45) 
 
-dotplotRphaseoli <- dot_plot(df = rphaseoli, x_axe = rphaseoli$peri, y_axe = rphaseoli$coveragePercent, 
-                          xilim = 0, xslim = 100, yilim = 0, yslim = 100, ylab = "Query Coverage (%)", 
+dotplotRphaseoli <- dot_plot(df = rphaseoli, x_axe = rphaseoli$peri, y_axe =  rphaseoli$coveragePercent, 
+                          xilim = 30, xslim = 100, yilim = 80, yslim = 100, ylab = "Query Coverage (%)", 
                           xlab = "Identity (%)", colab = 'Identity (%)', 
-                          titlelab = "Rhizobium phaseoli\n", xsize = 8, ysize = 8, textsize = 8, titlesize = 8.5, legendsize = 8)
+                          titlelab = "Rhizobium phaseoli\n", xsize = 8, ysize = 8, textsize = 8, titlesize = 8, legendsize = 8, angleV = 45) 
 
 
 ecoliEvalue <- density_plot(df = ecoli, x_axe = ecoli$Evalue, col = "#e2127f", filler = "#fbd1e2", 
-             xilim = 0, xslim =  max(ecoli$Evalue), yilim = 0, yslim = 3.5e+23, ylab = "Density", xlab = "E-value", 
-           titlelab = "Escherichia coli", xsize = 7.5, ysize = 7.5, textsize = 6, titlesize = 8, angleV = 45)
+             xilim = 0, xslim = max(ecoli$Evalue), yilim = 0, yslim = 1.8e+30, ylab = "Density", xlab = "E-value", 
+           titlelab = "Escherichia coli", xsize = 7, ysize = 7, textsize = 6, titlesize = 7.5, angleV = 45)
 
 rphaseoliEvalue <- density_plot(df = rphaseoli, x_axe = rphaseoli$Evalue, col = "#e2127f", filler = "#fbd1e2", 
-                                 xilim = 0, xslim =  max(rphaseoli$Evalue), yilim = 0, yslim = 14e+23, ylab = "Density", xlab = "E-value", 
-                                 titlelab = "Rhizobium phaseoli", xsize = 7.5, ysize = 7.5, textsize = 6, titlesize = 8, angleV = 45)
+                                 xilim = 0, xslim =  max(rphaseoli$Evalue), yilim = 0, yslim = 1.8e+30, ylab = "Density", xlab = "E-value", 
+                                 titlelab = "Rhizobium phaseoli", xsize = 7, ysize = 7, textsize = 6, titlesize = 7.5, angleV = 45)
 
 ecoliQlen <-  density_plot(df = ecoli, x_axe = ecoli$qlen, col = "#10c3a6", filler = "#93f5e5", 
                             xilim = 0, xslim = 1300, yilim = 0, yslim = 0.004, ylab = "Density", xlab = "Query length (bp)", 
-                            titlelab = "Escherichia coli", xsize = 7.5, ysize = 7.5, textsize = 6, titlesize = 8)
+                            titlelab = "Escherichia coli", xsize = 7, ysize = 7, textsize = 6, titlesize = 7.5, angleV = 45)
 
 rphaseoliQlen <-  density_plot(df = rphaseoli, x_axe = rphaseoli$qlen, col = "#10c3a6", filler = "#93f5e5", 
                             xilim = 0, xslim =  1300, yilim = 0, yslim = 0.004, ylab = "Density", xlab = "Query length (bp)", 
-                            titlelab = "Rhizobium phaseoli", xsize = 7.5, ysize = 7.5, textsize = 6, titlesize = 8)
+                            titlelab = "Rhizobium phaseoli", xsize = 7, ysize = 7, textsize = 6, titlesize = 7.5, angleV = 45)
 
 
 MainF1 <- ggarrange(dotplotEcoli, dotplotRphaseoli, 
@@ -176,3 +176,9 @@ pngpath <- paste(outpath, "SuppF2.png",sep="")
 png(pngpath, width=3*300, height=4.25*300, res=300)
 SuppF1
 dev.off()
+
+
+
+rphaseoli %>%
+ggplot(aes(x = Evalue)) +
+geom_density()

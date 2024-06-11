@@ -34,7 +34,7 @@
 # rphaseoliFile <- "RZaaq_oTFs_DNAbinding_motifs_info.tsv"
 # color <- "mako"
 # outFile <- "MainF2.png"
-# interceptT <- TRUE
+# interceptT <- FALSE
 
 
 ############################## Functions ###############################
@@ -139,14 +139,14 @@ ecoli <- ecoli %>% rename("NCBI_name" =  V1, "EC_locusTag" = V2, "motifCoverage"
 rphaseoli <- rphaseoli %>% rename("NCBI_name" =  V1, "EC_locusTag" = V2, "motifCoverage" = V3, "identPercent" = V4, "motifDesc" = V5)
   
 
-dotplotEcoli    <- dot_plot(df = ecoli, x_axe = ecoli$identPercent, y_axe = ecoli$motifCoverage, 
-                         xilim = 0, xslim = 100, yilim = 0, yslim = 100, ylab = "Query coverage (%)", 
-                         xlab = "Identity (%)", colab = 'Identity (%)', 
+dotplotEcoli    <- dot_plot(df = ecoli, x_axe = ecoli$motifCoverage, y_axe = ecoli$identPercent, 
+                         xilim = 80, xslim = 100, yilim = 30, yslim = 100, ylab = "Identity (%)", 
+                         xlab = "Query coverage (%)", colab = 'Query coverage (%)', 
                          titlelab = "Escherichia coli\n", xsize = 8.5, ysize = 8.5, textsize = 8.5, titlesize = 8, scaleColor = color, intercept = interceptT, legendsize = 8)
 
-dotplotRphaseoli <- dot_plot(df = rphaseoli, x_axe = rphaseoli$identPercent, y_axe = rphaseoli$motifCoverage, 
-                         xilim = 0, xslim = 100, yilim = 0, yslim = 100, ylab = "Query coverage (%)", 
-                         xlab = "Identity (%)", colab = 'Identity (%)', 
+dotplotRphaseoli <- dot_plot(df = rphaseoli, x_axe = rphaseoli$motifCoverage, y_axe = rphaseoli$identPercent, 
+                         xilim = 80, xslim = 100, yilim = 30, yslim = 100, ylab = "Identity (%)", 
+                         xlab = "Query coverage (%)", colab = 'Query coverage (%)', 
                          titlelab = "Rhizobium phaseoli\n", xsize = 8.5, ysize = 8.5, textsize = 8.5, titlesize = 8, scaleColor = color, intercept = interceptT, legendsize = 8)
 
 

@@ -170,18 +170,18 @@ cp /home/emhernan/1_BBH_TFs/tables/TF_Orthologous_table.tsv $formated
 Rscript --vanilla $bin'R/AllMotifs-processing.R' $formated $motifsInfo 'ECaaq-queID.tsv' 'ECaaq_RZaadb_blastP_seq_formated.tsv' 'ECaaq_RZaadb_blastP_seq_formated_v2.tsv' 'ECBLAST_ID' 'ECaaq_oTFs_motifs_info.tsv'
 Rscript --vanilla $bin'R/AllMotifs-processing.R' $formated $motifsInfo 'RZaaq-queID.tsv' 'RZaaq_ECaadb_blastP_seq_formated.tsv' 'RZaaq_ECaadb_blastP_seq_formated_v2.tsv' 'RZBLAST_ID' 'RZaaq_oTFs_motifs_info.tsv'
 
-# 2) Perform conservation analysis: motif conservation if identity >= 30
+# 2) Perform conservation analysis: motif conservation if identity >= 40 and coverage >=80
 Rscript --vanilla $bin'R/motifConservationAnalysis.R' $motifsInfo
 
 # 3) Ploting pie chart (Supplementary Figure 3)
 mkdir $png
-Rscript --vanilla $bin'R/section2-piechartFigure.R' $motifsInfo'motifsConservationIdent30.tsv' $png
+Rscript --vanilla $bin'R/section2-piechartFigure.R' $motifsInfo'motifsConservationIdent40Coverage80.tsv' $png
 
 # 4) Filtering DNA-binding motifs results from the conservation analysis
 
-grep "DNA-Binding-Region" $motifsInfo'ECaaq_oTFs_motifs_info.tsv' > $motifsInfo'ECaaq_oTFs_DNAbinding_motifs_info.tsv'
-grep "DNA-Binding-Region" $motifsInfo'RZaaq_oTFs_motifs_info.tsv' > $motifsInfo'RZaaq_oTFs_DNAbinding_motifs_info.tsv'
+paste <(cat $motifsInfo'ECaaq_oTFs_motifs_info.tsv') <(cat $motifsInfo'RZaaq_oTFs_motifs_info.tsv') | grep -w "DNA-Binding-Region" | awk '{if ($3 >=80 && $4 >=40 && $10 >=80 && $11 >=40) {print }}' | cut -f1-7  > $motifsInfo'ECaaq_oTFs_DNAbinding_motifs_info.tsv'
+paste <(cat $motifsInfo'ECaaq_oTFs_motifs_info.tsv') <(cat $motifsInfo'RZaaq_oTFs_motifs_info.tsv') | grep -w "DNA-Binding-Region" | awk '{if ($3 >=80 && $4 >=40 && $10 >=80 && $11 >=40) {print }}' | cut -f8-14 > $motifsInfo'RZaaq_oTFs_DNAbinding_motifs_info.tsv'
+
 
 # 5) Plotting identity vs coverage of DNA binding motifs from oTFs (Main Figure 2)
-Rscript --vanilla $bin'R/section2-MainFigure2.R' $motifsInfo $png ECaaq_oTFs_DNAbinding_motifs_info.tsv RZaaq_oTFs_DNAbinding_motifs_info.tsv mako MainF2.png TRUE
-
+Rscript --vanilla $bin'R/section2-MainFigure2.R' $motifsInfo $png ECaaq_oTFs_DNAbinding_motifs_info.tsv RZaaq_oTFs_DNAbinding_motifs_info.tsv mako MainF2.png FALSE

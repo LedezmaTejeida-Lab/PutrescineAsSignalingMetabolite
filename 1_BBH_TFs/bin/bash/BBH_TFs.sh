@@ -109,32 +109,6 @@ blastall -p blastp -i $RZdb'GCF_000268285.2_RPHCH2410v2_protein.faaed' -a 6 -d $
 blastall -p blastp -i $ECdb'GCF_000005845.2_ASM584v2_protein.faaed' -a 6 -d $RZdb'GCF_000268285.2_RPHCH2410v2_protein.faaed' -b 1 -m 8 -e 0.001 > $BLASTresults'ECaaq_RZaadb_blastP_b1_m8.tab'
 # Selenocysteine (U) at position 140 replaced by X
 
-
-
-#########################################################################################################
-######################################### Filtering Orthologous #########################################
-#########################################################################################################
-
-mkdir $ortologousInfo
-
-# 1) Retriving Orthologous BLAST ID sequences: with a 0.001 e-value cut-off, bit score >= 50, and identity >= 30
-
-ECqRZdb=$(paste <(awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}' $BLASTresults'ECaaq_RZaadb_blastP_b1_m8.tab' | cut -f1 | sed -e 's/|[YNP]*_[0-9]*.[0-9]*//g' | cut -f1) <(awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}' $BLASTresults'ECaaq_RZaadb_blastP_b1_m8.tab' | cut -f2))
-
-RZqECdb=$(paste <(awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}' $BLASTresults'RZaaq_ECaadb_blastP_b1_m8.tab' | cut -f1 | sed 's/|WP_[0-9]*.[0-9]*//g') <(awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}' $BLASTresults'RZaaq_ECaadb_blastP_b1_m8.tab' | cut -f2))
-
-intersec=$(grep -wf <( awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}' $BLASTresults'ECaaq_RZaadb_blastP_b1_m8.tab'| cut -f2) <( awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}' $BLASTresults'RZaaq_ECaadb_blastP_b1_m8.tab' | cut -f1 | sed 's/|WP_[0-9]*.[0-9]*//g')) #1366
-
-grep -wf <(echo "$intersec") <(echo "$ECqRZdb") | wc #1700
-
-# 1266 Orthologous genes
-grep -wf <(grep -wf <(echo "$intersec") <(echo "$RZqECdb") | perl -nae 'print "$F[1]\t$F[0]\n"') <(echo "$ECqRZdb") | sort |uniq  > $ortologousInfo'allOrthologousID.tsv'
-
-# Alternative
-intersec2=$(grep -wf <(cut -f1 $BLASTresults'RZaaq_ECaadb_blastP_b1_m8.tab' | sed 's/|WP_[0-9]*.[0-9]*//g') <(cut -f2  $BLASTresults'ECaaq_RZaadb_blastP_b1_m8.tab')) # 4148
-grep -wf <(grep -wf <(echo "$intersec2") <(echo "$ECqRZdb") | perl -nae 'print "$F[1]\t$F[0]\n"') <(echo "$RZqECdb") | sort |uniq | wc # 1266
-
-
 #########################################################################################################
 ################################ Generating BLAST results with coverage #################################
 #########################################################################################################
@@ -170,6 +144,28 @@ cut -f1,2 $annotation'merge_annotation.tsv' > $motifsInfo'prot_lt_tmp'
 Rscript --vanilla $bin'R/merge_motif_seq_v2.R' $motifsInfo $motifsInfo'motifs_seq_relation_v3.tsv' gene_aa_seq.tsv motifs_seq_relation_v2.tsv prot_lt_tmp && rm $motifsInfo'prot_lt_tmp'
 
 #########################################################################################################
+######################################### Filtering Orthologous #########################################
+#########################################################################################################
+
+mkdir $ortologousInfo
+
+# 1) Retriving Orthologous BLAST ID sequences: with a 0.001 e-value cut-off, bit score >= 50, and identity >= 30
+
+ECqRZdb_ort=$(paste <(awk '{if ($11 <= 0.00000023 && $3 >=30 && $12 >=50 && $14 >=80) {print }}' $BLASTresults'ECaaq_RZaadb_blastP_b1_m8_v2.tab' | cut -f1 | sed -e 's/|[YNP]*_[0-9]*.[0-9]*//g' | cut -f1) <(awk '{if ($11 <= 0.00000023 && $3 >=30 && $12 >=50 && $14 >=80) {print }}' $BLASTresults'ECaaq_RZaadb_blastP_b1_m8_v2.tab' | cut -f2))
+
+RZqECdb_ort=$(paste <(awk '{if ($11 <= 0.00000016 && $3 >=30 && $12 >=50 && $14 >=80) {print }}' $BLASTresults'RZaaq_ECaadb_blastP_b1_m8_v2.tab' | cut -f1 | sed 's/|WP_[0-9]*.[0-9]*//g') <(awk '{if ($11 <= 0.00000016 && $3 >=30 && $12 >=50 && $14 >=80) {print }}' $BLASTresults'RZaaq_ECaadb_blastP_b1_m8_v2.tab' | cut -f2))
+
+intersec_ort=$(grep -wf <( awk '{if ($11 <= 0.00000023 && $3 >=30 && $12 >=50 && $14 >=80) {print }}' $BLASTresults'ECaaq_RZaadb_blastP_b1_m8_v2.tab'| cut -f2) <( awk '{if ($11 <= 0.00000016 && $3 >=30 && $12 >=50 && $14 >=80) {print }}' $BLASTresults'RZaaq_ECaadb_blastP_b1_m8_v2.tab' | cut -f1 | sed 's/|WP_[0-9]*.[0-9]*//g'))
+
+grep -wf <(echo "$intersec_ort") <(echo "$ECqRZdb_ort") | wc #1217
+
+# 1266 #975 Orthologous genes
+grep -wf <(grep -wf <(echo "$intersec_ort") <(echo "$RZqECdb_ort") | perl -nae 'print "$F[1]\t$F[0]\n"') <(echo "$ECqRZdb_ort") | sort |uniq  > $ortologousInfo'allOrthologousID.tsv'
+
+# Alternative
+intersec2_ort=$(grep -wf <(cut -f1 $BLASTresults'RZaaq_ECaadb_blastP_b1_m8_v2.tab' | sed 's/|WP_[0-9]*.[0-9]*//g') <(cut -f2  $BLASTresults'ECaaq_RZaadb_blastP_b1_m8_v2.tab')) # 4148 #2443
+grep -wf <(grep -wf <(echo "$intersec2_ort") <(echo "$ECqRZdb_ort") | perl -nae 'print "$F[1]\t$F[0]\n"') <(echo "$RZqECdb_ort") | sort |uniq | wc # 1266 # 975
+#########################################################################################################
 ####################################### Retrieving BLAST sequences ######################################
 #########################################################################################################
 
@@ -178,8 +174,8 @@ mkdir $tables
 # 1) Orthologous table
 
 # 1.1) Generating Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab
-grep -wf <(cut -f2 $ortologousInfo'allOrthologousID.tsv') <(grep -wf <(cut -f1 $ortologousInfo'allOrthologousID.tsv') $BLASTresults'ECaaq_RZaadb_blastP_b1_m8_v2.tab' | awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}') > $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab'
-grep -wf <(cut -f2  $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab') <(grep -wf <(cut -f1 $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab' | cut -f1,2,3 -d "|") $BLASTresults'RZaaq_ECaadb_blastP_b1_m8_v2.tab' | awk '{if ($11 <= 0.001 && $3 >=30 && $12 >=50) {print }}') > $BLASTresults'Orthologous_RZaaq_ECaadb_blastP_b1_m8.tab'
+grep -wf <(cut -f2 $ortologousInfo'allOrthologousID.tsv') <(grep -wf <(cut -f1 $ortologousInfo'allOrthologousID.tsv') $BLASTresults'ECaaq_RZaadb_blastP_b1_m8_v2.tab' | awk '{if ($11 <= 0.00000016 && $3 >=30 && $12 >=50 && $14 >=80) {print }}') > $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab'
+grep -wf <(cut -f2  $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab') <(grep -wf <(cut -f1 $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab' | cut -f1,2,3 -d "|") $BLASTresults'RZaaq_ECaadb_blastP_b1_m8_v2.tab' | awk '{if ($11 <= 0.00000023 && $3 >=30 && $12 >=50 && $14 >=80) {print }}') > $BLASTresults'Orthologous_RZaaq_ECaadb_blastP_b1_m8.tab'
 cat <(head -n1 $BLASTresults'ECaaq_RZaadb_blastP_b1_m8_v2.tab') $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab' > ed && mv ed $BLASTresults'Orthologous_ECaaq_RZaadb_blastP_b1_m8.tab'
 cat <(head -n1 $BLASTresults'RZaaq_ECaadb_blastP_b1_m8_v2.tab') $BLASTresults'Orthologous_RZaaq_ECaadb_blastP_b1_m8.tab'  > ed && mv ed $BLASTresults'Orthologous_RZaaq_ECaadb_blastP_b1_m8.tab'
 

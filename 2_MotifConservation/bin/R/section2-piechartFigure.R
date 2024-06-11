@@ -18,7 +18,7 @@
 # Rscript --vanilla section2-piechartFigure.R /home/emhernan/2_MotifConservation/png/ /home/emhernan/2_MotifConservation/motifsInfo/motifsConservationIdent30.tsv
 
 # outpath <- "/home/emhernan/2_MotifConservation/png/"
-# inpath <- "/home/emhernan/2_MotifConservation/motifsInfo/motifsConservationIdent30.tsv"
+# inpath <- "/home/emhernan/2_MotifConservation/motifsInfo/motifsConservationIdent40Coverage80.tsv"
 
 
 print(".................................Loading libraries.................................")
@@ -134,10 +134,10 @@ df_None0s <- process_df(df_tmp = TFs, filter_array = none0s, atLeast = FALSE, cr
 
 
 p1 <- pie_plot(df, unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8, palete = TRUE)
-p2 <- pie_plot(df_All,unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8, vector = c("#67001F", "#B2182B", "#D6604D",  "#F4A582"))
-p3 <- pie_plot(df_AtLeast, unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8, vector = c( "#FDDBC7", "#67001F", "#B2182B" ,"#D6604D" ))
-p4 <- pie_plot(df_N0s, unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8,vector = c("#67001F", "#B2182B"))
-p5 <- pie_plot(df_None0s, unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8, vector = c("#67001F","#B2182B", "#D6604D", "#D1E5F0"))
+p2 <- pie_plot(df_All,unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8, vector = c("#67001F", "#B2182B", "#D6604D"))
+p3 <- pie_plot(df_AtLeast, unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8, vector = c( "#FDDBC7", "#67001F", "#B2182B" ,"#D6604D", "#F4A582"))
+p4 <- pie_plot(df_N0s, unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8,vector = c("#B2182B", "#D6604D"))
+p5 <- pie_plot(df_None0s, unit = 0.5, legend_text_size = 6.3, legend_title_size = 8, plot_title_size = 8, vector = c("#67001F","#B2182B", "#D6604D"))
 
 Piechart <- ggpubr::ggarrange(p1,p2,p3,p4,p5,
                   labels = c("A", "B","C","D","E"),

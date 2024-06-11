@@ -6,7 +6,7 @@
 #   v1
 # Description:
 # The script computes the conservation of motifs 1 = conserved, 0 = no conserved, NA = no reported.
-# The conservation analysis cosiders an deintity >= 30 in both directions
+# The conservation analysis cosiders an deintity >= 40 and a coverage >=80 in both directions
 # Input parameters:
 #   --inpath[directory]
 #   Output
@@ -60,7 +60,7 @@ df3 <-  Ecoli %>%
   mutate(Motif_Conservation = NA)
 
 TFs <- bind_cols(df1, df2) %>%
-  mutate(Motif_Conservation = if_else(EcoliidentPercent >= 30 & RphaseoliidentPercent >= 30 , 1, 0)) %>%
+  mutate(Motif_Conservation = if_else(EcoliidentPercent >= 40 & RphaseoliidentPercent >= 40 & EcolimotifCoverage >=80 & RphaseolimotifCoverage >= 80, 1, 0)) %>%
   mutate(motifDesc = sub("\\s+$", "", motifDesc)) %>%
   select(EC_locusTag, motifDesc, Motif_Conservation) %>%
   bind_rows(df3)
@@ -69,4 +69,4 @@ TFs <- bind_cols(df1, df2) %>%
 
 
 
-write.table(x = TFs, file = paste(inpath, "motifsConservationIdent30.tsv", sep = ""), quote = FALSE, sep = "\t", row.names = FALSE)
+write.table(x = TFs, file = paste(inpath, "motifsConservationIdent40Coverage80.tsv", sep = ""), quote = FALSE, sep = "\t", row.names = FALSE)

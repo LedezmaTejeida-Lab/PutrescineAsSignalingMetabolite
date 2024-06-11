@@ -4,7 +4,7 @@ library(dplyr)
 
 ecoli <- read.table(file = "/home/emhernan/2_MotifConservation/motifsInfo/ECaaq_oTFs_motifs_info.tsv", header = TRUE, sep = "\t")
 rphaseoli <- read.table(file = "/home/emhernan/2_MotifConservation/motifsInfo/RZaaq_oTFs_motifs_info.tsv", header = TRUE, sep = "\t")
-conservation <-  read.table(file = "/home/emhernan/2_MotifConservation/motifsInfo/motifsConservationIdent30.tsv", header = TRUE, sep = "\t")
+conservation <-  read.table(file = "/home/emhernan/2_MotifConservation/motifsInfo/motifsConservationIdent40Coverage80.tsv", header = TRUE, sep = "\t")
 
 #### TFs with NO reported motifs #####
 
@@ -57,10 +57,11 @@ print(length(TFsWithMotifRphaseoli))
 print(TFsWithMotifRphaseoli)
 
 
-#### How many motifs are reported for the 62 TFs? #####
+#### How many motifs are reported for the 49 TFs? #####
 
+numberTFs <- as.character(length(TFsWithMotifRphaseoli))
 
-print("Number of motifs annotated for 62 TFs Ecoli")
+print(paste("Number of motifs annotated for", numberTFs, "TFs Ecoli"), sep = "")
 
 
 motifsEcoli <- ecoli %>% 
@@ -72,7 +73,7 @@ print(length(motifsEcoli))
 print(motifsEcoli)
 
 
-print("Number of motifs annotated for 62 TFs Rphaseoli")
+print(paste("Number of motifs annotated for", numberTFs, "TFs Rphaseoli"), sep = "")
 
 
 motifsRphaseoli <- rphaseoli %>% 
@@ -143,7 +144,7 @@ print(TFsWithDNAbindingMotifRphaseoli)
 
 #### How many TFs have their DNA-binding motifs conserved? #####
 
-# Conservation ==> identity >= 30 in both directions
+# Conservation ==> identity >= 40 and coverage >= 80 in both directions
 
 print("Number of TFs with all their DNA-binding motifs conserved")
 
@@ -186,5 +187,5 @@ ConservedDNAbindingMotif_metics_Rphaseoli <- rphaseoli %>%
 										filter(motifDesc == "DNA-Binding-Region") %>%
 										select(motifCoverage, identPercent)
 
-print(mean(ConservedDNAbindingMotif_metics_Rphaseoli$motifCoverage))
 print(mean(ConservedDNAbindingMotif_metics_Rphaseoli$identPercent))
+print(mean(ConservedDNAbindingMotif_metics_Rphaseoli$motifCoverage))
