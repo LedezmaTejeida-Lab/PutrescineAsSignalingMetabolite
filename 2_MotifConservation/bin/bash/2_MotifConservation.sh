@@ -184,4 +184,4 @@ paste <(cat $motifsInfo'ECaaq_oTFs_motifs_info.tsv') <(cat $motifsInfo'RZaaq_oTF
 
 
 # 5) Plotting identity vs coverage of DNA binding motifs from oTFs (Main Figure 2)
-Rscript --vanilla $bin'R/section2-MainFigure2.R' $motifsInfo $png ECaaq_oTFs_DNAbinding_motifs_info.tsv RZaaq_oTFs_DNAbinding_motifs_info.tsv mako MainF2.png FALSE
+Rscript --vanilla $bin'R/section2-MainFigure2.R' $motifsInfo $png ECaaq_oTFs_DNAbinding_motifs_info.tsv RZaaq_oTFs_DNAbinding_motifs_info.tsv mako

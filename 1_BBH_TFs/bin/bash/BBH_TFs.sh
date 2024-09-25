@@ -226,4 +226,19 @@ cat <(head -n1 $BLASTresults'Orthologous_RZaaq_ECaadb_blastP_b1_m8.tab') <(grep 
 #########################################################################################################
 mkdir $png
 
-Rscript --vanilla $bin'R/section1-Figures.R' $BLASTresults $png
+Rscript --vanilla $bin'R/section1-Figures-main.R' $BLASTresults $png
+Rscript --vanilla $bin'R/section1-Figures-supp.R' $BLASTresults $png
+
+#########################################################################################################
+######################## Checking the number of TFs previously annotated as TFs #########################
+#########################################################################################################
+
+cd $tables
+
+# 1) Search the annotation using the protein ID. The annotitation come from GCF_000268285.2_RPHCH2410v2_genomic.gbff file
+
+grep -B3 -wf <(grep -wf <(cut -f2 $tables'TF_Orthologous_table.tsv' | sort | uniq | grep -v "RZBLAST_ID" | cut -f4 -d "|") $genomesInfo'RZ/GCF_000268285.2_RPHCH2410v2_genomic.gbff' | grep -w "protein_id") $genomesInfo'RZ/GCF_000268285.2_RPHCH2410v2_genomic.gbff' | grep -v "transl_table" | grep -v "codon_start"> $tables'TF_Orthologous_RZannotation_table.tsv'
+python $bin'python/RZ_TFs_annotation_parser.py'
+
+grep -wE "regulator|activator|repressor|regulation protein| regulatory protein" $tables"TF_Orthologous_RZannotation_table_v2.tsv" | wc 
+# Remember 57 oTFs. 
