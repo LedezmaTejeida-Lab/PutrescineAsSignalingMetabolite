@@ -28,15 +28,17 @@
 #│   ├── bash
 #│   │   └── BBH_TFs.sh
 #│   ├── python
-#│   │   └── motifs_seq_relation_v2-Parser.py
+#│   │   ├── motifs_seq_relation_v2-Parser.py
+#│   │   └── RZ_TFs_annotation_parser.py
 #│   └── R
 #│       ├── merge_coverage_BLAST.R
 #│       ├── merge_Etables_p1_v3.R
 #│       ├── merge_Etables_p2_v4.R
 #│       ├── merge_Etables_p3_v5.R
 #│       ├── merge_motif_seq_v2.R
-#│       ├── Rplots.pdf
-#│       └── section1-Figures.R
+#│       ├── results_section1.R
+#│       ├── section1-Figures-main.R
+#│       └── section1-Figures-supp.R
 #├── genomesInfo
 #│   ├── EC
 #│   │   ├── GCF_000005845.2_ASM584v2_genomic.fna
@@ -52,8 +54,8 @@
 #├── metabolitesInfo
 #│   └── TFs_metabolites.txt
 #└── motifsInfo
-#    └── motifs_seq_relation.tsv
-
+    #└── motifs_seq_relation.tsv
+#
 
 #########################################################################################################
 ######################################### Working directory #############################################
