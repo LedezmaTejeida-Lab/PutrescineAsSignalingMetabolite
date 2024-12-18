@@ -1,0 +1,18 @@
+geneName	locusTag	logFC	adjPVal	Annotation	Group
+nodC	RPHASCH2410_PC00465	3.313901923	1.88E-12	UDP-GlcNAc transferase/N-acetylglucosaminyltransferase NodC/chitooligosaccharide synthase NodC	Synthesis of the chito oligosaccharide backbone
+nodB	RPHASCH2410_PC00470	4.452967371	2.20E-12	De-N-acetylase/chitooligosaccharide deacetylase NodB	Synthesis of the chito oligosaccharide backbone
+nodS	RPHASCH2410_PC00460	2.518028692	3.84E-11	S-adenosyl methionine methyl transferase/methyltransferase NodS	N-substitutions at nonreducing end
+nodA	RPHASCH2410_PC00625	4.848442569	9.20E-13	N-acyltransferase/acyltransferase NodA/nodulation N-acyltransferase NodA	N-substitutions at nonreducing end
+nolL	RPHASCH2410_PC00780	0.7488920245	3.84E-07	nolL gene determines 4-O-acetylation of the fucosyl residue in Nod factors (https://doi.org/10.1094/MPMI.1999.12.3.236)/acetyltransferase NolL/acyltransferase family protein	O-substitutions at reducing end
+nodX	RPHASCH2410_CH21465	NA	NA	Acetyl transferase/nodulation protein X (sugar acetylase)/acyltransferase	O-substitutions at reducing end
+nodZ	RPHASCH2410_PC00485	2.016170427	2.78E-11	Fucosyl transferase/fucosyl transferase protein NodZ/nodulation protein NodZ	O-substitutions at reducing end
+nodI	RPHASCH2410_PC00450	1.478401669	6.38E-08	ATP-binding protein/nodulation factor ABC transporter, ATP-binding protein NodI	Secreción de Factores Nod
+nodJ	RPHASCH2410_PC00445	0.3892297121	0.002590319251	Membrane protein/nodulation factor ABC transporter, permease NodJ/ABC transporter permease	Secreción de Factores Nod
+nodT	RPHASCH2410_CH16550	NA	NA	Outer membrane protein/nodulation protein (outer membrane efflux protein)/efflux transporter outer membrane subunit	Secreción de Factores Nod
+nodL	RPHASCH2410_CH08185	NA	NA	6-0-acetyltransferase/maltose O-acetyltransferase/sugar O-acetyltransferase	O-substitutions at nonreducing end
+nolO	RPHASCH2410_PC00395	2.82936842	1.48E-11	nolO and noeI (HsnIII) of Rhizobium sp. NGR234 are involved in 3-O-carbamoylation and 2-O-methylation of Nod factors (https://doi.org/10.1074/jbc.273.20.12047)/carbamoyltransferase protein NolO	O-substitutions at nonreducing end
+nodW	RPHASCH2410_PD03930	0.468228585	7.38E-06	two-component family regulator/two-component nodulation response regulator protein/response regulator transcription factor	Regulation of nod gene expression
+nodD1	RPHASCH2410_PC00435	0.02509416414	0.8556465944	LysR-type regulator/LysR family transcriptional regulator/transcriptional regulator NodD1	Regulation of nod gene expression
+nodD2	RPHASCH2410_PC00685	-0.3365509894	0.0008596343169	LysR-type regulator/LysR family transcriptional regulator/transcriptional regulator NodD2	Regulation of nod gene expression
+nodD3	RPHASCH2410_PC00695	0.5088472933	0.0006065142448	LysR-type regulator//LysR family transcriptional regulator/transcriptional regulator NodD3	Regulation of nod gene expression
+nodN	RPHASCH2410_CH03920	0.5163767118	3.62E-06	dehydratase nodulation protein/MaoC family dehydratase	NA

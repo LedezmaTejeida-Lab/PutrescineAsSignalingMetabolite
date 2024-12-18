@@ -62,3 +62,4 @@ Rscript $bin'R/3.1_analyzingDEA_p2.R'
 # 3) Generating Supplementary Figure 4
 
 Rscript $bin'R/NodulationHeatmap.R'
+Rscript $bin'R/volcano-plot.R'
