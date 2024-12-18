@@ -38,6 +38,7 @@ annotation=/home/emhernan/4_Evidence_Levels/annotation/ # Must be created with a
 tables=/home/emhernan/4_Evidence_Levels/tables/
 png=/home/emhernan/4_Evidence_Levels/png/
 input=/home/emhernan/4_Evidence_Levels/input/ # Must be created
+output=/home/emhernan/4_Evidence_Levels/output/
 
 cd $indir
 
@@ -50,11 +51,12 @@ mkdir $tables
 python $bin'python/symbiosisGenes-parser.py' && rm $annotation'symbiosisGenes.tmp'
 
 
-# 2) Generating the intersection plot
-
+# 2) Performing DEA and generating venn diagram and SuppTable 4
 mkdir $png
-cd $input
-python $bin'python/VenDiagram_v2.py'
+mkdir $output
+Rscript $bin'R/1.1_splittingDEA.R'
+Rscript $bin'R/2.1_splittingDEA.R'
+Rscript $bin'R/3.1_analyzingDEA_p2.R'
 
 
 # 3) Generating Supplementary Figure 4
