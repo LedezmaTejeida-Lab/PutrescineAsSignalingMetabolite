@@ -3,7 +3,7 @@
 # Author:
 #  Hernandez-Benitez Ericka Montserrat
 # Version
-#  v1.7
+#  v1.8
 # 
 
 # Description
@@ -144,6 +144,18 @@ cut -f1,2 $annotation'merge_annotation.tsv' > $motifsInfo'prot_lt_tmp'
 
 # 5) Merging all the previous table to generate a tsv file named motifs_seq_relation_v3.tsv: locusTag	motifDesc	mSS	mSE	motifsSeq
 Rscript --vanilla $bin'R/merge_motif_seq_v2.R' $motifsInfo $motifsInfo'motifs_seq_relation_v3.tsv' gene_aa_seq.tsv motifs_seq_relation_v2.tsv prot_lt_tmp && rm $motifsInfo'prot_lt_tmp'
+cat <(head -n1 $motifsInfo'motifs_seq_relation_v3.tsv') <(grep -v "locusTag" $motifsInfo'motifs_seq_relation_v3.tsv' | sort | uniq) > $motifsInfo'ed' && mv $motifsInfo'ed' $motifsInfo'motifs_seq_relation_v3.tsv'
+
+# Warning message:
+# In right_join(., p1, by = c(locusTag = "locusTag")) :
+#  Detected an unexpected many-to-many relationship between `x` and `y`.
+# ℹ Row 2 of `x` matches multiple rows in `y`.
+# ℹ Row 3988 of `y` matches multiple rows in `x`.
+# ℹ If a many-to-many relationship is expected, set `relationship = "many-to-many"` to silence this
+#  warning.
+# Warnings are because a gene may have more than one motif annotated in Ecocyc
+# Or because a gene may have two or more isoforms. 
+# Isoforms map to genes b0470|b0484|b0149|b1120|b2592|b4795|b4346, but none of them are TFs.
 
 #########################################################################################################
 ######################################### Filtering Orthologous #########################################
@@ -204,6 +216,7 @@ Rscript --vanilla $bin'/R/merge_Etables_p1_v3.R' $tables $tables'Orthologous_tab
 # Note: Motif_conservation will be done in 2_MotifAnalysis
 
 Rscript --vanilla $bin'/R/merge_Etables_p2_v4.R' $motifsInfo'motifs_seq_relation_v3.tsv' $tables'Orthologous_table_p1.tsv' $tables'Orthologous_table_p2.tsv' && rm $tables'Orthologous_table_p1.tsv'
+# Warning are because of the same reason described above. 
 
 # 1.8)	Generating Metabolites_relation_tmp temporary table: EC_locusTag	Metabolites
 grep -v "#" $metabolitesInfo'TFs_metabolites.txt' | cut -f2,4 | sed s/\'//g > $tables'Metabolites_relation_tmp'
@@ -213,6 +226,7 @@ cat $genomesInfo'RZ/GCF_000268285.2_RPHCH2410v2_genomic.gbff' | grep "/" | sed -
 
 # 1.10)	Merging table part_3: ECBLAST_ID	RZBLAST_ID	EC_locusTag	NCBI_name	Regulondb_name	Abasy_name	Ecocyc_name	Synonyms	RegulondbID	EC_proteinID	RZ_locusTag	RZ_proteinID	qSS	qSE	BLASTseq	EC_product	RZ_Product	motifDesc	mSS	mSE	motifsSeq	effector_name 
 Rscript --vanilla $bin'R/merge_Etables_p3_v5.R' $tables'Metabolites_relation_tmp' $annotation'RZ_functional_annotation_v2.tsv' $tables'Orthologous_table_p2.tsv' $tables'Orthologous_table.tsv' && cd $tables && rm  Orthologous_table_p2.tsv && rm *tmp
+cat <(head -n1 $tables'Orthologous_table.tsv') <(grep -v "ECBLAST_ID" $tables'Orthologous_table.tsv' | sort | uniq) > $tables'ed' && mv $tables'ed' $tables'Orthologous_table.tsv'
 
 # 2) TFs table
 cat <(head -n1 $tables'Orthologous_table.tsv') <(grep -wf $annotation'TFs_coli_v2.txt' <(cat $tables'Orthologous_table.tsv')) > $tables'TF_Orthologous_table.tsv'
