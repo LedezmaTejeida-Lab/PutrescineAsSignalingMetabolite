@@ -3,12 +3,11 @@
 # Author:
 #   Hernandez Benitez Ericka Montserrat
 # Version:
-#   v1
+#   v2
 # Description:
 #   The script computes the bar plot of TGs per each TF in the TRN. Each bar shows the number of orthologous and non-orthologous TGs
 # Input parameters:
 #   --networkPath[file path]
-#   --orthologousPath[file path]
 #   --outpath[directory]
 
 
@@ -16,15 +15,13 @@
 #     1) A png file with a bar plot
 
 # Rscript --vanilla section3-MainFigure4.R 
-# /space24/PGC/emhernan/3_TRN/output/oTF-TG-TRN-10-5-bgM1.tsv
-# /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/Orthologous_table.tsv
+# /space24/PGC/emhernan/3_TRN/tables/MainTab1.tmp
 # /space24/PGC/emhernan/3_TRN/png/
-# Rscript --vanilla section3-MainFigure4.R  /space24/PGC/emhernan/3_TRN/output/oTF-TG-TRN-10-5-bgM1.tsv /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/Orthologous_table.tsv /space24/PGC/emhernan/3_TRN/png/
+# Rscript --vanilla section3-MainFigure4.R  /space24/PGC/emhernan/3_TRN/tables/MainTab1.tmp /space24/PGC/emhernan/3_TRN/png/
 
 
 
-# networkPath     <- "/space24/PGC/emhernan/3_TRN/output/oTF-TG-TRN-10-5-bgM1.tsv"
-# orthologousPath <- "/space24/PGC/emhernan/3_TRN/OrthologousTFInfo/Orthologous_table.tsv"
+# networkPath     <- "/space24/PGC/emhernan/3_TRN/tables/MainTab1.tmp"
 # outpath     <- "/space24/PGC/emhernan/3_TRN/png/"
 
 
@@ -33,6 +30,7 @@
 print("........................Loading libraries........................") 
 
 library(dplyr)
+library(tidyr)
 library(ggplot2)
 library(ggpubr)
 library(RColorBrewer)
@@ -43,38 +41,35 @@ arg = commandArgs(trailingOnly = T)
 if (length(arg)==0) {
   stop("Must supply networkPath and orthologousPath file paths", call.=FALSE)
 } else if (length(arg) == 1){
-  stop("Enter orthologousPath file path")
-} else if (length(arg) == 2){
   stop("Enter outpath directory")
 } 
 
 networkPath     <- arg[1]
-orthologousPath <- arg[2]
-outpath         <- arg[3]
+outpath         <- arg[2]
 
 
 print("........................Here is your input data........................")
 
 print(networkPath)
-print(orthologousPath)
 print(outpath)
 
 
 print("........................Reading data........................")
 
-network         <- read.table(file = networkPath, header =  TRUE, sep = "\t")
-orthologous     <- read.table(file = orthologousPath, header =  TRUE, sep = "\t")
+network  <- read.table(file = networkPath, header =  TRUE, sep = "\t")
 
 print("........................Processing data ........................")
 
+df1 <- network %>%
+  rename(orthologue = number_orthologous_tgs) %>%
+  mutate(non_orthologue = number_of_tgs-orthologue) %>%
+  select(TFname, orthologue, non_orthologue) %>%
+  pivot_longer(cols = orthologue:non_orthologue,
+              names_to = "type", 
+              values_to = "n")
+df1$type[df1$type == "non_orthologue"] <- "non-orthologue"
 
-df1 <- network %>% 
-  select(TF_name, TF_locusTag, TG_oldRZlocusTag) %>%
-  mutate(OrthologusTG = ifelse(TG_oldRZlocusTag %in% orthologous$RZ_locusTag_old,"orthologue","non-orthologue")) %>%
-  count(TF_name, OrthologusTG)
-
-
-ggobject <- ggplot(data=df1, aes(x=TF_name, y=n, fill= OrthologusTG)) +
+ggobject <- ggplot(data=df1, aes(x=TFname, y=n, fill= type)) +
   geom_bar(position = "stack", stat="identity") +
   scale_fill_manual(values=c("#E69F00", "#56B4E9")) +
   theme_classic() +

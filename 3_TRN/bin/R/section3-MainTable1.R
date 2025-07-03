@@ -17,16 +17,16 @@
 #     1) A tsv file with the TFs' information from the TRN. 
 
 # Rscript --vanilla section3-MainTable1.R 
-# /space24/PGC/emhernan/3_TRN/output/oTF-TG-TRN-10-5-bgM1.tsv
+# /space24/PGC/emhernan/3_TRN/output/oTF-TGs-TRN-bgM1.tsv
 # /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/TF_Orthologous_table.tsv
 # /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/ECaaq_oTFs_motifs_info.tsv
 # /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/RZaaq_oTFs_motifs_info.tsv
 # /space24/PGC/emhernan/3_TRN/tables/MainTab1.tsv
 
 
-# Rscript --vanilla section3-MainTable1.R  /space24/PGC/emhernan/3_TRN/output/oTF-TG-TRN-10-5-bgM1.tsv /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/TF_Orthologous_table.tsv /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/ECaaq_oTFs_motifs_info.tsv /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/RZaaq_oTFs_motifs_info.tsv /space24/PGC/emhernan/3_TRN/tables/MainTab1.tsv
+# Rscript --vanilla section3-MainTable1.R  /space24/PGC/emhernan/3_TRN/output/oTF-TGs-TRN-bgM1.tsv /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/TF_Orthologous_table.tsv /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/ECaaq_oTFs_motifs_info.tsv /space24/PGC/emhernan/3_TRN/OrthologousTFInfo/RZaaq_oTFs_motifs_info.tsv /space24/PGC/emhernan/3_TRN/tables/MainTab1.tsv
 
-# networkPath     <- "/space24/PGC/emhernan/3_TRN/output/oTF-TG-TRN-10-5-bgM1.tsv"
+# networkPath     <- "/space24/PGC/emhernan/3_TRN/output/oTF-TGs-TRN-bgM1.tsv"
 # TFsInfoPath     <- "/space24/PGC/emhernan/3_TRN/OrthologousTFInfo/TF_Orthologous_table.tsv"
 # motifEcoliPath <- "/space24/PGC/emhernan/3_TRN/OrthologousTFInfo/ECaaq_oTFs_motifs_info.tsv"
 # motifRphaseoliPath    <- "/space24/PGC/emhernan/3_TRN/OrthologousTFInfo/RZaaq_oTFs_motifs_info.tsv"
@@ -80,7 +80,7 @@ print("........................Processing data ........................")
 
 df1 <- motifEcoli %>%
   filter(motifDesc == "DNA-Binding-Region" | motifDesc == "Conserved-Region") %>%
-  filter(EC_locusTag %in% unique(network$TF_locusTag)) %>%
+  filter(EC_locusTag %in% unique(network$TFlocusTag)) %>%
   rename(EcolimotifCoverage = motifCoverage) %>%
   rename(EcoliidentPercent = identPercent) %>%
   rename(mSSmotifEcoli = mSS) %>%
@@ -88,7 +88,7 @@ df1 <- motifEcoli %>%
 
 df2 <- motifRphaseoli  %>%
   filter(motifDesc == "DNA-Binding-Region" | motifDesc == "Conserved-Region") %>%
-  filter(EC_locusTag %in% unique(network$TF_locusTag)) %>%
+  filter(EC_locusTag %in% unique(network$TFlocusTag)) %>%
   rename(RphaseolimotifCoverage = motifCoverage) %>%
   rename(RphaseoliidentPercent = identPercent) %>%
   select(RphaseolimotifCoverage, RphaseoliidentPercent)
@@ -118,17 +118,23 @@ ConservedRegion <- bind_cols(df1, df2) %>%
  
  
 
+
                 
 df3 <- network %>% 
-  select(TF_name, TF_locusTag, TG_RZlocusTag) %>% 
-  count(TF_name,TF_locusTag) %>%
-  left_join((TFsinfo %>% select(EC_locusTag, effector_name) %>% distinct()), by = c("TF_locusTag" = "EC_locusTag")) %>%
-  left_join(DNARegion, by = c("TF_locusTag" = "EC_locusTag")) %>%
-  left_join(ConservedRegion, by = c("TF_locusTag" = "EC_locusTag")) %>%
-  select(TF_name, TF_locusTag, DNABindingRegion, ConservedRegion, effector_name, n)  %>%
-  rename("Number of TGs" = n) %>%
-  rename("TF name" = TF_name) %>%
-  rename("TF locus-tag" = TF_locusTag) %>%
+  select(TFlocusTag, TFname, No.TGs) %>% 
+  group_by(TFlocusTag, TFname) %>%
+  summarise(
+  TGs = sum(No.TGs),
+  ) %>%
+  ungroup() %>%
+  left_join((TFsinfo %>% select(EC_locusTag, effector_name) %>% distinct()), by = c("TFlocusTag" = "EC_locusTag")) %>%
+  left_join(DNARegion, by = c("TFlocusTag" = "EC_locusTag")) %>%
+  left_join(ConservedRegion, by = c("TFlocusTag" = "EC_locusTag")) %>%
+  select(TFname, TFlocusTag, DNABindingRegion, ConservedRegion, effector_name, TGs)  %>%
+  arrange(TFname) %>%
+  rename("Number of TGs" = TGs) %>%
+  rename("TF name" = TFname) %>%
+  rename("TF locus-tag" = TFlocusTag) %>%
   rename("Effector name" = effector_name) %>%
   rename("Conserved region" = ConservedRegion) %>%
   rename("DNA-binding region" = DNABindingRegion)

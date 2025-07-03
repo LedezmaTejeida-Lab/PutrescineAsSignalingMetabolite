@@ -1,0 +1,6 @@
+;NanR	Transcription Factor
+A	0	8	0	9	0	0	3
+C	0	0	1	0	9	9	0
+G	0	1	0	0	0	0	0
+T	9	0	8	0	0	0	6
+//

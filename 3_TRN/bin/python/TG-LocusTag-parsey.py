@@ -21,4 +21,4 @@ with open (path,'r') as f:
 
 df = pd.DataFrame(data = dic)
 df2 = df.drop_duplicates()
-df2.to_csv('/space24/PGC/emhernan/3_TRN/output/p6_tmp', sep="\t", index = False)
+df2.to_csv('/space24/PGC/emhernan/3_TRN/output/p4_tmp', sep="\t", index = False)

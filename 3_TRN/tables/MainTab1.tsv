@@ -1,17 +1,17 @@
 TF name	TF locus-tag	DNA-binding region	Conserved region	Effector name	Number of TGs
-ArgP	b2916	21-40	NA	L-lysine, L-arginine	41
-CytR	b3934	12-31	10-64	cytidine	32
-Dan	b3060	23-42	NA	L-tartrate	14
-GalR	b2837	4-23	NA	D-galactose	18
-GcvA	b2808	23-42	6-63	glycine, Purine	24
-GntR	b3438	8-27	6-60	D-gluconate	46
-Lrp	b0889	31-50	12-73	L-leucine	35
-NarP	b2193	171-190	NA, 8-124	NA	58
-NtrC	b3868	445-464	140-369, NA	NA	17
-PurR	b1658	48-56, 4-23	2-56	Guanine, hypoxanthine	20
-PuuR	b1299	23-42	12-66	putrescine	60
-Rob	b4396	73-96, 25-46	NA	NA	15
-RutR	b1013	39-58	NA	uracil, thymine	28
-SlyA	b1642	49-72	NA	NA	43
-SoxR	b4063	14-33	11-79	[2Fe-2S] reduced, [2Fe-2S] oxydized	43
-UlaR	b4191	20-39	3-58	L-ascorbate 6-phosphate	39
+ArgP	b2916	21-40	NA	L-lysine, L-arginine	56
+CytR	b3934	12-31	10-64	cytidine	78
+GalR	b2837	4-23	NA	D-galactose	33
+GcvA	b2808	23-42	6-63	glycine, Purine	32
+GntR	b3438	8-27	6-60	D-gluconate	84
+Lrp	b0889	31-50	12-73	L-leucine	52
+NanR	b3226	58-77	30-98	acetylneuraminate	281
+NarP	b2193	171-190	NA, 8-124	NA	72
+NtrC	b3868	445-464	140-369, NA	NA	36
+PurR	b1658	4-23, 48-56	2-56	Guanine, hypoxanthine	220
+PuuR	b1299	23-42	12-66	putrescine	107
+Rob	b4396	25-46, 73-96	NA	NA	411
+RutR	b1013	39-58	NA	uracil, thymine	32
+SlyA	b1642	49-72	NA	NA	84
+SoxR	b4063	14-33	11-79	[2Fe-2S] reduced, [2Fe-2S] oxydized	60
+UlaR	b4191	20-39	3-58	L-ascorbate 6-phosphate	70

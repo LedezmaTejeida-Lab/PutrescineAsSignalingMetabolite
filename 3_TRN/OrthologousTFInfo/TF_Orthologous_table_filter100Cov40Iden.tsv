@@ -1,9 +1,4 @@
 EC_locusTag	NCBI_name	Regulondb_name	Abasy_name	Ecocyc_name	Synonyms
-b0313	betI	betI	betI	betI	
-b0447	decR	decR	NA	decR	ybaO // cyuR
-b0487	cueR	cueR	cueR	cueR	copR // ybbI
-b0889	lrp	lrp	lrp	lrp	rblA // oppI // mbf // lstR // alsB // ihb // livR // lrs // lss
-b1013	rutR	rutR	rutR	rutR	ycdC
 b1111	comR	comR	comR	comR	ycfQ
 b1299	puuR	puuR	puuR	puuR	ycjC
 b1328	pgrR	pgrR	pgrR	pgrR	ycjZ
@@ -16,6 +11,7 @@ b2808	gcvA	gcvA	gcvA	gcvA
 b2837	galR	galR	galR	galR	Rgal
 b2916	argP	argP	argP	argP	iciA
 b3060	ttdR	ttdR	ttdR	ttdR	dan // ygiP
+b0313	betI	betI	betI	betI	
 b3226	nanR	nanR	nanR	nanR	yhcK
 b3292	zntR	zntR	zntR	zntR	yhdM
 b3422	rtcR	rtcR	NA	rtcR	yhgB
@@ -26,4 +22,8 @@ b3934	cytR	cytR	cytR	cytR
 b4063	soxR	soxR	soxR	soxR	marC
 b4191	ulaR	ulaR	ulaR	ulaR	yjfQ
 b4396	rob	rob	rob	rob	cbpB // robA
+b0447	decR	decR	NA	decR	ybaO // cyuR
 b3438	gntR	gntR	gntR	gntR	
+b0487	cueR	cueR	cueR	cueR	copR // ybbI
+b0889	lrp	lrp	lrp	lrp	rblA // oppI // mbf // lstR // alsB // ihb // livR // lrs // lss
+b1013	rutR	rutR	rutR	rutR	ycdC
