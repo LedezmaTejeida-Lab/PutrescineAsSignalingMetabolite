@@ -11,7 +11,7 @@ library(RColorBrewer)
 
 
 ## Reading raw count tables
-raw_counts <- read.table(file = "/home/emhernan/4_Evidence_Levels/input/Cuentas_RNAseq_Ch24-10-v2.tsv", header = TRUE, sep = "\t")
+raw_counts <- read.table(file = "/home/emhernan/4_Evidence_Levels/input/Cuentas_RNAseq_Ch24-10-v2.tsv/Cuentas_RNAseq_Ch24-10-v2.tsv", header = TRUE, sep = "\t")
 
 ## Processing file
 raw_counts_p <- raw_counts %>%
@@ -103,7 +103,10 @@ DEA_gene_results <- topTable %>% rownames_to_column(var = "Geneid") %>%
   filter(abs(logFC) > 1) %>%
   filter(FDR < 0.05 & adj.PVal < 0.05)
 
+all_genes <- topTable %>% 
+              rownames_to_column(var = "Geneid") %>%
+              left_join(raw_counts %>% select(Geneid, Locus, ID))
 write.table(x = DEA_gene_results, file = "/home/emhernan/4_Evidence_Levels/output/DEA_gene_results_bean.tsv",quote = FALSE, sep = "\t", row.names = FALSE,
             col.names = TRUE)
-write.table(x = topTable %>% rownames_to_column(var = "Geneid") , file = "/home/emhernan/4_Evidence_Levels/output/all_gene_results_bean.tsv",quote = FALSE, sep = "\t", row.names = FALSE,
+write.table(x = all_genes, file = "/home/emhernan/4_Evidence_Levels/output/all_gene_results_bean.tsv",quote = FALSE, sep = "\t", row.names = FALSE,
             col.names = TRUE)
