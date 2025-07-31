@@ -24,10 +24,13 @@
 #│   │   └── 5_BBH_PuuR.sh
 #│   └── R
 #│       └── section5-MainFigure6SuppFig5.R
+#│       └── heatmap_code.R
 #└── docs
 #    ├── multiple_aligment
 #    │   ├── PuuR-BBH-sequences.dnd
 #    │   └── PuuR-BBH-sequences.faa
+#    ├── heatmap
+#    │   └── oPuuR_rhizobiales.txt
 #    ├── Rhizobia
 #    │   ├── Bradyrhizobiumaustraliense-2721161-GCF_013114825.1-ASM1311482v1.zip
 #    │   ├── Bradyrhizobiumdiazoefficiens-1355477-GCF_004359355.1-ASM435935v1.zip
@@ -251,3 +254,8 @@ Begin paup;
 	bootstrap treeFile=MP_BootstrapTreeFilea.tre nreps=1000 conLevel=50 brLens=yes replace=yes format=Newick search=heuristic keepAll=yes/nbest=0;
 	savetrees from=1 to=1 file=bootstrap_trees.tre format=newick savebootp=nodelabels;
 
+
+
+# 10) Performing heatmap identity
+
+Rscript $bin'R/heatmap_code.R'

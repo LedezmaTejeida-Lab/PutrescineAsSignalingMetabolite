@@ -1,0 +1,147 @@
+# blastp
+# Iteration: 0
+# Query: Escherichia_coli_NP_415815.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Escherichia_coli_NP_415815.1	Escherichia_coli_NP_415815.1	100.000	185	0	0	1	185	1	185	1.44e-140	379	100.00
+Escherichia_coli_NP_415815.1	Bradyrhizobium_australiense_WP_028347208.1	36.313	179	110	3	9	185	6	182	3.29e-37	117	57.54
+Escherichia_coli_NP_415815.1	Sinorhizobium_fredii_WP_014330317.1	35.754	179	111	3	9	185	6	182	4.49e-36	114	56.98
+Escherichia_coli_NP_415815.1	Rhizobium_etli_WP_020919480.1	36.313	179	110	3	9	185	6	182	3.19e-35	111	55.87
+Escherichia_coli_NP_415815.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	35.196	179	112	3	9	185	6	182	6.29e-35	110	58.10
+Escherichia_coli_NP_415815.1	Sinorhizobium_meliloti_WP_010970549.1	35.754	179	111	3	9	185	6	182	8.79e-35	110	57.54
+Escherichia_coli_NP_415815.1	Rhizobium_leguminosarum_WP_018245416.1	35.196	179	112	3	9	185	6	182	2.64e-34	109	55.87
+Escherichia_coli_NP_415815.1	Rhizobium_phaseoli_WP_029531806.1	35.196	179	112	3	9	185	6	182	9.19e-34	108	55.87
+Escherichia_coli_NP_415815.1	Bradyrhizobium_japonicum_WP_014497670.1	34.078	179	114	3	9	185	6	182	1.06e-33	107	56.98
+# blastp
+# Iteration: 0
+# Query: Bradyrhizobium_australiense_WP_028347208.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Bradyrhizobium_australiense_WP_028347208.1	Bradyrhizobium_australiense_WP_028347208.1	100.000	182	0	0	1	182	1	182	3.76e-137	370	100.00
+Bradyrhizobium_australiense_WP_028347208.1	Bradyrhizobium_japonicum_WP_014497670.1	89.011	182	20	0	1	182	1	182	6.00e-126	342	96.70
+Bradyrhizobium_australiense_WP_028347208.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	89.560	182	19	0	1	182	1	182	8.43e-126	341	96.70
+Bradyrhizobium_australiense_WP_028347208.1	Sinorhizobium_fredii_WP_014330317.1	83.516	182	30	0	1	182	1	182	4.97e-115	314	90.66
+Bradyrhizobium_australiense_WP_028347208.1	Sinorhizobium_meliloti_WP_010970549.1	82.418	182	32	0	1	182	1	182	1.51e-114	313	91.76
+Bradyrhizobium_australiense_WP_028347208.1	Rhizobium_leguminosarum_WP_018245416.1	83.516	182	30	0	1	182	1	182	2.41e-114	312	90.66
+Bradyrhizobium_australiense_WP_028347208.1	Rhizobium_etli_WP_020919480.1	80.769	182	35	0	1	182	1	182	3.87e-112	306	90.11
+Bradyrhizobium_australiense_WP_028347208.1	Rhizobium_phaseoli_WP_029531806.1	80.220	182	36	0	1	182	1	182	1.90e-111	305	89.56
+Bradyrhizobium_australiense_WP_028347208.1	Escherichia_coli_NP_415815.1	36.313	179	110	3	6	182	9	185	3.24e-37	117	57.54
+# blastp
+# Iteration: 0
+# Query: Bradyrhizobium_diazoefficiens_WP_011085008.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	100.000	182	0	0	1	182	1	182	3.48e-137	370	100.00
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Bradyrhizobium_japonicum_WP_014497670.1	98.352	182	3	0	1	182	1	182	2.20e-135	365	98.90
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Bradyrhizobium_australiense_WP_028347208.1	89.560	182	19	0	1	182	1	182	8.43e-126	341	96.70
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Sinorhizobium_meliloti_WP_010970549.1	81.868	182	33	0	1	182	1	182	3.91e-113	309	90.11
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Sinorhizobium_fredii_WP_014330317.1	81.868	182	33	0	1	182	1	182	2.70e-111	304	88.46
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Rhizobium_leguminosarum_WP_018245416.1	81.868	182	33	0	1	182	1	182	4.37e-110	301	87.91
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Rhizobium_etli_WP_020919480.1	79.121	182	38	0	1	182	1	182	6.07e-108	296	87.36
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Rhizobium_phaseoli_WP_029531806.1	78.571	182	39	0	1	182	1	182	3.66e-107	294	86.81
+Bradyrhizobium_diazoefficiens_WP_011085008.1	Escherichia_coli_NP_415815.1	35.196	179	112	3	6	182	9	185	6.19e-35	110	58.10
+# blastp
+# Iteration: 0
+# Query: Bradyrhizobium_japonicum_WP_014497670.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Bradyrhizobium_japonicum_WP_014497670.1	Bradyrhizobium_japonicum_WP_014497670.1	100.000	182	0	0	1	182	1	182	9.96e-138	371	100.00
+Bradyrhizobium_japonicum_WP_014497670.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	98.352	182	3	0	1	182	1	182	2.20e-135	365	98.90
+Bradyrhizobium_japonicum_WP_014497670.1	Bradyrhizobium_australiense_WP_028347208.1	89.011	182	20	0	1	182	1	182	6.00e-126	342	96.70
+Bradyrhizobium_japonicum_WP_014497670.1	Sinorhizobium_meliloti_WP_010970549.1	82.418	182	32	0	1	182	1	182	1.66e-113	310	90.11
+Bradyrhizobium_japonicum_WP_014497670.1	Sinorhizobium_fredii_WP_014330317.1	82.967	182	31	0	1	182	1	182	2.03e-112	307	89.01
+Bradyrhizobium_japonicum_WP_014497670.1	Rhizobium_leguminosarum_WP_018245416.1	81.868	182	33	0	1	182	1	182	7.39e-111	303	88.46
+Bradyrhizobium_japonicum_WP_014497670.1	Rhizobium_etli_WP_020919480.1	79.121	182	38	0	1	182	1	182	8.91e-109	298	87.91
+Bradyrhizobium_japonicum_WP_014497670.1	Rhizobium_phaseoli_WP_029531806.1	78.571	182	39	0	1	182	1	182	5.94e-108	296	87.36
+Bradyrhizobium_japonicum_WP_014497670.1	Escherichia_coli_NP_415815.1	34.078	179	114	3	6	182	9	185	1.04e-33	107	56.98
+# blastp
+# Iteration: 0
+# Query: Sinorhizobium_fredii_WP_014330317.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Sinorhizobium_fredii_WP_014330317.1	Sinorhizobium_fredii_WP_014330317.1	100.000	182	0	0	1	182	1	182	2.89e-137	370	100.00
+Sinorhizobium_fredii_WP_014330317.1	Rhizobium_leguminosarum_WP_018245416.1	95.055	182	9	0	1	182	1	182	1.60e-131	355	97.80
+Sinorhizobium_fredii_WP_014330317.1	Sinorhizobium_meliloti_WP_010970549.1	94.505	182	10	0	1	182	1	182	5.84e-130	352	97.25
+Sinorhizobium_fredii_WP_014330317.1	Rhizobium_etli_WP_020919480.1	91.758	182	15	0	1	182	1	182	9.47e-129	348	97.25
+Sinorhizobium_fredii_WP_014330317.1	Rhizobium_phaseoli_WP_029531806.1	90.659	182	17	0	1	182	1	182	1.01e-127	346	96.70
+Sinorhizobium_fredii_WP_014330317.1	Bradyrhizobium_australiense_WP_028347208.1	83.516	182	30	0	1	182	1	182	4.97e-115	314	90.66
+Sinorhizobium_fredii_WP_014330317.1	Bradyrhizobium_japonicum_WP_014497670.1	82.967	182	31	0	1	182	1	182	2.03e-112	307	89.01
+Sinorhizobium_fredii_WP_014330317.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	81.868	182	33	0	1	182	1	182	2.70e-111	304	88.46
+Sinorhizobium_fredii_WP_014330317.1	Escherichia_coli_NP_415815.1	35.754	179	111	3	6	182	9	185	4.41e-36	114	56.98
+# blastp
+# Iteration: 0
+# Query: Sinorhizobium_meliloti_WP_010970549.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Sinorhizobium_meliloti_WP_010970549.1	Sinorhizobium_meliloti_WP_010970549.1	100.000	182	0	0	1	182	1	182	1.95e-136	368	100.00
+Sinorhizobium_meliloti_WP_010970549.1	Sinorhizobium_fredii_WP_014330317.1	94.505	182	10	0	1	182	1	182	5.84e-130	352	97.25
+Sinorhizobium_meliloti_WP_010970549.1	Rhizobium_leguminosarum_WP_018245416.1	91.209	182	16	0	1	182	1	182	1.35e-126	343	96.70
+Sinorhizobium_meliloti_WP_010970549.1	Rhizobium_etli_WP_020919480.1	89.011	182	20	0	1	182	1	182	4.09e-125	339	96.15
+Sinorhizobium_meliloti_WP_010970549.1	Rhizobium_phaseoli_WP_029531806.1	87.912	182	22	0	1	182	1	182	6.08e-124	336	95.60
+Sinorhizobium_meliloti_WP_010970549.1	Bradyrhizobium_australiense_WP_028347208.1	82.418	182	32	0	1	182	1	182	1.51e-114	313	91.76
+Sinorhizobium_meliloti_WP_010970549.1	Bradyrhizobium_japonicum_WP_014497670.1	82.418	182	32	0	1	182	1	182	1.66e-113	310	90.11
+Sinorhizobium_meliloti_WP_010970549.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	81.868	182	33	0	1	182	1	182	3.91e-113	309	90.11
+Sinorhizobium_meliloti_WP_010970549.1	Escherichia_coli_NP_415815.1	35.754	179	111	3	6	182	9	185	8.65e-35	110	57.54
+# blastp
+# Iteration: 0
+# Query: Rhizobium_leguminosarum_WP_018245416.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Rhizobium_leguminosarum_WP_018245416.1	Rhizobium_leguminosarum_WP_018245416.1	100.000	182	0	0	1	182	1	182	1.22e-136	369	100.00
+Rhizobium_leguminosarum_WP_018245416.1	Rhizobium_etli_WP_020919480.1	96.703	182	6	0	1	182	1	182	1.07e-133	361	99.45
+Rhizobium_leguminosarum_WP_018245416.1	Rhizobium_phaseoli_WP_029531806.1	95.604	182	8	0	1	182	1	182	1.32e-132	358	98.90
+Rhizobium_leguminosarum_WP_018245416.1	Sinorhizobium_fredii_WP_014330317.1	95.055	182	9	0	1	182	1	182	1.60e-131	355	97.80
+Rhizobium_leguminosarum_WP_018245416.1	Sinorhizobium_meliloti_WP_010970549.1	91.209	182	16	0	1	182	1	182	1.35e-126	343	96.70
+Rhizobium_leguminosarum_WP_018245416.1	Bradyrhizobium_australiense_WP_028347208.1	83.516	182	30	0	1	182	1	182	2.41e-114	312	90.66
+Rhizobium_leguminosarum_WP_018245416.1	Bradyrhizobium_japonicum_WP_014497670.1	81.868	182	33	0	1	182	1	182	7.39e-111	303	88.46
+Rhizobium_leguminosarum_WP_018245416.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	81.868	182	33	0	1	182	1	182	4.37e-110	301	87.91
+Rhizobium_leguminosarum_WP_018245416.1	Escherichia_coli_NP_415815.1	35.196	179	112	3	6	182	9	185	2.59e-34	109	55.87
+# blastp
+# Iteration: 0
+# Query: Rhizobium_etli_WP_020919480.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Rhizobium_etli_WP_020919480.1	Rhizobium_etli_WP_020919480.1	100.000	182	0	0	1	182	1	182	5.28e-137	369	100.00
+Rhizobium_etli_WP_020919480.1	Rhizobium_phaseoli_WP_029531806.1	97.802	182	4	0	1	182	1	182	1.45e-134	363	99.45
+Rhizobium_etli_WP_020919480.1	Rhizobium_leguminosarum_WP_018245416.1	96.703	182	6	0	1	182	1	182	1.07e-133	361	99.45
+Rhizobium_etli_WP_020919480.1	Sinorhizobium_fredii_WP_014330317.1	91.758	182	15	0	1	182	1	182	9.47e-129	348	97.25
+Rhizobium_etli_WP_020919480.1	Sinorhizobium_meliloti_WP_010970549.1	89.011	182	20	0	1	182	1	182	4.09e-125	339	96.15
+Rhizobium_etli_WP_020919480.1	Bradyrhizobium_australiense_WP_028347208.1	80.769	182	35	0	1	182	1	182	3.87e-112	306	90.11
+Rhizobium_etli_WP_020919480.1	Bradyrhizobium_japonicum_WP_014497670.1	79.121	182	38	0	1	182	1	182	8.91e-109	298	87.91
+Rhizobium_etli_WP_020919480.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	79.121	182	38	0	1	182	1	182	6.07e-108	296	87.36
+Rhizobium_etli_WP_020919480.1	Escherichia_coli_NP_415815.1	36.313	179	110	3	6	182	9	185	3.14e-35	111	55.87
+# blastp
+# Iteration: 0
+# Query: Rhizobium_phaseoli_WP_029531806.1
+# RID: 8N59J64F114
+# Database: n/a
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score, % positives
+# 9 hits found
+Rhizobium_phaseoli_WP_029531806.1	Rhizobium_phaseoli_WP_029531806.1	100.000	182	0	0	1	182	1	182	2.25e-136	368	100.00
+Rhizobium_phaseoli_WP_029531806.1	Rhizobium_etli_WP_020919480.1	97.802	182	4	0	1	182	1	182	1.45e-134	363	99.45
+Rhizobium_phaseoli_WP_029531806.1	Rhizobium_leguminosarum_WP_018245416.1	95.604	182	8	0	1	182	1	182	1.32e-132	358	98.90
+Rhizobium_phaseoli_WP_029531806.1	Sinorhizobium_fredii_WP_014330317.1	90.659	182	17	0	1	182	1	182	1.01e-127	346	96.70
+Rhizobium_phaseoli_WP_029531806.1	Sinorhizobium_meliloti_WP_010970549.1	87.912	182	22	0	1	182	1	182	6.08e-124	336	95.60
+Rhizobium_phaseoli_WP_029531806.1	Bradyrhizobium_australiense_WP_028347208.1	80.220	182	36	0	1	182	1	182	1.90e-111	305	89.56
+Rhizobium_phaseoli_WP_029531806.1	Bradyrhizobium_japonicum_WP_014497670.1	78.571	182	39	0	1	182	1	182	5.94e-108	296	87.36
+Rhizobium_phaseoli_WP_029531806.1	Bradyrhizobium_diazoefficiens_WP_011085008.1	78.571	182	39	0	1	182	1	182	3.66e-107	294	86.81
+Rhizobium_phaseoli_WP_029531806.1	Escherichia_coli_NP_415815.1	35.196	179	112	3	6	182	9	185	9.04e-34	108	55.87
+
+
+

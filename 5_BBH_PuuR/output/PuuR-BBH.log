@@ -1,7 +1,7 @@
 
 P A U P *
 Version 4.0a (build 168) for Unix/Linux (built on Aug  2 2020 at 07:10:27)
-Tue Nov  7 23:21:54 2023
+Thu Jul 31 12:05:07 2025
 
 
 paup> exe PuuR-BBH-sequences_cluAln.nex;
@@ -76,103 +76,103 @@ paup> Showtree all;
 
 Tree 1 (rooted using user-specified outgroup)
 
-                                                       /----------- Bradyrhizobium diazoefficiens WP
-                      /--------------------------------+
-                      |                                \----------- Bradyrhizobium japonicum WP 0144
+                                                        /----------- Bradyrhizobium diazoefficiens WP
+                      /---------------------------------+
+                      |                                 \----------- Bradyrhizobium japonicum WP 0144
                       |
-           /----------+                                /----------- Sinorhizobium fredii WP 01433031
-           |          |          /---------------------+
-           |          |          |                     \----------- Sinorhizobium meliloti WP 010970
-           |          |          |
-           |          \----------+                     /----------- Rhizobium etli WP 020919480.1
-/----------+                     |          /----------+
-|          |                     |          |          \----------- Rhizobium phaseoli WP 029531806.
-|          |                     \----------+
-|          |                                \---------------------- Rhizobium leguminosarum WP 01824
+           /----------+                                 /----------- Sinorhizobium fredii WP 01433031
+           |          |           /---------------------+
+           |          |           |                     \----------- Sinorhizobium meliloti WP 010970
+           |          |           |
+           |          \-----------+                     /----------- Rhizobium etli WP 020919480.1
+/----------+                      |          /----------+
+|          |                      |          |          \----------- Rhizobium phaseoli WP 029531806.
+|          |                      \----------+
+|          |                                 \---------------------- Rhizobium leguminosarum WP 01824
 |          |
-|          \------------------------------------------------------- Bradyrhizobium australiense WP 0
+|          \-------------------------------------------------------- Bradyrhizobium australiense WP 0
 |
-\------------------------------------------------------------------ Escherichia coli NP 415815.1
+\------------------------------------------------------------------- Escherichia coli NP 415815.1
 
 Tree 2 (rooted using user-specified outgroup)
 
-                                                       /----------- Bradyrhizobium diazoefficiens WP
-                                            /----------+
-                                            |          \----------- Bradyrhizobium japonicum WP 0144
-           /--------------------------------+
-           |                                \---------------------- Bradyrhizobium australiense WP 0
+                                                        /----------- Bradyrhizobium diazoefficiens WP
+                                             /----------+
+                                             |          \----------- Bradyrhizobium japonicum WP 0144
+           /---------------------------------+
+           |                                 \---------------------- Bradyrhizobium australiense WP 0
            |
-           |                     /--------------------------------- Sinorhizobium fredii WP 01433031
-/----------+                     |
-|          |          /----------+                     /----------- Rhizobium etli WP 020919480.1
-|          |          |          |          /----------+
-|          |          |          |          |          \----------- Rhizobium phaseoli WP 029531806.
-|          \----------+          \----------+
-|                     |                     \---------------------- Rhizobium leguminosarum WP 01824
+           |                      /--------------------------------- Sinorhizobium fredii WP 01433031
+/----------+                      |
+|          |          /-----------+                     /----------- Rhizobium etli WP 020919480.1
+|          |          |           |          /----------+
+|          |          |           |          |          \----------- Rhizobium phaseoli WP 029531806.
+|          \----------+           \----------+
+|                     |                      \---------------------- Rhizobium leguminosarum WP 01824
 |                     |
-|                     \-------------------------------------------- Sinorhizobium meliloti WP 010970
+|                     \--------------------------------------------- Sinorhizobium meliloti WP 010970
 |
-\------------------------------------------------------------------ Escherichia coli NP 415815.1
+\------------------------------------------------------------------- Escherichia coli NP 415815.1
 
 Tree 3 (rooted using user-specified outgroup)
 
-                                                       /----------- Bradyrhizobium diazoefficiens WP
-           /-------------------------------------------+
-           |                                           \----------- Bradyrhizobium japonicum WP 0144
+                                                        /----------- Bradyrhizobium diazoefficiens WP
+           /--------------------------------------------+
+           |                                            \----------- Bradyrhizobium japonicum WP 0144
            |
-/----------+          /-------------------------------------------- Bradyrhizobium australiense WP 0
+/----------+          /--------------------------------------------- Bradyrhizobium australiense WP 0
 |          |          |
-|          |          |                                /----------- Sinorhizobium fredii WP 01433031
-|          \----------+          /---------------------+
-|                     |          |                     \----------- Sinorhizobium meliloti WP 010970
-|                     |          |
-|                     \----------+                     /----------- Rhizobium etli WP 020919480.1
-|                                |          /----------+
-|                                |          |          \----------- Rhizobium phaseoli WP 029531806.
-|                                \----------+
-|                                           \---------------------- Rhizobium leguminosarum WP 01824
+|          |          |                                 /----------- Sinorhizobium fredii WP 01433031
+|          \----------+           /---------------------+
+|                     |           |                     \----------- Sinorhizobium meliloti WP 010970
+|                     |           |
+|                     \-----------+                     /----------- Rhizobium etli WP 020919480.1
+|                                 |          /----------+
+|                                 |          |          \----------- Rhizobium phaseoli WP 029531806.
+|                                 \----------+
+|                                            \---------------------- Rhizobium leguminosarum WP 01824
 |
-\------------------------------------------------------------------ Escherichia coli NP 415815.1
+\------------------------------------------------------------------- Escherichia coli NP 415815.1
 
 Tree 4 (rooted using user-specified outgroup)
 
-                                                     /------------- Bradyrhizobium diazoefficiens WP
-                                        /------------+
-                                        |            \------------- Bradyrhizobium japonicum WP 0144
+                                                      /------------- Bradyrhizobium diazoefficiens WP
+                                        /-------------+
+                                        |             \------------- Bradyrhizobium japonicum WP 0144
              /--------------------------+
-             |                          \-------------------------- Bradyrhizobium australiense WP 0
+             |                          \--------------------------- Bradyrhizobium australiense WP 0
              |
-/------------+                                       /------------- Sinorhizobium fredii WP 01433031
-|            |            /--------------------------+
-|            |            |                          \------------- Sinorhizobium meliloti WP 010970
-|            |            |
-|            \------------+                          /------------- Rhizobium etli WP 020919480.1
-|                         |             /------------+
-|                         |             |            \------------- Rhizobium phaseoli WP 029531806.
-|                         \-------------+
-|                                       \-------------------------- Rhizobium leguminosarum WP 01824
+/------------+                                        /------------- Sinorhizobium fredii WP 01433031
+|            |             /--------------------------+
+|            |             |                          \------------- Sinorhizobium meliloti WP 010970
+|            |             |
+|            \-------------+                          /------------- Rhizobium etli WP 020919480.1
+|                          |            /-------------+
+|                          |            |             \------------- Rhizobium phaseoli WP 029531806.
+|                          \------------+
+|                                       \--------------------------- Rhizobium leguminosarum WP 01824
 |
-\------------------------------------------------------------------ Escherichia coli NP 415815.1
+\------------------------------------------------------------------- Escherichia coli NP 415815.1
 
 Tree 5 (rooted using user-specified outgroup)
 
-                                                     /------------- Bradyrhizobium diazoefficiens WP
-                                        /------------+
-                                        |            \------------- Bradyrhizobium japonicum WP 0144
-                          /-------------+
-                          |             \-------------------------- Bradyrhizobium australiense WP 0
-                          |
-             /------------+                          /------------- Rhizobium etli WP 020919480.1
-             |            |             /------------+
-             |            |             |            \------------- Rhizobium phaseoli WP 029531806.
-/------------+            \-------------+
-|            |                          \-------------------------- Rhizobium leguminosarum WP 01824
+                                                      /------------- Bradyrhizobium diazoefficiens WP
+                                        /-------------+
+                                        |             \------------- Bradyrhizobium japonicum WP 0144
+                           /------------+
+                           |            \--------------------------- Bradyrhizobium australiense WP 0
+                           |
+             /-------------+                          /------------- Rhizobium etli WP 020919480.1
+             |             |            /-------------+
+             |             |            |             \------------- Rhizobium phaseoli WP 029531806.
+/------------+             \------------+
+|            |                          \--------------------------- Rhizobium leguminosarum WP 01824
 |            |
-|            |                                       /------------- Sinorhizobium fredii WP 01433031
-|            \---------------------------------------+
-|                                                    \------------- Sinorhizobium meliloti WP 010970
+|            |                                        /------------- Sinorhizobium fredii WP 01433031
+|            \----------------------------------------+
+|                                                     \------------- Sinorhizobium meliloti WP 010970
 |
-\------------------------------------------------------------------ Escherichia coli NP 415815.1
+\------------------------------------------------------------------- Escherichia coli NP 415815.1
 
 paup> describetrees 4/ plot=phylogram brlens=yes rootmethod=outgroup;
 
@@ -224,23 +224,23 @@ HI excluding uninformative characters = 0.1158
 Retention index (RI) = 0.8493
 Rescaled consistency index (RC) = 0.7996
 
-                                                             /- Bradyrhizobium diazoefficiens WP
-                                                    /-------16
-                                                    |        \-- Bradyrhizobium japonicum WP 0144
-                                            /------15
-                                            |       \-------- Bradyrhizobium australiense WP 0
-                                            |
-/------------------------------------------14            /-- Sinorhizobium fredii WP 01433031
-|                                           |         /-10
-|                                           |         |  \------- Sinorhizobium meliloti WP 010970
-|                                           |         |
-|                                           \--------13        /- Rhizobium etli WP 020919480.1
-|                                                     |    /--11
-|                                                     |    |   \--- Rhizobium phaseoli WP 029531806.
-|                                                     \---12
-|                                                          \ Rhizobium leguminosarum WP 01824
+                                                              /- Bradyrhizobium diazoefficiens WP
+                                                     /-------16
+                                                     |        \-- Bradyrhizobium japonicum WP 0144
+                                             /------15
+                                             |       \------- Bradyrhizobium australiense WP 0
+                                             |
+/-------------------------------------------14            /-- Sinorhizobium fredii WP 01433031
+|                                            |         /-10
+|                                            |         |  \------- Sinorhizobium meliloti WP 010970
+|                                            |         |
+|                                            \--------13        /- Rhizobium etli WP 020919480.1
+|                                                      |    /--11
+|                                                      |    |   \--- Rhizobium phaseoli WP 029531806.
+|                                                      \---12
+|                                                           \ Rhizobium leguminosarum WP 01824
 |
-\------------------------------------------------------------------ Escherichia coli NP 415815.1
+\------------------------------------------------------------------- Escherichia coli NP 415815.1
 
 paup> SAVETREES file=PuuR-BBH.tree brlens=yes format = newick replace;
 
@@ -273,56 +273,90 @@ Bootstrap method with heuristic search:
   Trees are unrooted
 
   1000 bootstrap replicates completed
-  Time used = 0.87 sec (CPU time = 0.86 sec)
+  Time used = 0.93 sec (CPU time = 0.93 sec)
 
 Trees for each replicate written to treefile: ~/5_BBH_PuuR/output/MP_BootstrapTreeFilea.tre
 
 Bootstrap 50% majority-rule consensus tree
    (plus other groups compatible with this tree)
 
-                                                  /------------- Bradyrhizobium diazoefficiens WP(1)
-                                      /----92-----+
-                                      |           \------------- Bradyrhizobium japonicum WP 0144(2)
-             /-----------51-----------+
-             |                        \------------------------- Bradyrhizobium australiense WP 0(3)
+                                                   /------------- Bradyrhizobium diazoefficiens WP(1)
+                                      /-----92-----+
+                                      |            \------------- Bradyrhizobium japonicum WP 0144(2)
+             /-----------48-----------+
+             |                        \-------------------------- Bradyrhizobium australiense WP 0(3)
              |
-/------------+                                    /------------- Sinorhizobium fredii WP 01433031(4)
-|            |           /-----------64-----------+
-|            |           |                        \------------- Sinorhizobium meliloti WP 010970(5)
-|            |           |
-|            \----57-----+                        /------------- Rhizobium etli WP 020919480.1(6)
-|                        |            /----69-----+
-|                        |            |           \------------- Rhizobium phaseoli WP 029531806.(7)
-|                        \-----68-----+
-|                                     \------------------------- Rhizobium leguminosarum WP 01824(8)
+/------------+                                     /------------- Sinorhizobium fredii WP 01433031(4)
+|            |            /-----------63-----------+
+|            |            |                        \------------- Sinorhizobium meliloti WP 010970(5)
+|            |            |
+|            \-----60-----+                        /------------- Rhizobium etli WP 020919480.1(6)
+|                         |           /-----70-----+
+|                         |           |            \------------- Rhizobium phaseoli WP 029531806.(7)
+|                         \----70-----+
+|                                     \-------------------------- Rhizobium leguminosarum WP 01824(8)
 |
-\--------------------------------------------------------------- Escherichia coli NP 415815.1(9)
+\---------------------------------------------------------------- Escherichia coli NP 415815.1(9)
 
 Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
 
 123456789          Freq        %
 --------------------------------
-..*******        924.23   92.42%
-.....**..        688.76   68.88%
-.....***.        682.32   68.23%
-...**....        640.94   64.09%
-...*****.        574.55   57.45%
-...******        507.18   50.72%
-..*.....*        343.91   34.39%
-.....**.*        303.91   30.39%
-.....****        301.16   30.12%
-...*.***.        210.18   21.02%
-.....*..*        156.45   15.65%
-..******.        148.91   14.89%
-......*.*        141.05   14.11%
-...**...*        110.85   11.09%
-...*.****        106.37   10.64%
-.*******.         74.47    7.45%
+..*******        923.28   92.33%
+.....**..        704.72   70.47%
+.....***.        695.45   69.54%
+...**....        632.01   63.20%
+...*****.        599.31   59.93%
+...******        481.60   48.16%
+..*.....*        354.28   35.43%
+.....**.*        289.87   28.99%
+.....****        283.92   28.39%
+...*.***.        220.50   22.05%
+..******.        164.12   16.41%
+......*.*        142.70   14.27%
+.....*..*        139.11   13.91%
+...*.****        101.98   10.20%
+...**...*         94.32    9.43%
+.*******.         73.19    7.32%
 
-15 groups at (relative) frequency less than 5% not shown
+17 groups at (relative) frequency less than 5% not shown
 
 paup> savetrees from=1 to=1 file=bootstrap_trees.tre format=newick savebootp=nodelabels;
 
+OK to replace file "bootstrap_trees.tre"? (Y/n)ÿÿY
+
+OK to replace file "bootstrap_trees.tre"? (Y/n)Y
+
 1 tree saved to file "~/5_BBH_PuuR/output/bootstrap_trees.tre" in raw Newick format
+
+paup> quit()
+
+Error(#152): Command "quit()" is unrecognized.
+                 If it is spelled correctly, look for problems in a previous command, such as an unintentional semicolon.
+
+paup> q()
+
+Error(#152): Command "q()" is unrecognized.
+                 If it is spelled correctly, look for problems in a previous command, such as an unintentional semicolon.
+
+paup> exit
+
+Error(#152): Command "exit" is unrecognized.
+                 If it is spelled correctly, look for problems in a previous command, such as an unintentional semicolon.
+
+paup> exit()
+
+Error(#152): Command "exit()" is unrecognized.
+                 If it is spelled correctly, look for problems in a previous command, such as an unintentional semicolon.
+
+paup> ccq()
+
+Error(#152): Command "ccq()" is unrecognized.
+                 If it is spelled correctly, look for problems in a previous command, such as an unintentional semicolon.
+
+paup> q()
+
+Error(#152): Command "q()" is unrecognized.
+                 If it is spelled correctly, look for problems in a previous command, such as an unintentional semicolon.
 
 paup> q
